@@ -1,2 +1,2 @@
-# scrape_pub_packages
-Utility to scrape pub
+# fetch_all_packages
+Utility to scrape all pub packages that use Flutter.
