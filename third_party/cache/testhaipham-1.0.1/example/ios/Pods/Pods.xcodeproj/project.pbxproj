@@ -1,0 +1,619 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		64201696CB3432A73E51420091AC5FEF /* TesthaiphamPlugin.h in Headers */ = {isa = PBXBuildFile; fileRef = 91055D5B517F7F536B34769723F0511A /* TesthaiphamPlugin.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		7267F70218A7977CFB308D24F99C359E /* Pods-Runner-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 468664057D17C890473F3825BE8B6822 /* Pods-Runner-dummy.m */; };
+		79D444B7707E4E9E7F70340B0E9A51DB /* testhaipham-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F2220E821DD2F224DDA9919B4512E79 /* testhaipham-dummy.m */; };
+		935A0DB0CB19C02574D0FF7491E052CA /* TesthaiphamPlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = 81F70961091034FA0F46362483EA3760 /* TesthaiphamPlugin.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		00F684066A8294F23BA37824A506F07C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D6B0517D1235890C02FF65D89FEFA0EE;
+			remoteInfo = testhaipham;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		14E58FE88BDE74696DA18D71709505C9 /* Pods-Runner-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Runner-acknowledgements.plist"; sourceTree = "<group>"; };
+		1B4CEFB7A7C39037B5DFAFCE375062E1 /* Pods-Runner.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Runner.debug.xcconfig"; sourceTree = "<group>"; };
+		23256EE47437900ED70B66BC668355F7 /* Flutter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Flutter.framework; path = ../../../../../../../../flutter/bin/cache/artifacts/engine/ios/Flutter.framework; sourceTree = "<group>"; };
+		468664057D17C890473F3825BE8B6822 /* Pods-Runner-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Runner-dummy.m"; sourceTree = "<group>"; };
+		533364E2E01B5911965E7586D06C1B61 /* Flutter.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Flutter.podspec; path = ../../../../../../../../flutter/bin/cache/artifacts/engine/ios/Flutter.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		5C42D986846F74B4DB78535F7182D117 /* Pods-Runner.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Runner.release.xcconfig"; sourceTree = "<group>"; };
+		6AD529AF2FAC1BA9DC35A334D661DD38 /* libPods-Runner.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-Runner.a"; path = "libPods-Runner.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		728C1D252BE7B14C6FE3226EAC1195C3 /* testhaipham.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = testhaipham.podspec; path = ../../../../../../ios/testhaipham.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		7AD2F72BE79A2D928E85F9EB9FB613FA /* Pods-Runner-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Runner-acknowledgements.markdown"; sourceTree = "<group>"; };
+		81F70961091034FA0F46362483EA3760 /* TesthaiphamPlugin.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TesthaiphamPlugin.m; path = ../../../../../../../ios/Classes/TesthaiphamPlugin.m; sourceTree = "<group>"; };
+		8368A80E3216F06BCF9A4FB5F89260AD /* testhaipham.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = testhaipham.xcconfig; sourceTree = "<group>"; };
+		8F2220E821DD2F224DDA9919B4512E79 /* testhaipham-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "testhaipham-dummy.m"; sourceTree = "<group>"; };
+		91055D5B517F7F536B34769723F0511A /* TesthaiphamPlugin.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TesthaiphamPlugin.h; path = ../../../../../../../ios/Classes/TesthaiphamPlugin.h; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A1153EC5FE504BE5C724E20E9B411E90 /* Pods-Runner-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Runner-frameworks.sh"; sourceTree = "<group>"; };
+		A84633CB40E489EF4DD77D43434D3024 /* Pods-Runner-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Runner-resources.sh"; sourceTree = "<group>"; };
+		AA92F3DDCFC45E5FC04CB76E970ECB2D /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../../../../../../LICENSE; sourceTree = "<group>"; };
+		BB6CCE038B6748BC9BA2D6554F725157 /* testhaipham-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "testhaipham-prefix.pch"; sourceTree = "<group>"; };
+		BBE9A2653CF27A6A73F68FF60446B4EB /* libtesthaipham.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libtesthaipham.a; path = libtesthaipham.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE36B2E3D4F487D525132E2CFE6E02F7 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../../../../../../../../flutter/bin/cache/artifacts/engine/ios/LICENSE; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		22779B3CE3448531B01C5E28CD386A77 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		27E049EDD3AD2355EC125D7082894A8A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		06F31483DE03F44762D49C67F970C170 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				8368A80E3216F06BCF9A4FB5F89260AD /* testhaipham.xcconfig */,
+				8F2220E821DD2F224DDA9919B4512E79 /* testhaipham-dummy.m */,
+				BB6CCE038B6748BC9BA2D6554F725157 /* testhaipham-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../../../../Pods/Target Support Files/testhaipham";
+			sourceTree = "<group>";
+		};
+		0C83CAA52732A4021229D0BABAB55120 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				886CABF6EBB34A25AA0D7DF7B6892B09 /* Flutter */,
+				B52CB7C8998D3307065E16FC2EA1EADE /* testhaipham */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		0F8D2E47FE03D3B91B51069F7C273AF4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1C79DB53CD07E661221493B5C6E0CF0B /* Pods-Runner */ = {
+			isa = PBXGroup;
+			children = (
+				7AD2F72BE79A2D928E85F9EB9FB613FA /* Pods-Runner-acknowledgements.markdown */,
+				14E58FE88BDE74696DA18D71709505C9 /* Pods-Runner-acknowledgements.plist */,
+				468664057D17C890473F3825BE8B6822 /* Pods-Runner-dummy.m */,
+				A1153EC5FE504BE5C724E20E9B411E90 /* Pods-Runner-frameworks.sh */,
+				A84633CB40E489EF4DD77D43434D3024 /* Pods-Runner-resources.sh */,
+				1B4CEFB7A7C39037B5DFAFCE375062E1 /* Pods-Runner.debug.xcconfig */,
+				5C42D986846F74B4DB78535F7182D117 /* Pods-Runner.release.xcconfig */,
+			);
+			name = "Pods-Runner";
+			path = "Target Support Files/Pods-Runner";
+			sourceTree = "<group>";
+		};
+		46847414C6CE070BD1F0D1F858C529EE /* testhaipham */ = {
+			isa = PBXGroup;
+			children = (
+				B763EC876167BFA40D1AE40878268035 /* ios */,
+			);
+			name = testhaipham;
+			path = testhaipham;
+			sourceTree = "<group>";
+		};
+		4E7C837FA44FE5619A46565D88B5956C /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				91055D5B517F7F536B34769723F0511A /* TesthaiphamPlugin.h */,
+				81F70961091034FA0F46362483EA3760 /* TesthaiphamPlugin.m */,
+			);
+			name = Classes;
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		6276BDF4AEEBE7163429CDB73B6980D7 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				1C79DB53CD07E661221493B5C6E0CF0B /* Pods-Runner */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		6EE6B6B36D90EA2AFAA96BE6038CB188 /* ios */ = {
+			isa = PBXGroup;
+			children = (
+				D6CD80F294A9EE0C47E1BE8A350C8CAC /* .symlinks */,
+			);
+			name = ios;
+			path = ios;
+			sourceTree = "<group>";
+		};
+		71C4594189C47F252ECD11E321217C91 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				AA92F3DDCFC45E5FC04CB76E970ECB2D /* LICENSE */,
+				728C1D252BE7B14C6FE3226EAC1195C3 /* testhaipham.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		79E8E0998BA3FACA6E6C738F13493E32 /* example */ = {
+			isa = PBXGroup;
+			children = (
+				6EE6B6B36D90EA2AFAA96BE6038CB188 /* ios */,
+			);
+			name = example;
+			path = example;
+			sourceTree = "<group>";
+		};
+		7A092ECA920EC2916EB25502C90626CE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				23256EE47437900ED70B66BC668355F7 /* Flutter.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				0C83CAA52732A4021229D0BABAB55120 /* Development Pods */,
+				0F8D2E47FE03D3B91B51069F7C273AF4 /* Frameworks */,
+				A67A2389D327B38D52E58575FB942909 /* Products */,
+				6276BDF4AEEBE7163429CDB73B6980D7 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		886CABF6EBB34A25AA0D7DF7B6892B09 /* Flutter */ = {
+			isa = PBXGroup;
+			children = (
+				7A092ECA920EC2916EB25502C90626CE /* Frameworks */,
+				F8FD96B388806230AE5A4EA4A19B1CB1 /* Pod */,
+			);
+			name = Flutter;
+			path = ../.symlinks/flutter/ios;
+			sourceTree = "<group>";
+		};
+		A67A2389D327B38D52E58575FB942909 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6AD529AF2FAC1BA9DC35A334D661DD38 /* libPods-Runner.a */,
+				BBE9A2653CF27A6A73F68FF60446B4EB /* libtesthaipham.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B52CB7C8998D3307065E16FC2EA1EADE /* testhaipham */ = {
+			isa = PBXGroup;
+			children = (
+				D9B5A0E7453CB89DA3FC2BE7A586A24F /* .. */,
+				71C4594189C47F252ECD11E321217C91 /* Pod */,
+				06F31483DE03F44762D49C67F970C170 /* Support Files */,
+			);
+			name = testhaipham;
+			path = ../.symlinks/plugins/testhaipham/ios;
+			sourceTree = "<group>";
+		};
+		B763EC876167BFA40D1AE40878268035 /* ios */ = {
+			isa = PBXGroup;
+			children = (
+				4E7C837FA44FE5619A46565D88B5956C /* Classes */,
+			);
+			name = ios;
+			path = ios;
+			sourceTree = "<group>";
+		};
+		C66806D33A836BC10B13EF52AA1BFDF3 /* .. */ = {
+			isa = PBXGroup;
+			children = (
+				79E8E0998BA3FACA6E6C738F13493E32 /* example */,
+			);
+			name = ..;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		C9E731F69F528D6B87FCD1FC74C5FFB8 /* plugins */ = {
+			isa = PBXGroup;
+			children = (
+				46847414C6CE070BD1F0D1F858C529EE /* testhaipham */,
+			);
+			name = plugins;
+			path = plugins;
+			sourceTree = "<group>";
+		};
+		D6CD80F294A9EE0C47E1BE8A350C8CAC /* .symlinks */ = {
+			isa = PBXGroup;
+			children = (
+				C9E731F69F528D6B87FCD1FC74C5FFB8 /* plugins */,
+			);
+			name = .symlinks;
+			path = .symlinks;
+			sourceTree = "<group>";
+		};
+		D9B5A0E7453CB89DA3FC2BE7A586A24F /* .. */ = {
+			isa = PBXGroup;
+			children = (
+				C66806D33A836BC10B13EF52AA1BFDF3 /* .. */,
+			);
+			name = ..;
+			path = ../../../../../../ios;
+			sourceTree = "<group>";
+		};
+		F8FD96B388806230AE5A4EA4A19B1CB1 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				533364E2E01B5911965E7586D06C1B61 /* Flutter.podspec */,
+				BE36B2E3D4F487D525132E2CFE6E02F7 /* LICENSE */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		F5B01B7B5FEAE71E3A9CCCAAB0CBF2AF /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64201696CB3432A73E51420091AC5FEF /* TesthaiphamPlugin.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		01E01ABE5385C6A4614E8D77EB60D0FF /* Pods-Runner */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9E320707D4A520B923479B4288957232 /* Build configuration list for PBXNativeTarget "Pods-Runner" */;
+			buildPhases = (
+				18B29E528C1F55ED8736A2198F52F253 /* Sources */,
+				22779B3CE3448531B01C5E28CD386A77 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				148B4A10A6F662E74200BED4F7E0986F /* PBXTargetDependency */,
+			);
+			name = "Pods-Runner";
+			productName = "Pods-Runner";
+			productReference = 6AD529AF2FAC1BA9DC35A334D661DD38 /* libPods-Runner.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		D6B0517D1235890C02FF65D89FEFA0EE /* testhaipham */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A8E5C726A3F0AAA324006D8B4B1D973B /* Build configuration list for PBXNativeTarget "testhaipham" */;
+			buildPhases = (
+				294FD4A88F315E0A2A21B67FAE0AC91A /* Sources */,
+				27E049EDD3AD2355EC125D7082894A8A /* Frameworks */,
+				F5B01B7B5FEAE71E3A9CCCAAB0CBF2AF /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = testhaipham;
+			productName = testhaipham;
+			productReference = BBE9A2653CF27A6A73F68FF60446B4EB /* libtesthaipham.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = A67A2389D327B38D52E58575FB942909 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				01E01ABE5385C6A4614E8D77EB60D0FF /* Pods-Runner */,
+				D6B0517D1235890C02FF65D89FEFA0EE /* testhaipham */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		18B29E528C1F55ED8736A2198F52F253 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7267F70218A7977CFB308D24F99C359E /* Pods-Runner-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		294FD4A88F315E0A2A21B67FAE0AC91A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79D444B7707E4E9E7F70340B0E9A51DB /* testhaipham-dummy.m in Sources */,
+				935A0DB0CB19C02574D0FF7491E052CA /* TesthaiphamPlugin.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		148B4A10A6F662E74200BED4F7E0986F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = testhaipham;
+			target = D6B0517D1235890C02FF65D89FEFA0EE /* testhaipham */;
+			targetProxy = 00F684066A8294F23BA37824A506F07C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1EE19F5DD95931924296F637BF18BD8F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		3967D82F0A46A027D78F05A89C906EB7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8368A80E3216F06BCF9A4FB5F89260AD /* testhaipham.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				ENABLE_BITCODE = NO;
+				GCC_PREFIX_HEADER = "Target Support Files/testhaipham/testhaipham-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = testhaipham;
+				PRODUCT_NAME = testhaipham;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E4D59C792A6DA3E8C66BCF47C3426392 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5C42D986846F74B4DB78535F7182D117 /* Pods-Runner.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				ENABLE_BITCODE = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EE5801DA7A6C2F9091DB0E300F575598 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1B4CEFB7A7C39037B5DFAFCE375062E1 /* Pods-Runner.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				ENABLE_BITCODE = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F4568DEE257655D290C2B9CEAB37C934 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		FC9B499E7FF1C69D507854A85587E9C8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8368A80E3216F06BCF9A4FB5F89260AD /* testhaipham.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				ENABLE_BITCODE = NO;
+				GCC_PREFIX_HEADER = "Target Support Files/testhaipham/testhaipham-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = testhaipham;
+				PRODUCT_NAME = testhaipham;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1EE19F5DD95931924296F637BF18BD8F /* Debug */,
+				F4568DEE257655D290C2B9CEAB37C934 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9E320707D4A520B923479B4288957232 /* Build configuration list for PBXNativeTarget "Pods-Runner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE5801DA7A6C2F9091DB0E300F575598 /* Debug */,
+				E4D59C792A6DA3E8C66BCF47C3426392 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A8E5C726A3F0AAA324006D8B4B1D973B /* Build configuration list for PBXNativeTarget "testhaipham" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3967D82F0A46A027D78F05A89C906EB7 /* Debug */,
+				FC9B499E7FF1C69D507854A85587E9C8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

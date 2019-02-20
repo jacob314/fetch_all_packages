@@ -1,0 +1,71 @@
+Flutter crash report; please file at https://github.com/flutter/flutter/issues.
+
+## command
+
+flutter run
+
+## exception
+
+FileSystemException: FileSystemException: Cannot open file, path = '/Users/adesuluh/WORK/flutter_project/ui_framework/ios/Runner.xcodeproj/project.pbxproj' (OS Error: No such file or directory, errno = 2)
+
+```
+#0      _File.open.<anonymous closure> (dart:io/file_impl.dart:368:9)
+#1      _rootRunUnary (dart:async/zone.dart:1132:38)
+#2      _CustomZone.runUnary (dart:async/zone.dart:1029:19)
+#3      _FutureListener.handleValue (dart:async/future_impl.dart:129:18)
+#4      Future._propagateToListeners.handleValueCallback (dart:async/future_impl.dart:642:45)
+#5      Future._propagateToListeners (dart:async/future_impl.dart:671:32)
+#6      Future._completeWithValue (dart:async/future_impl.dart:486:5)
+#7      Future._asyncComplete.<anonymous closure> (dart:async/future_impl.dart:516:7)
+#8      _rootRun (dart:async/zone.dart:1124:13)
+#9      _CustomZone.run (dart:async/zone.dart:1021:19)
+#10     _CustomZone.bindCallback.<anonymous closure> (dart:async/zone.dart:947:23)
+#11     _microtaskLoop (dart:async/schedule_microtask.dart:41:21)
+#12     _startMicrotaskLoop (dart:async/schedule_microtask.dart:50:5)
+#13     _runPendingImmediateCallback (dart:isolate/runtime/libisolate_patch.dart:115:13)
+#14     _RawReceivePortImpl._handleMessage (dart:isolate/runtime/libisolate_patch.dart:172:5)
+```
+
+## flutter doctor
+
+```
+[32m[✓][39m Flutter (Channel beta, v1.0.0, on Mac OS X 10.14.2 18C54, locale en-ID)
+    [32m•[39m Flutter version 1.0.0 at /Users/adesuluh/Documents/FlutterProject/flutter
+    [32m•[39m Framework revision 5391447fae (5 weeks ago), 2018-11-29 19:41:26 -0800
+    [32m•[39m Engine revision 7375a0f414
+    [32m•[39m Dart version 2.1.0 (build 2.1.0-dev.9.4 f9ebf21297)
+
+[32m[✓][39m Android toolchain - develop for Android devices (Android SDK 28.0.3)
+    [32m•[39m Android SDK at /Users/adesuluh/Library/Android/sdk
+    [32m•[39m Android NDK location not configured (optional; useful for native profiling support)
+    [32m•[39m Platform android-28, build-tools 28.0.3
+    [32m•[39m Java binary at: /Applications/Android Studio.app/Contents/jre/jdk/Contents/Home/bin/java
+    [32m•[39m Java version OpenJDK Runtime Environment (build 1.8.0_152-release-1024-b01)
+    [32m•[39m All Android licenses accepted.
+
+[32m[✓][39m iOS toolchain - develop for iOS devices (Xcode 10.1)
+    [32m•[39m Xcode at /Applications/Xcode.app/Contents/Developer
+    [32m•[39m Xcode 10.1, Build version 10B61
+    [32m•[39m ios-deploy 1.9.4
+    [32m•[39m CocoaPods version 1.5.3
+
+[32m[✓][39m Android Studio (version 3.1)
+    [32m•[39m Android Studio at /Applications/Android Studio.app/Contents
+    [32m•[39m Flutter plugin version 27.1.1
+    [32m•[39m Dart plugin version 173.4700
+    [32m•[39m Java version OpenJDK Runtime Environment (build 1.8.0_152-release-1024-b01)
+
+[32m[✓][39m IntelliJ IDEA Ultimate Edition (version 2018.3.2)
+    [32m•[39m IntelliJ at /Applications/IntelliJ IDEA.app
+    [32m•[39m Flutter plugin version 31.3.4
+    [32m•[39m Dart plugin version 183.4886.3
+
+[32m[✓][39m VS Code (version 1.30.1)
+    [32m•[39m VS Code at /Applications/Visual Studio Code.app/Contents
+    [32m•[39m Flutter extension version 2.21.1
+
+[32m[✓][39m Connected device (1 available)
+    [32m•[39m iPhone 6s • 51FC0306-251C-40C9-9AD8-4F944BCE2C52 • ios • iOS 12.1 (simulator)
+
+[32m•[39m No issues found!
+```

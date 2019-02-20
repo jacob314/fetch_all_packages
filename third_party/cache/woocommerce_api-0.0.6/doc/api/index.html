@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="generator" content="made with love by dartdoc 0.20.1">
+  <meta name="description" content="woocommerce_api API docs, for the Dart programming language.">
+  <title>woocommerce_api - Dart API docs</title>
+
+  <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:500,400i,400,300|Source+Sans+Pro:400,300,700" rel="stylesheet">
+  <link rel="stylesheet" href="static-assets/github.css">
+  <link rel="stylesheet" href="static-assets/styles.css">
+  <link rel="icon" href="static-assets/favicon.png">
+
+</head>
+
+<body>
+
+<div id="overlay-under-drawer"></div>
+
+<header id="title">
+  <ol class="breadcrumbs gt-separated dark hidden-xs">
+    <li><a href="https://github.com/samarthagarwal/woocommerce_dart">woocommerce_api package</a></li>
+  </ol>
+  <div class="self-name">woocommerce_api</div>
+  <form class="search navbar-right" role="search">
+    <input type="text" id="search-box" autocomplete="off" disabled class="form-control typeahead" placeholder="Loading search...">
+  </form>
+</header>
+
+<main>
+
+  <div class="col-xs-6 col-sm-3 col-md-2 sidebar sidebar-offcanvas-left">
+    <h5><span class="package-name">woocommerce_api</span> <span class="package-kind">package</span></h5>
+    <ol>
+          <li class="section-title">Libraries</li>
+          <li><a href="query_string/query_string-library.html">query_string</a></li>
+          <li><a href="woocommerce_api/woocommerce_api-library.html">woocommerce_api</a></li>
+    </ol>
+  </div>
+
+  <div class="col-xs-12 col-sm-9 col-md-8 main-content">
+      <section class="desc markdown">
+        <h1>woocommerce_api</h1>
+<p>A dart package to interact with the WooCommerce API. It uses OAuth1.0a behind the scenes to generate the signature and URL string. It then makes calls and return the data back to the calling function.</p>
+<h2>Complete Usage Example</h2>
+<pre class="language-dart"><code>import 'dart:async';
+
+import 'package:flutter/material.dart';
+import 'package:woocommerce_api/woocommerce_api.dart';
+
+void main() =&gt; runApp(new MyApp());
+
+class MyApp extends StatelessWidget {
+  @override
+  Widget build(BuildContext context) {
+    return new MaterialApp(
+      title: 'Flutter Demo',
+      theme: new ThemeData(
+        primarySwatch: Colors.blue,
+      ),
+      home: new MyHomePage(title: 'WooCommerce API Demo'),
+    );
+  }
+}
+
+class MyHomePage extends StatefulWidget {
+  MyHomePage({Key key, this.title}) : super(key: key);
+
+  final String title;
+
+  @override
+  _MyHomePageState createState() =&gt; new _MyHomePageState();
+}
+
+class _MyHomePageState extends State&lt;MyHomePage&gt; {
+
+  List&lt;Widget&gt; products = [];
+
+  Future getProducts() async {
+
+    /// Initialize the API
+    WooCommerceAPI wc_api = new WooCommerceAPI(
+        "http://samarth.todaylivedeal.com",
+        "ck_2b548f9652a3468f67bbc5bdb04e48edf270a000",
+        "cs_fa349f1ba49b519ba9493eb2b64c88781b286b52"
+    );
+    
+    /// Get data using the endpoint
+    var p = await wc_api.getAsync("products");
+    return p;
+  }
+
+  @override
+  void initState() {
+    super.initState();
+  }
+
+  @override
+  Widget build(BuildContext context) {
+    return new Scaffold(
+      appBar: new AppBar(
+        title: new Text(widget.title),
+      ),
+      body: FutureBuilder(
+        future: getProducts(),
+        builder: (_, s){
+
+          if(s.data == null){
+            return Container(
+              child: Center(
+                child: Text("Loading..."),
+              ),
+            );
+          }
+
+          return ListView.builder(
+            itemCount: s.data.length,
+            itemBuilder: (_, index){
+            
+            /// create a list of products
+              return ListTile(
+                leading: CircleAvatar(
+                  child: Image.network(s.data[index]["images"][0]["src"]),
+                ),
+                title: Text(s.data[index]["name"]),
+                subtitle: Text("Buy now for \$ " + s.data[index]["price"]),
+              );
+
+            }
+          );
+        },
+      ),
+    );
+  }
+}
+
+</code></pre>
+<h2>Output</h2>
+<p><img alt="Example code's output" src="Screenshot.jpg"></p>
+      </section>
+      
+        <section class="summary">
+            <h2>Libraries</h2>
+          <dl>
+            <dt id="query_string">
+              <span class="name"><a href="query_string/query_string-library.html">query_string</a></span>
+            </dt>
+            <dd>
+              
+            </dd>            <dt id="woocommerce_api">
+              <span class="name"><a href="woocommerce_api/woocommerce_api-library.html">woocommerce_api</a></span>
+            </dt>
+            <dd>
+              
+            </dd>          </dl>
+        </section>
+
+  </div> <!-- /.main-content -->
+
+</main>
+
+<footer>
+  <span class="no-break">
+    woocommerce_api 0.0.6
+  </span>
+
+</footer>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="static-assets/typeahead.bundle.min.js"></script>
+<script src="static-assets/highlight.pack.js"></script>
+<script src="static-assets/URI.js"></script>
+<script src="static-assets/script.js"></script>
+
+
+</body>
+
+</html>

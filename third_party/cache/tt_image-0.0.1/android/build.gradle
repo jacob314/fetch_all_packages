@@ -1,0 +1,43 @@
+group 'com.ss.android.flutter.ttimage'
+version '1.0-SNAPSHOT'
+
+buildscript {
+    repositories {
+        google()
+        jcenter()
+    }
+
+    dependencies {
+        classpath 'com.android.tools.build:gradle:3.1.2'
+    }
+}
+
+rootProject.allprojects {
+    repositories {
+        maven {
+            url 'https://maven.byted.org/nexus/content/repositories/ss_app_android/'
+        }
+        maven {
+            url 'https://maven.byted.org/nexus/content/repositories/central/'
+        }
+        google()
+        jcenter()
+    }
+}
+
+apply plugin: 'com.android.library'
+
+android {
+    compileSdkVersion 27
+
+    defaultConfig {
+        minSdkVersion 16
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+    }
+    lintOptions {
+        disable 'InvalidPackage'
+    }
+    dependencies {
+        compileOnly "com.bytedance.components:image:1.0.13.1"
+    }
+}

@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="generator" content="made with love by dartdoc 0.24.1">
+  <meta name="description" content="nepali_date_picker API docs, for the Dart programming language.">
+  <title>nepali_date_picker - Dart API docs</title>
+
+  <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:500,400i,400,300|Source+Sans+Pro:400,300,700" rel="stylesheet">
+  <link rel="stylesheet" href="static-assets/github.css">
+  <link rel="stylesheet" href="static-assets/styles.css">
+  <link rel="icon" href="static-assets/favicon.png">
+
+</head>
+
+<body>
+
+<div id="overlay-under-drawer"></div>
+
+<header id="title">
+  <ol class="breadcrumbs gt-separated dark hidden-xs">
+    <li><a href="https://github.com/sarbagyastha/nepali_date_picker">nepali_date_picker package</a></li>
+  </ol>
+  <div class="self-name">nepali_date_picker</div>
+  <form class="search navbar-right" role="search">
+    <input type="text" id="search-box" autocomplete="off" disabled class="form-control typeahead" placeholder="Loading search...">
+  </form>
+</header>
+
+<main>
+
+  <div class="col-xs-6 col-sm-3 col-md-2 sidebar sidebar-offcanvas-left">
+    <h5><span class="package-name">nepali_date_picker</span> <span class="package-kind">package</span></h5>
+    <ol>
+          <li class="section-title">Libraries</li>
+          <li><a href="nepali_date_picker/nepali_date_picker-library.html">nepali_date_picker</a></li>
+    </ol>
+  </div>
+
+  <div class="col-xs-12 col-sm-9 col-md-8 main-content">
+      <section class="desc markdown">
+        <h1 id="nepali-date-picker">Nepali Date Picker</h1>
+<p>[<code>pub packages</code>](<a href="https://pub.dartlang.org/packages/nepali_date_picker">https://pub.dartlang.org/packages/nepali_date_picker</a>)</p>
+<p>Bikram Sambat(B.S.) Date Picker.</p>
+<p><img alt="" src="screenshot/english-portrait.png"><img alt="" src="screenshot/english-landscape.png"></p>
+<h2 id="usage">Usage</h2>
+<h4 id="1-depend">1. Depend</h4>
+<p>Add this to you package's <code>pubspec.yaml</code> file:</p>
+<pre class="language-yaml"><code class="language-yaml">dependencies:
+  nepali_date_picker: ^1.2.1
+</code></pre>
+<h4 id="2-install">2. Install</h4>
+<p>Run command:</p>
+<pre class="language-bash"><code class="language-bash">$ flutter packages get
+</code></pre>
+<h4 id="3-import">3. Import</h4>
+<p>Import in Dart code:</p>
+<pre class="language-dart"><code class="language-dart">import 'package:nepali_date_picker/nepali_date_picker.dart';
+</code></pre>
+<h4 id="4-display-nepali-datepicker">4. Display Nepali DatePicker</h4>
+<pre class="language-dart"><code class="language-dart">///
+/// context: BuildContext.
+/// startYear: Min value of year's selection range.
+/// endYear: Max value of year's selection range.
+/// color: Accent Color.
+/// barrierDismissible: Defines if Date Picker Dialog is dismissible through barriers. Default is false.
+/// language: Language.NEPALI or Language.ENGLISH.  Default is Language.ENGLISH.
+/// onPicked: Callback when "OK" action is pressed. Callback type is DateTime.
+///
+NepaliDatePicker.showPicker(
+     context: context,
+     startYear: 2052,
+     endYear: 2085,
+     color: Colors.pink,
+     barrierDismissible: false,
+     language: Language.NEPALI,
+     onPicked: (DateTime date) {
+         setState(() {
+            ///Iso8601String Format: 2018-12-23T00:00:00
+            String _pickedDate = date.toIso8601String().split("T").first;
+         });
+     },
+);
+</code></pre>
+<p><em><strong>In Nepali Language</strong></em></p>
+<p><img alt="" src="screenshot/nepali-portrait.png"> <img alt="" src="screenshot/nepali-landscape.png"></p>
+<h2 id="example">Example</h2>
+<p><a href="https://github.com/sarbagyastha/nepali_date_picker/tree/master/example">Example sources</a></p>
+<h2 id="license">License</h2>
+<pre class="language-dart"><code>Copyright 2018 Sarbagya Dhaubanjar
+
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+   http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
+</code></pre>
+      </section>
+      
+        <section class="summary">
+            <h2>Libraries</h2>
+          <dl>
+            <dt id="nepali_date_picker">
+              <span class="name"><a href="nepali_date_picker/nepali_date_picker-library.html">nepali_date_picker</a></span> 
+            </dt>
+            <dd>
+              
+            </dd>          </dl>
+        </section>
+
+  </div> <!-- /.main-content -->
+
+</main>
+
+<footer>
+  <span class="no-break">
+    nepali_date_picker 1.2.1
+  </span>
+
+</footer>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="static-assets/typeahead.bundle.min.js"></script>
+<script src="static-assets/highlight.pack.js"></script>
+<script src="static-assets/URI.js"></script>
+<script src="static-assets/script.js"></script>
+
+
+</body>
+
+</html>

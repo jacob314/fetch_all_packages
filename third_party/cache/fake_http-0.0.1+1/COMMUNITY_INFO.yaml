@@ -1,0 +1,6 @@
+is_package: true
+package_name: fake_http
+maintainer_name: v7lin
+maintainer_username: v7lin
+package_description: okhttp3 for flutter
+pub_package_name: fake_http

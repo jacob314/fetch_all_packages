@@ -1,0 +1,19 @@
+name: app_usage
+description: View usage statistics of all applications on the phone (Android only).
+version: 0.0.2
+author: CACHET Team <cph.cachet@gmail.com>
+homepage: https://github.com/cph-cachet/flutter-plugins/tree/master/packages/app_usage
+
+environment:
+  sdk: ">=2.0.0-dev.68.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+# The following section is specific to Flutter.
+flutter:
+  plugin:
+    androidPackage: cachet.plugins.appusage
+    pluginClass: AppUsagePlugin
+

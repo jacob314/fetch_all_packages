@@ -1,0 +1,17 @@
+name: flutter_mob
+description: A new Flutter plugin.
+author: Lewis <once10301@gmail.com>
+homepage: https://github.com/once10301/flutter_mob
+version: 0.0.5
+
+environment:
+  sdk: ">=2.0.0-dev.68.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+flutter:
+  plugin:
+    androidPackage: com.ly.fluttermob
+    pluginClass: FlutterMobPlugin

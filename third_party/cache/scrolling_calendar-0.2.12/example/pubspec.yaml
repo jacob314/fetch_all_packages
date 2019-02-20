@@ -1,0 +1,12 @@
+name: scrolling_calendar_demo
+description: A Scrolling calendar demo
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  scrolling_calendar:
+    path: ".."
+
+flutter:
+  uses-material-design: true

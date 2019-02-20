@@ -1,0 +1,19 @@
+name: fab_navigation_bar
+description: A flutter plugin to create a navigation bar with interaction with a FAB.
+version: 0.1.0
+author: Rafael B. Audibert <rbaudibert@inf.ufrgs.br>
+homepage: https://www.inf.ufrgs.br/~rbaudibert/
+repository: https://www.inf.ufrgs.br/~rbaudibert/
+
+environment:
+  sdk: ">=2.0.0-dev.68.0 <3.0.0"
+
+dependencies:  
+  font_awesome_flutter: ^8.4.0
+  flutter:
+    sdk: flutter
+
+flutter:
+  plugin:
+    androidPackage: com.example.fabnavigationbar
+    pluginClass: FabNavigationBarPlugin

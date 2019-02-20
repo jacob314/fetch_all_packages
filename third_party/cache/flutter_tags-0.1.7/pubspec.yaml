@@ -1,0 +1,16 @@
+name: flutter_tags
+description: Flutter tags let you create a list of tags or insert them dynamically with the input.
+version: 0.1.7
+author: Antonino Di Natale <gyorgio88@gmail.com>
+homepage: https://github.com/Dn-a/flutter_tags
+
+environment:
+  sdk: ">=2.0.0-dev.68.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter

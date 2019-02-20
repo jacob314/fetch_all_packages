@@ -1,0 +1,25 @@
+name: chamber
+description: ORM for Flutter
+version: 0.0.1
+author: Caio Pereira Oliveira <caiopoliveira@gmail.com>
+homepage: https://github.com/caiopo/chamber
+
+environment:
+  sdk: '>=2.0.0 <3.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  sqflite: ^1.0.0
+  pedantic: ^1.4.0
+  path: ^1.6.2
+  meta: ^1.1.6
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  mockito: ^4.0.0
+
+flutter:

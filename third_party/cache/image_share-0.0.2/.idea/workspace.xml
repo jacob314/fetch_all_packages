@@ -1,0 +1,494 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="eff9e6c0-b41e-403d-94e7-321eb4c6b638" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../.gitmodules" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Hublot/Code/.flutter" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Hublot/Code/flutterw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Flutter_Plugins.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2000PESO.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../App Icon (1)/android/mipmap-hdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../App Icon (1)/android/mipmap-ldpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../App Icon (1)/android/mipmap-mdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../App Icon (1)/android/mipmap-xhdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../App Icon (1)/android/mipmap-xxhdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../App Icon (1)/android/mipmap-xxxhdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../App Icon (1)/android/playstore-icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../App Icon (1)/imessenger/icon-messages-app-27x20@1x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../App Icon (1)/imessenger/icon-messages-app-27x20@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../App Icon (1)/imessenger/icon-messages-app-27x20@3x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../App Icon (1)/imessenger/icon-messages-app-iPadAir-67x50@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../App Icon (1)/imessenger/icon-messages-app-iPadAir-74x55@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../App Icon (1)/imessenger/icon-messages-app-iPhone-60x45@1x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../App Icon (1)/imessenger/icon-messages-app-iPhone-60x45@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../App Icon (1)/imessenger/icon-messages-app-iPhone-60x45@3x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../App Icon (1)/imessenger/icon-messages-app-store-1024x768.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../App Icon (1)/imessenger/icon-messages-transcript-32x24@1x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../App Icon (1)/imessenger/icon-messages-transcript-32x24@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../App Icon (1)/imessenger/icon-messages-transcript-32x24@3x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../App Icon (1)/ios/AppIcon.appiconset/Contents.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../App Icon (1)/ios/AppIcon.appiconset/Icon-App-20x20@1x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../App Icon (1)/ios/AppIcon.appiconset/Icon-App-20x20@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../App Icon (1)/ios/AppIcon.appiconset/Icon-App-20x20@3x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../App Icon (1)/ios/AppIcon.appiconset/Icon-App-29x29@1x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../App Icon (1)/ios/AppIcon.appiconset/Icon-App-29x29@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../App Icon (1)/ios/AppIcon.appiconset/Icon-App-29x29@3x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../App Icon (1)/ios/AppIcon.appiconset/Icon-App-40x40@1x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../App Icon (1)/ios/AppIcon.appiconset/Icon-App-40x40@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../App Icon (1)/ios/AppIcon.appiconset/Icon-App-40x40@3x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../App Icon (1)/ios/AppIcon.appiconset/Icon-App-57x57@1x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../App Icon (1)/ios/AppIcon.appiconset/Icon-App-57x57@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../App Icon (1)/ios/AppIcon.appiconset/Icon-App-60x60@1x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../App Icon (1)/ios/AppIcon.appiconset/Icon-App-60x60@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../App Icon (1)/ios/AppIcon.appiconset/Icon-App-60x60@3x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../App Icon (1)/ios/AppIcon.appiconset/Icon-App-72x72@1x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../App Icon (1)/ios/AppIcon.appiconset/Icon-App-72x72@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../App Icon (1)/ios/AppIcon.appiconset/Icon-App-76x76@1x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../App Icon (1)/ios/AppIcon.appiconset/Icon-App-76x76@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../App Icon (1)/ios/AppIcon.appiconset/Icon-App-76x76@3x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../App Icon (1)/ios/AppIcon.appiconset/Icon-App-83.5x83.5@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../App Icon (1)/ios/AppIcon.appiconset/Icon-Small-50x50@1x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../App Icon (1)/ios/AppIcon.appiconset/Icon-Small-50x50@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../App Icon (1)/ios/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../App Icon (1)/ios/iTunesArtwork@1x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../App Icon (1)/ios/iTunesArtwork@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../App Icon (1)/ios/iTunesArtwork@3x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../App Icon/android/mipmap-hdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../App Icon/android/mipmap-ldpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../App Icon/android/mipmap-mdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../App Icon/android/mipmap-xhdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../App Icon/android/mipmap-xxhdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../App Icon/android/mipmap-xxxhdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../App Icon/android/playstore-icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../App Icon/imessenger/icon-messages-app-27x20@1x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../App Icon/imessenger/icon-messages-app-27x20@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../App Icon/imessenger/icon-messages-app-27x20@3x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../App Icon/imessenger/icon-messages-app-iPadAir-67x50@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../App Icon/imessenger/icon-messages-app-iPadAir-74x55@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../App Icon/imessenger/icon-messages-app-iPhone-60x45@1x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../App Icon/imessenger/icon-messages-app-iPhone-60x45@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../App Icon/imessenger/icon-messages-app-iPhone-60x45@3x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../App Icon/imessenger/icon-messages-app-store-1024x768.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../App Icon/imessenger/icon-messages-transcript-32x24@1x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../App Icon/imessenger/icon-messages-transcript-32x24@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../App Icon/imessenger/icon-messages-transcript-32x24@3x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../App Icon/ios/AppIcon.appiconset/Contents.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../App Icon/ios/AppIcon.appiconset/Icon-App-20x20@1x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../App Icon/ios/AppIcon.appiconset/Icon-App-20x20@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../App Icon/ios/AppIcon.appiconset/Icon-App-20x20@3x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../App Icon/ios/AppIcon.appiconset/Icon-App-29x29@1x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../App Icon/ios/AppIcon.appiconset/Icon-App-29x29@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../App Icon/ios/AppIcon.appiconset/Icon-App-29x29@3x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../App Icon/ios/AppIcon.appiconset/Icon-App-40x40@1x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../App Icon/ios/AppIcon.appiconset/Icon-App-40x40@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../App Icon/ios/AppIcon.appiconset/Icon-App-40x40@3x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../App Icon/ios/AppIcon.appiconset/Icon-App-57x57@1x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../App Icon/ios/AppIcon.appiconset/Icon-App-57x57@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../App Icon/ios/AppIcon.appiconset/Icon-App-60x60@1x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../App Icon/ios/AppIcon.appiconset/Icon-App-60x60@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../App Icon/ios/AppIcon.appiconset/Icon-App-60x60@3x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../App Icon/ios/AppIcon.appiconset/Icon-App-72x72@1x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../App Icon/ios/AppIcon.appiconset/Icon-App-72x72@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../App Icon/ios/AppIcon.appiconset/Icon-App-76x76@1x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../App Icon/ios/AppIcon.appiconset/Icon-App-76x76@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../App Icon/ios/AppIcon.appiconset/Icon-App-76x76@3x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../App Icon/ios/AppIcon.appiconset/Icon-App-83.5x83.5@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../App Icon/ios/AppIcon.appiconset/Icon-Small-50x50@1x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../App Icon/ios/AppIcon.appiconset/Icon-Small-50x50@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../App Icon/ios/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../App Icon/ios/iTunesArtwork@1x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../App Icon/ios/iTunesArtwork@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../App Icon/ios/iTunesArtwork@3x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AppDelegate.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets.xcassets/2000PESO.imageset/2000PESO-1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets.xcassets/2000PESO.imageset/2000PESO-2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets.xcassets/2000PESO.imageset/2000PESO.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets.xcassets/2000PESO.imageset/Contents.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets.xcassets/AppIcon.appiconset/Contents.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets.xcassets/CCTOASTER.imageset/CCTOASTER.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets.xcassets/CCTOASTER.imageset/Contents.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets.xcassets/Contents.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets.xcassets/NEWCUANTOLOGO2CROPBLACK.imageset/Contents.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets.xcassets/NEWCUANTOLOGO2CROPBLACK.imageset/NEWCUANTOLOGO2CROPBLACK-1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets.xcassets/NEWCUANTOLOGO2CROPBLACK.imageset/NEWCUANTOLOGO2CROPBLACK-2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets.xcassets/NEWCUANTOLOGO2CROPBLACK.imageset/NEWCUANTOLOGO2CROPBLACK.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets.xcassets/dominicanrepublicflaglarge.imageset/Contents.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets.xcassets/dominicanrepublicflaglarge.imageset/dominicanrepublicflaglarge-1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets.xcassets/dominicanrepublicflaglarge.imageset/dominicanrepublicflaglarge-2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets.xcassets/dominicanrepublicflaglarge.imageset/dominicanrepublicflaglarge.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets.xcassets/moneybag.imageset/Contents.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets.xcassets/moneybag.imageset/moneybag-1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets.xcassets/moneybag.imageset/moneybag-2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets.xcassets/moneybag.imageset/moneybag.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets.xcassets/x1f1e91f1f4pngpagespeedicfVbOYSBv2C.imageset/Contents.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets.xcassets/x1f1e91f1f4pngpagespeedicfVbOYSBv2C.imageset/x1f1e91f1f4pngpagespeedicfVbOYSBv2C.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets.xcassets/x1f1fa1f1f8pngpagespeedicDgdaAY8Dnf.imageset/Contents.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets.xcassets/x1f1fa1f1f8pngpagespeedicDgdaAY8Dnf.imageset/x1f1fa1f1f8pngpagespeedicDgdaAY8Dnf.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CCTOASTER.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CUANTONEWUI.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Capture d’écran 2017-08-29 à 17.26.04.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Contents.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Cuanto.xcodeproj/project.pbxproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Cuanto.xcodeproj/project.xcworkspace/contents.xcworkspacedata" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Cuanto.xcodeproj/project.xcworkspace/xcuserdata/ARIEL.xcuserdatad/WorkspaceSettings.xcsettings" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Cuanto.xcodeproj/xcuserdata/ARIEL.xcuserdatad/xcdebugger/Breakpoints_v2.xcbkptlist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Cuanto.xcodeproj/xcuserdata/ARIEL.xcuserdatad/xcschemes/Cuanto?.xcscheme" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Cuanto.xcodeproj/xcuserdata/ARIEL.xcuserdatad/xcschemes/xcschememanagement.plist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Cuanto.xcodeproj/xcuserdata/JMly.xcuserdatad/xcdebugger/Breakpoints_v2.xcbkptlist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Cuanto.xcodeproj/xcuserdata/JMly.xcuserdatad/xcschemes/Cuanto.xcscheme" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Cuanto.xcodeproj/xcuserdata/JMly.xcuserdatad/xcschemes/Cuanto?.xcscheme" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Cuanto.xcodeproj/xcuserdata/JMly.xcuserdatad/xcschemes/xcschememanagement.plist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Cuantoxcodeproj.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Info.plist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LaunchScreen.storyboard" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Main.storyboard" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NEWCUANTOLOGO2CROPBLACK.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Parkr assets/App Icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Parkr assets/Blue background.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Parkr assets/Blue header:footer.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Parkr assets/Check logo.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Parkr assets/Little circle.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Parkr assets/Map icon.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Parkr assets/P annotation.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Parkr assets/Red background.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Parkr assets/Surrounding circle.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Parkr assets/Warning logo.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Parkr assets/test.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Technique-de-Vente-Stratégies-Gagnantes-Version-Illustrée.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ViewController.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dominicanrepublicflaglarge.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/ios/.symlinks/plugins/image_share/CHANGELOG.md" beforeDir="false" afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/image_share/CHANGELOG.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/ios/.symlinks/plugins/image_share/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/image_share/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/ios/.symlinks/plugins/image_share/android/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/image_share/android/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/ios/.symlinks/plugins/image_share/android/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/image_share/android/src/main/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/ios/.symlinks/plugins/image_share/android/src/main/java/fr/jonmlk/imageshare/ImageSharePlugin.java" beforeDir="false" afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/image_share/android/src/main/java/fr/jonmlk/imageshare/ImageSharePlugin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/ios/.symlinks/plugins/image_share/example/ios/Runner.xcodeproj/project.pbxproj" beforeDir="false" afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/image_share/example/ios/Runner.xcodeproj/project.pbxproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/ios/.symlinks/plugins/image_share/example/ios/Runner.xcworkspace/contents.xcworkspacedata" beforeDir="false" afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/image_share/example/ios/Runner.xcworkspace/contents.xcworkspacedata" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/ios/.symlinks/plugins/image_share/example/ios/Runner/Info.plist" beforeDir="false" afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/image_share/example/ios/Runner/Info.plist" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/ios/.symlinks/plugins/image_share/example/lib/main.dart" beforeDir="false" afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/image_share/example/lib/main.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/ios/.symlinks/plugins/image_share/example/pubspec.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/image_share/example/pubspec.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/ios/.symlinks/plugins/image_share/example/test/widget_test.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/ios/.symlinks/plugins/image_share/ios/Classes/ImageSharePlugin.m" beforeDir="false" afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/image_share/ios/Classes/ImageSharePlugin.m" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/ios/.symlinks/plugins/image_share/lib/image_share.dart" beforeDir="false" afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/image_share/lib/image_share.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/ios/.symlinks/plugins/image_share/pubspec.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/image_share/pubspec.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../moneybag.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../x1f1e91f1f4pngpagespeedicfVbOYSBv2C.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../x1f1fa1f1f8pngpagespeedicDgdaAY8Dnf.pdf" beforeDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/.dart_tool/" />
+    <ignored path="$PROJECT_DIR$/.pub/" />
+    <ignored path="$PROJECT_DIR$/build/" />
+    <ignored path="$PROJECT_DIR$/out/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="-362706794">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="1" />
+          <entry key="project.open.time.22" value="1" />
+          <entry key="project.open.time.24" value="1" />
+          <entry key="project.opened" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="dart" value="2" />
+          <entry key="java" value="1" />
+          <entry key="m" value="1" />
+          <entry key="md" value="2" />
+          <entry key="yaml" value="3" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="Dart" value="2" />
+          <entry key="JAVA" value="1" />
+          <entry key="Markdown" value="2" />
+          <entry key="Mathematica" value="1" />
+          <entry key="YAML" value="3" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="dart" value="6" />
+          <entry key="md" value="142" />
+          <entry key="yaml" value="56" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="Dart" value="6" />
+          <entry key="Markdown" value="142" />
+          <entry key="YAML" value="56" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.vcs.git.usages" />
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/image_share.dart">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="323">
+              <caret line="17" column="61" selection-start-line="17" selection-start-column="61" selection-end-line="17" selection-end-column="61" />
+              <folding>
+                <element signature="e#0#20#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="249">
+                <caret line="14" column="18" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/pubspec.yaml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="285">
+              <caret line="15" column="60" lean-forward="true" selection-start-line="15" selection-start-column="60" selection-end-line="15" selection-end-column="60" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/CHANGELOG.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="133">
+                <caret line="7" selection-start-line="7" selection-end-line="7" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/example/lib/main.dart">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="209">
+              <caret line="13" column="20" selection-start-line="13" selection-start-column="20" selection-end-line="13" selection-end-column="20" />
+              <folding>
+                <element signature="e#0#39#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/example/lib/main.dart" />
+        <option value="$PROJECT_DIR$/example/pubspec.yaml" />
+        <option value="$PROJECT_DIR$/CHANGELOG.md" />
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/lib/image_share.dart" />
+        <option value="$PROJECT_DIR$/pubspec.yaml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" fullScreen="true">
+    <option name="width" value="1920" />
+    <option name="height" value="1200" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="image_share" type="b2602c69:ProjectViewProjectNode" />
+              <item name="image_share" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="AndroidView" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="dart.analysis.tool.window.force.activate" value="false" />
+    <property name="io.flutter.reload.alreadyRun" value="true" />
+    <property name="settings.editor.selected.configurable" value="preferences.externalResources" />
+    <property name="show.migrate.to.gradle.popup" value="false" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="eff9e6c0-b41e-403d-94e7-321eb4c6b638" name="Default Changelist" comment="" />
+      <created>1541780367944</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1541780367944</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="0" width="1920" height="1200" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2497332" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Build Variants" order="3" side_tool="true" />
+      <window_info id="Image Layers" order="4" />
+      <window_info id="Favorites" order="5" side_tool="true" />
+      <window_info id="Captures" order="6" />
+      <window_info id="Capture Tool" order="7" />
+      <window_info id="UI Designer" order="8" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32978722" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Dart Analysis" order="7" weight="0.31648937" />
+      <window_info anchor="bottom" id="Android Profiler" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Logcat" order="10" />
+      <window_info anchor="bottom" id="Version Control" order="11" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="12" visible="true" weight="0.38297874" />
+      <window_info anchor="bottom" id="Messages" order="13" weight="0.32978722" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Flutter Inspector" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Device File Explorer" order="6" side_tool="true" />
+      <window_info anchor="right" id="Flutter Outline" order="7" />
+      <window_info anchor="right" id="Maven Projects" order="8" />
+      <window_info anchor="right" id="Palette&#9;" order="9" />
+      <window_info anchor="right" id="Theme Preview" order="10" />
+    </layout>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/ios/Classes/ImageSharePlugin.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="436">
+          <caret line="29" selection-start-line="29" selection-end-line="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/android/src/main/java/fr/jonmlk/imageshare/ImageSharePlugin.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="14" column="60" selection-start-line="14" selection-start-column="60" selection-end-line="14" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/example/pubspec.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="186">
+          <caret line="25" column="47" selection-start-line="25" selection-start-column="47" selection-end-line="25" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/image_share.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="17" column="61" selection-start-line="17" selection-start-column="61" selection-end-line="17" selection-end-column="61" />
+          <folding>
+            <element signature="e#0#20#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CHANGELOG.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="133">
+            <caret line="7" selection-start-line="7" selection-end-line="7" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/example/lib/main.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="13" column="20" selection-start-line="13" selection-start-column="20" selection-end-line="13" selection-end-column="20" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="249">
+            <caret line="14" column="18" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pubspec.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="15" column="60" lean-forward="true" selection-start-line="15" selection-start-column="60" selection-end-line="15" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

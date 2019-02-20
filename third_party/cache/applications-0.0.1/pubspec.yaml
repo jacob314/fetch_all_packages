@@ -1,0 +1,17 @@
+name: applications
+description: Track number of apps installed as well as their package names.
+version: 0.0.1
+homepage: https://github.com/cph-cachet/flutter_applications
+author: CACHET Team <cph.cachet@gmail.com>
+
+environment:
+  sdk: ">=2.0.0-dev.68.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+flutter:
+  plugin:
+    androidPackage: com.example.applications
+    pluginClass: ApplicationsPlugin

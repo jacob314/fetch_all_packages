@@ -1,0 +1,22 @@
+name: persian_date
+description: This library is Used For Jalali Date, Developer  with this library can convert Gregorian date to Jalali date
+version: 0.1.2
+homepage: https://github.com/irdeveloper89/PersianDate
+author: Javad Zobeidi <j.zobeidi89@gmail.com>
+Telegram: https://t.me/Developer_89
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+
+environment:
+  sdk: '>=2.0.0 <3.0.0'
+
+
+

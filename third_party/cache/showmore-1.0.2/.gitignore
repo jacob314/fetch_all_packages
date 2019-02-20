@@ -1,0 +1,12 @@
+.DS_Store
+.dart_tool/
+android
+ios
+.idea
+.metadata
+showmore.iml
+.packages
+.pub/
+pubspec.lock
+
+build/

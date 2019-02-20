@@ -1,0 +1,14 @@
+name: flutter_umeng_analytics
+description: Flutter plugin for umeng:analytics (友盟统计)
+version: 0.0.1
+author: Ken <ken.shao@gmail.com>
+homepage: https://github.com/pedia/flutter_umeng_analytics
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+flutter:
+  plugin:
+    androidPackage: pedia.flutterumenganalytics
+    pluginClass: FlutterUmengAnalyticsPlugin

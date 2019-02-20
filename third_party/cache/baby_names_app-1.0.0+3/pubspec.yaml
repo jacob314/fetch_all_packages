@@ -1,0 +1,43 @@
+name: baby_names_app
+description: The current branch master has no upstream branchs 
+version: 1.0.0+3
+author: Paaa<Mr.Prabhu.MCAA@gmail.com>
+homepage: https://github.com/
+environment:
+  sdk: ">=2.0.0-dev.68.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_launcher_icons: ^0.7.0
+  sqflite: ^1.0.0
+  path_provider: ^0.5.0
+
+flutter_icons:
+  android: true
+  ios: true
+  image_path: "assets/icons/ic_launcher-web.png"
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+
+  uses-material-design: true
+  fonts:
+    - family: Kavivanar
+      fonts:
+        - asset: assets/fonts/Kavivanar-Regular.ttf
+    - family: BalooThambi
+      fonts:
+        - asset: assets/fonts/BalooThambi-Regular.ttf
+    - family: Changa
+      fonts:
+        - asset: assets/fonts/Changa-Regular.ttf
+
+  assets:
+    - assets/images/boy.png
+    - assets/images/girl.png
+
+   

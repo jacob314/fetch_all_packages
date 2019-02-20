@@ -1,0 +1,22 @@
+name: inventiv_critic_flutter_example
+description: Demonstrates how to use the inventiv_critic_flutter plugin.
+publish_to: 'none'
+
+environment:
+  sdk: ">=2.0.0-dev.68.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^0.1.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  inventiv_critic_flutter:
+    path: ../
+
+flutter:
+  uses-material-design: true

@@ -1,0 +1,3 @@
+## [0.0.1] - 28/01/2019 - Criação do package.
+
+PACKAGE CRIADO PARA FINS DE APRENDIZAGEM.

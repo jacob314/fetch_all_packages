@@ -1,0 +1,9 @@
+name: sky
+version: 0.0.56
+author: Flutter Authors <flutter-dev@googlegroups.com>
+description: Superseded by package:flutter, please update your pubspec.yaml
+homepage: http://flutter.io
+dependencies:
+  flutter: '>=0.0.3 <0.1.0'
+environment:
+  sdk: '>=1.12.0 <2.0.0'

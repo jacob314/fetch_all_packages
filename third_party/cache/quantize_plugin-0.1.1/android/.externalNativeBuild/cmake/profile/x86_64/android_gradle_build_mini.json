@@ -1,0 +1,30 @@
+{
+  "buildFiles": [
+    "/Users/yurikomlev/android_github/plugins/image/quantize_plugin/android/../../../../../Library/Android/sdk/ndk-bundle/build/cmake/android.toolchain.cmake",
+    "/Users/yurikomlev/android_github/plugins/image/quantize_plugin/android/CMakeLists.txt",
+    "/Users/yurikomlev/android_github/plugins/image/quantize_plugin/android/../../../../../Library/Android/sdk/ndk-bundle/build/cmake/platforms.cmake"
+  ],
+  "cleanCommands": [
+    "/Users/yurikomlev/Library/Android/sdk/cmake/3.10.2.4988404/bin/cmake --build /Users/yurikomlev/android_github/plugins/image/quantize_plugin/android/.externalNativeBuild/cmake/profile/x86_64 --target clean"
+  ],
+  "libraries": {
+    "yuv-Debug-x86_64": {
+      "artifactName": "yuv",
+      "buildCommand": "/Users/yurikomlev/Library/Android/sdk/cmake/3.10.2.4988404/bin/cmake --build /Users/yurikomlev/android_github/plugins/image/quantize_plugin/android/.externalNativeBuild/cmake/profile/x86_64 --target yuv",
+      "abi": "x86_64",
+      "output": "/Users/yurikomlev/android_github/pixeld/build/quantize_plugin/intermediates/cmake/profile/obj/x86_64/libyuv.so"
+    },
+    "imagequant-Debug-x86_64": {
+      "artifactName": "imagequant",
+      "buildCommand": "/Users/yurikomlev/Library/Android/sdk/cmake/3.10.2.4988404/bin/cmake --build /Users/yurikomlev/android_github/plugins/image/quantize_plugin/android/.externalNativeBuild/cmake/profile/x86_64 --target imagequant",
+      "abi": "x86_64",
+      "output": "/Users/yurikomlev/android_github/pixeld/build/quantize_plugin/intermediates/cmake/profile/obj/x86_64/libimagequant.so"
+    },
+    "natives-Debug-x86_64": {
+      "artifactName": "natives",
+      "buildCommand": "/Users/yurikomlev/Library/Android/sdk/cmake/3.10.2.4988404/bin/cmake --build /Users/yurikomlev/android_github/plugins/image/quantize_plugin/android/.externalNativeBuild/cmake/profile/x86_64 --target natives",
+      "abi": "x86_64",
+      "output": "/Users/yurikomlev/android_github/pixeld/build/quantize_plugin/intermediates/cmake/profile/obj/x86_64/libnatives.so"
+    }
+  }
+}

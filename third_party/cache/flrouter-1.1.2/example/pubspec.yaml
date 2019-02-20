@@ -1,0 +1,23 @@
+name: flutter_flrouter_example
+description: Demonstrates how to use the flrouter.
+version: 1.1.2
+authors:
+- Peter Zagoranski <peter.zagoranski@gmail.com>
+homepage: https://github.com/peterzagoranski/flutter_router
+
+environment:
+  sdk: ">=2.0.0-dev.68.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flrouter:
+    path: ../
+
+flutter:
+  uses-material-design: true

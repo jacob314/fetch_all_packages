@@ -1,0 +1,17 @@
+name: flutter_webview_acf
+description: Plugin that allow Flutter to communicate with a native Webview.
+author: Christin Francisco ANDRIANAMBININA <andrycf24@gmail.com>
+homepage: https://github.com/andrycf/flutter_webview
+version: 0.0.3
+
+environment:
+  sdk: ">=2.0.0-dev <3.0.0"
+
+flutter:
+  plugin:
+    androidPackage: mg.flutter_webview_plugin
+    pluginClass: FlutterWebviewPlugin
+
+dependencies:
+  flutter:
+    sdk: flutter

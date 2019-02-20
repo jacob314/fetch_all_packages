@@ -1,0 +1,16 @@
+name: stacked_slider
+description: A vertical stacked slider.
+version: 1.0.0
+author: Anton Dokusov <anton.dokusov@protonmail.com>
+homepage: https://github.com/antondokusov/flutter_widgets/tree/master/stacked_slider
+
+environment:
+  sdk: ">=2.0.0-dev.68.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter

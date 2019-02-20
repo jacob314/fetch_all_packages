@@ -1,0 +1,19 @@
+name: flutter_places_dialog
+description: Shows the google places picker dialog.
+version: 1.0.3
+author: David Bennett <pinkfishfrog@gmail.com>
+homepage: https://github.com/pinkfish/flutter_places_dialog
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+# The following section is specific to Flutter.
+flutter:
+  plugin:
+    androidPackage: com.example.flutterplacesdialog
+    pluginClass: FlutterPlacesDialogPlugin
+
+environment:
+  sdk: ">=2.0.0-dev.28.0 <3.0.0"
+  flutter: ">=0.1.4 <2.0.0"

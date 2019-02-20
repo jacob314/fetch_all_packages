@@ -1,0 +1,22 @@
+name: fillable_pdf_form
+description: A Flutter plugin allowing to read & write the content of PDF fields.
+version: 1.0.0
+authors:
+  - Edouard Marquez <moi@edouard-marquez.me>
+  - Willy Kim <willy.kim-sc@alehos.fr>
+homepage: https://bitbucket.org/alehos/flutter_plugin_fillable_pdf_form/
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  simple_permissions: '^0.1.5'
+  meta: '^1.1.6'
+
+flutter:
+  plugin:
+    androidPackage: fr.alehos.fillablepdfform
+    pluginClass: FillablePdfFormPlugin
+
+environment:
+  sdk: '>=2.0.0-dev.28.0 <3.0.0'

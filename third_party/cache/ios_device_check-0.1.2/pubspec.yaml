@@ -1,0 +1,18 @@
+name: ios_device_check
+description: A flutter plugin for iOS DeviceCheck.
+version: 0.1.2
+author: okadan <41195605+okadan@users.noreply.github.com>
+homepage: https://github.com/okadan/flutter-ios-device-check
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+flutter:
+  plugin:
+    androidPackage: io.flutter.plugins.iosdevicecheck
+    pluginClass: IosDeviceCheckPlugin
+
+environment:
+  sdk: ">=2.0.0-dev.28.0 <3.0.0"
+  flutter: ">=0.2.4 <2.0.0"

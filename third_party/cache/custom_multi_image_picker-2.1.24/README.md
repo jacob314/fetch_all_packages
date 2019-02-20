@@ -1,0 +1,72 @@
+# custom_multi_image_picker
+
+[![build](https://img.shields.io/travis/Sh1d0w/custom_multi_image_picker.svg)](https://pub.dartlang.org/packages/custom_multi_image_picker)
+[![pub package](https://img.shields.io/pub/v/custom_multi_image_picker.svg)](https://pub.dartlang.org/packages/custom_multi_image_picker)
+
+> Flutter plugin that allows you to display multi image picker on iOS and Android.
+
+## iOS
+
+![Screenshot iOS 1](screenshots/ios-1.png) ![Screenshot iOS 2](screenshots/ios-2.png) ![Screenshot iOS 3](screenshots/ios-3.png)
+
+For the iOS picker the plugin uses [BSImagePicker](https://github.com/mikaoj/BSImagePicker)
+
+## Android
+
+![Screenshot Anroid 1](screenshots/android-1.png) ![Screenshot Anroid 2](screenshots/android-2.png) ![Screenshot Anroid 3](screenshots/android-3.png)
+
+For the Android picker the plugin uses [Matisse](https://github.com/zhihu/Matisse)
+
+## Usage
+
+First you need to [add](https://pub.dartlang.org/packages/custom_multi_image_picker#-installing-tab-) the plugin to your project.
+
+### iOS
+
+You need to add those strings to your Info.plist file in order the plugin to work:
+```xml
+<key>NSPhotoLibraryUsageDescription</key>
+<string>Example usage description</string>
+<key>NSCameraUsageDescription</key>
+<string>Example usage description</string>
+```
+
+### Android
+
+You need to request those permissions in AndroidManifest.xml in order the plugin to work:
+
+```xml
+<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+<uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+```
+
+For example code usage, please see [here](https://github.com/Sh1d0w/custom_multi_image_picker/blob/master/example/lib/main.dart)
+
+## Theming and localization
+
+You can customize different parts of the gallery picker. For reference see below the available options for the different platforms:
+
+Customization on [Android](https://github.com/Sh1d0w/custom_multi_image_picker/tree/master/doc/android.md)
+
+Customization on [iOS](https://github.com/Sh1d0w/custom_multi_image_picker/tree/master/doc/ios.md)
+
+## API
+
+[MultiImagePicker](https://pub.dartlang.org/documentation/custom_multi_image_picker/latest/picker/MultiImagePicker-class.html)
+
+[Asset](https://pub.dartlang.org/documentation/custom_multi_image_picker/latest/asset/Asset-class.html)
+
+## TODO
+
+- [x] Add support for more plugin specific options for iOS and Android, that allows more customization
+- [x] Improve docs
+- [ ] Allow choosing videos
+
+## Related
+
+- [image_picker](https://pub.dartlang.org/packages/image_picker) - Official Flutter image picker plugin
+
+## License
+
+MIT © [Radoslav Vitanov](https://github.com/Sh1d0w)

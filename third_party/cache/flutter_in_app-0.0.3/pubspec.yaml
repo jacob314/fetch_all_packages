@@ -1,0 +1,19 @@
+name: flutter_in_app
+description: A flutter plugin to communicate with billing on iOS and Android.
+version: 0.0.3
+author: Volodymyr Lykhonis <vladimirlichonos@gmail.com> modified by Matt Jaffa to try out before pull request
+homepage: https://github.com/VolodymyrLykhonis/flutter_billing
+
+dependencies:
+  flutter:
+    sdk: flutter
+  synchronized: ^1.1.0
+
+flutter:
+  plugin:
+    androidPackage: com.lykhonis.flutterbilling
+    pluginClass: BillingPlugin
+
+environment:
+  sdk: ">=2.0.0-dev.28.0 <3.0.0"
+  flutter: ">=0.1.4 <2.0.0"

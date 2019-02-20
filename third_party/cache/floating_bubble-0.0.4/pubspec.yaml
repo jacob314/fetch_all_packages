@@ -1,0 +1,19 @@
+name: floating_bubble
+description: Generate a floating widget that sticks to the sides of the screen
+version: 0.0.4
+author: Miyoyo <miyoyo@live.be>
+homepage: https://github.com/miyoyo
+
+environment:
+  sdk: '>=1.19.0 <3.0.0'
+  flutter: '>=0.5.1'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:

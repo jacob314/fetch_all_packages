@@ -1,0 +1,17 @@
+name: video_launcher_example
+description: Fullscreen video launcher
+version: 0.2.0
+author : Erick Ghaumez <rx.devlabz@gmail.com>
+
+dependencies:
+  flutter:
+    sdk: flutter
+  video_launcher:
+    path: ../
+  path_provider:
+
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/video.mp4

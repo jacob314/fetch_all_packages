@@ -1,0 +1,11 @@
+name: flutter_advanced_networkimage_example
+description: Demonstrates how to use the flutter_advanced_networkimage_example plugin.
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_advanced_networkimage:
+    path: ../
+
+flutter:
+  uses-material-design: true

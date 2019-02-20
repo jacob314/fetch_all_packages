@@ -1,0 +1,13 @@
+name: persian
+description: Persian utilities for Flutter. The package includes PersianDate and number converter.
+version: 0.0.5
+authors:
+    - Mahdi K. Fard <mahdi3466@gmail.com>
+homepage: https://github.com/xclud/persian
+
+environment:
+  sdk: ">=1.19.0 <3.0.0"
+  
+dependencies:
+  flutter:
+    sdk: flutter

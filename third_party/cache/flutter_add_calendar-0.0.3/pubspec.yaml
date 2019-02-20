@@ -1,0 +1,22 @@
+name: flutter_add_calendar
+description: Add event to device Calendar for Awesome Flutter Application
+version: 0.0.3
+authors:
+- Hưng ĐM <minhhung2556@gmail.com>
+- Tân LNM <minhtan512@gmail.com>
+- Duy MĐ <ducduy.dev@gmail.com>
+- Dân L <danle.sdev@gmail.com>
+- Trọng T <trong.ton2003@gmail.com>
+homepage: https://www.flutter.io
+
+environment:
+  sdk: ">=2.0.0-dev.68.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+flutter:
+  plugin:
+    androidPackage: flutteraddcalendar.fluttervn.io.flutteraddcalendar
+    pluginClass: FlutterAddCalendarPlugin

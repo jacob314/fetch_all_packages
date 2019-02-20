@@ -1,0 +1,18 @@
+name: flutter_permissions_helper
+description: A plugin for flutter apps to easily request permissions from the host OS.
+version: 0.0.4
+author: Andrew Ackerman <andrew@canaryspeech.com>
+homepage: https://github.com/andrewackerman/flutter_permissions_helper
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+environment:
+  sdk: ">=2.0.0-dev.28.0 <3.0.0"
+  flutter: ">=0.1.4 <2.0.0"
+
+flutter:
+  plugin:
+    androidPackage: com.andrewackerman.flutterpermissionshelper
+    pluginClass: FlutterPermissionsHelperPlugin

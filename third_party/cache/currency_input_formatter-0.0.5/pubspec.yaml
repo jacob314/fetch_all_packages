@@ -1,0 +1,18 @@
+name: currency_input_formatter
+description: A custom Flutter TextInputFormatter for currency values
+version: 0.0.5
+author: Eshan Singh <eshansingh@gmail.com>
+homepage: https://github.com/naiveaiguy/flutter_currency_input_formatter
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+environment:
+  sdk: ">=1.19.0 <2.0.0"
+
+flutter:

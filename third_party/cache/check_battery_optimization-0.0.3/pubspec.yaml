@@ -1,0 +1,18 @@
+name: check_battery_optimization
+version: 0.0.3
+description: Simple plugin for ignore battery optimization. Only Android support.
+author: Outcon <cvetank@outcon.eu>
+homepage: https://gitlab.com/c.karadjov/check-battery-optimization
+documentation: 
+
+environment:
+  sdk: '>=2.0.0-dev.58.0 <3.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+flutter: 
+  plugin:
+    androidPackage: com.example.checkbatteryoptimization
+    pluginClass: CheckBatteryOptimizationPlugin   

@@ -1,0 +1,18 @@
+name: flutter_plugin_sample
+description: A new Flutter project.
+version: 0.0.1
+author: Shinobu Okano <okanoshinobu8@gmail.com>
+homepage: https://github.com/operando/flutter_plugin_sample
+
+flutter:
+  plugin:
+    androidPackage: com.os.operando.flutterpluginsample
+    pluginClass: FlutterPluginSamplePlugin
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+environment:
+  sdk: ">=2.0.0-dev.28.0 <3.0.0"
+  flutter: ">=0.1.4 <2.0.0"

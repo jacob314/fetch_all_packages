@@ -1,0 +1,14 @@
+name: admob
+author: Brett Nesbitt <brett.aaron.nesbitt@gmailcom>
+homepage: http://pub.dartlang.org
+version: 0.1.27
+description: A flutter plugin for admob.
+
+flutter:
+  plugin:
+    androidPackage: com.yourcompany.admob
+    pluginClass: AdmobPlugin
+
+dependencies:
+  flutter:
+    sdk: flutter

@@ -1,0 +1,23 @@
+name: flutter_built_redux_hooks
+description: Set of hooks that provide or connect to your redux store
+version: 0.1.2
+author: Michael Braunbeck <smillgit@gmail.com>
+homepage: https://github.com/smiLLe/flutter_built_redux_hooks
+
+environment:
+  sdk: ">=2.0.0-dev.68.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  built_redux: ^7.5.2
+  flutter_hooks: ^0.2.1
+  provider: ^1.3.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  build_runner: ^1.0.0
+  built_value_generator: ^6.0.0
+  built_value_test: ^6.3.0
+  pedantic: ^1.4.0

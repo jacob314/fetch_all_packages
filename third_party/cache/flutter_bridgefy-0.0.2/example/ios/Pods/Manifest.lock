@@ -1,0 +1,29 @@
+PODS:
+  - BFTransmitter (0.1.32)
+  - Flutter (1.0.0)
+  - flutter_bridgefy (0.0.2):
+    - BFTransmitter (= 0.1.32)
+    - Flutter
+
+DEPENDENCIES:
+  - Flutter (from `.symlinks/flutter/ios`)
+  - flutter_bridgefy (from `.symlinks/plugins/flutter_bridgefy/ios`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - BFTransmitter
+
+EXTERNAL SOURCES:
+  Flutter:
+    :path: ".symlinks/flutter/ios"
+  flutter_bridgefy:
+    :path: ".symlinks/plugins/flutter_bridgefy/ios"
+
+SPEC CHECKSUMS:
+  BFTransmitter: e1c9c1f504dfb138502a9a8a9f17c1ebf85a8c15
+  Flutter: 9d0fac939486c9aba2809b7982dfdbb47a7b0296
+  flutter_bridgefy: 3e69bd57cbad64f5f290b5c19937e15018a94fae
+
+PODFILE CHECKSUM: 1e5af4103afd21ca5ead147d7b81d06f494f51a2
+
+COCOAPODS: 1.5.3

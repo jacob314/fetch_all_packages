@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "925926844811",
+    "firebase_url": "https://co-reading.firebaseio.com",
+    "project_id": "co-reading",
+    "storage_bucket": "co-reading.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:925926844811:android:3de6f8232a4f6ad6",
+        "android_client_info": {
+          "package_name": "net.ohze.coreading"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "925926844811-k5jfa4ku03evom371tg39dm3ap4shib2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAMP6I6b4aYdasvzxRw3Ekrhm4B1JXx8Jo"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

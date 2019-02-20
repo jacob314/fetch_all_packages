@@ -1,0 +1,17 @@
+name: fbsdk
+description: Facebook SDK for flutter.
+version: 0.0.2
+author: Nam Dam <namqdam@gmail.com>
+homepage: https://github.com/namqdam/fbsdk_flutter
+
+dependencies:
+  flutter:
+    sdk: flutter
+    
+flutter:
+  plugin:
+    androidPackage: com.namqdam.fbsdk
+    pluginClass: FbsdkPlugin
+
+environment:
+    sdk: ">=1.8.0 <2.0.0"

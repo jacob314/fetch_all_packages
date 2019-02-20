@@ -1,0 +1,21 @@
+name: flutter_introduction_tooltip
+description: A new Flutter plugin to show introduction tooltip for first time app open
+version: 0.0.3
+author: Angga Dwi Arifandi <anggadwiarifandi96@gmail.com>
+homepage: https://github.com/blackmenthor/flutter-introduction-tooltip
+
+environment:
+  sdk: ">=2.0.0-dev.68.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+# For information on the generic Dart part of this file, see the
+# following page: https://www.dartlang.org/tools/pub/pubspec
+
+# The following section is specific to Flutter.
+flutter:
+  plugin:
+    androidPackage: com.anggach.flutterintroductiontooltip
+    pluginClass: FlutterIntroductionTooltipPlugin

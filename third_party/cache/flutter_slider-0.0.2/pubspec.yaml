@@ -1,0 +1,21 @@
+name: flutter_slider
+description: A simple carousel slider for personal use on flutter projects
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/1.png
+    - assets/2.png
+    - assets/3.png
+
+author: Alvin Lee <alvinlee001@live.com.my>
+homepage: https://github.com/alvinlee001/page-transformer
+version: 0.0.2

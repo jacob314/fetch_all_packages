@@ -1,0 +1,12 @@
+name: virgil
+description: A simple navigator assistant that allows for passing data to routes
+version: 0.8.1
+author: Miyoyo <smartandroidtv95@gmail.com>
+homepage: https://github.com/miyoyo/Virgil
+
+environment:
+  sdk: ">=2.0.0-dev.68.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter

@@ -1,0 +1,31 @@
+PODS:
+  - background_location_updates (0.0.1):
+    - Flutter
+    - SQLite.swift (~> 0.11.5)
+  - Flutter (1.0.0)
+  - SQLite.swift (0.11.5):
+    - SQLite.swift/standard (= 0.11.5)
+  - SQLite.swift/standard (0.11.5)
+
+DEPENDENCIES:
+  - background_location_updates (from `.symlinks/plugins/background_location_updates/ios`)
+  - Flutter (from `.symlinks/flutter/ios`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - SQLite.swift
+
+EXTERNAL SOURCES:
+  background_location_updates:
+    :path: ".symlinks/plugins/background_location_updates/ios"
+  Flutter:
+    :path: ".symlinks/flutter/ios"
+
+SPEC CHECKSUMS:
+  background_location_updates: 56cfc6d33e4619b86d4e893e85d854ee21f00d84
+  Flutter: 9d0fac939486c9aba2809b7982dfdbb47a7b0296
+  SQLite.swift: 6e5356850bb1791459f8c16d6ee9195b28714a2e
+
+PODFILE CHECKSUM: a3f7d17d76c38233b031d9524ecc30430c355c69
+
+COCOAPODS: 1.5.3

@@ -1,0 +1,7 @@
+// This is a generated file; do not edit or check into version control.
+FLUTTER_ROOT=/home/kwuan/flutter
+FLUTTER_APPLICATION_PATH=/home/mountdisk/home/benz/PUTHY/imake_project/proof_of_concept/Flutter/my_batt_level_kotlin_swift/example
+FLUTTER_TARGET=lib/main.dart
+FLUTTER_BUILD_DIR=build
+SYMROOT=${SOURCE_ROOT}/../build/ios
+FLUTTER_FRAMEWORK_DIR=/home/kwuan/flutter/bin/cache/artifacts/engine/ios

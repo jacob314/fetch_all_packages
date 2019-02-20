@@ -1,0 +1,12 @@
+.DS_Store
+.dart_tool/
+
+.idea
+.packages
+.pub/
+pubspec.lock
+.idea/vcs.xml
+.idea/workspace.xml
+
+
+build/

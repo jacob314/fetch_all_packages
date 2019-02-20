@@ -1,0 +1,17 @@
+name: connectivity_status
+version: 0.1.2
+description: A flutter plugin to check the device connectivity.
+author: Erick Ghaumez <erick@rxla.bz>
+homepage: https://github.com/rxlabz/connectivity_status
+
+flutter:
+  plugin:
+    androidPackage: bz.rxla.flutter.connectivity_status
+    pluginClass: ConnectivityStatusPlugin
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+environment:
+  sdk: ">=1.8.0 <2.0.0"

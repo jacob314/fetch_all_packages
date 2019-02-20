@@ -1,0 +1,16 @@
+name: fluttery_dart2
+description: Flutter package that helps with prototyping. (but you know for dart 2... will not be useful once dude updates his package...)
+version: 0.0.9
+author: Matt Carroll <fluttery.io@gmail.com>, Matt Clark <mclark4386@gmail.com>
+homepage: https://github.com/mclark4386/fluttery
+
+environment:
+  sdk: ">=2.0.0-dev.68.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  meta: ^1.1.6
+
+dev_dependencies:
+  test: ^1.3.3

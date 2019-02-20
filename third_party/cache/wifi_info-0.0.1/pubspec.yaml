@@ -1,0 +1,18 @@
+name: wifi_info
+description: Flutter plugin providing WiFi Info.
+author: Liu Yang <once10301@gmail.com>
+homepage: https://github.com/once10301/wifi_info
+version: 0.0.1
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+flutter:
+  plugin:
+    androidPackage: com.ly.wifiinfo
+    pluginClass: WifiInfoPlugin
+
+environment:
+  sdk: ">=2.0.0-dev.28.0 <3.0.0"
+  flutter: ">=0.1.4 <2.0.0"

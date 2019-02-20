@@ -1,0 +1,60 @@
+group 'com.example.flutterfolioreader'
+version '1.0-SNAPSHOT'
+
+buildscript {
+    ext.kotlin_version = '1.2.71'
+    repositories {
+        google()
+        jcenter()
+        mavenLocal()
+    }
+
+    dependencies {
+        classpath 'com.android.tools.build:gradle:3.2.1'
+        classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlin_version"
+    }
+}
+
+rootProject.allprojects {
+    repositories {
+        maven { url "http://repo.bennuoc.com/repository/maven-snapshots/" }
+        google()
+        jcenter()
+        maven { url "https://dl.bintray.com/mobisystech/maven" }
+        maven { url "https://jitpack.io" }
+        mavenLocal()
+    }
+}
+
+apply plugin: 'com.android.library'
+apply plugin: 'kotlin-android'
+
+android {
+    compileSdkVersion 28
+
+    sourceSets {
+        main.java.srcDirs += 'src/main/kotlin'
+    }
+    defaultConfig {
+        minSdkVersion 19
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+    }
+    lintOptions {
+        disable 'InvalidPackage'
+    }
+}
+
+configurations.all {
+    // check for updates every build
+    resolutionStrategy.cacheChangingModulesFor 0, 'seconds'
+}
+
+dependencies {
+    implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
+//    implementation files('libs/folioreader-release.aar')
+//    implementation "com.folioreader:folioreader:0.5.2-SNAPSHOT"
+    implementation "com.folioreader:folioreader:67574f4-SNAPSHOT"
+//    implementation('com.github.dichnd:FolioReader-Android:master-SNAPSHOT') {
+//        changing = true
+//    }
+}

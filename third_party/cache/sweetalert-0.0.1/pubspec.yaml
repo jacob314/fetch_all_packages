@@ -1,0 +1,19 @@
+name: sweetalert
+description: sweet alert for flutter.
+version: 0.0.1
+author: JZoom <jzoom8112@gmail.com>
+homepage: https://github.com/jzoom/sweetalert
+
+environment:
+  sdk: ">=2.0.0-dev.68.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_sequence_animation: any
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:

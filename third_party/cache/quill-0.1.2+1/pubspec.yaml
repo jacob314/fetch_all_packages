@@ -1,0 +1,21 @@
+name: quill
+description: A lightweight game engine, that keeps your game simple by only using feathers and quills!
+version: 0.1.2+1
+author: Eric Wagner <eric@attict.net>
+homepage: https://github.com/Attict/Quill
+
+environment:
+  sdk: ">=2.0.0-dev.68.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  plugin:
+    androidPackage: com.example.quill
+    pluginClass: QuillPlugin

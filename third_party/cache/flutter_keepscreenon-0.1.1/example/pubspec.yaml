@@ -1,0 +1,12 @@
+name: flutter_keepscreenon_example
+description: Demonstrates how to use the flutter_keepscreenon plugin.
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  flutter_keepscreenon:
+    path: ../
+
+flutter:
+  uses-material-design: true

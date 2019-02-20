@@ -1,0 +1,19 @@
+name: ui_state_persist
+description: Persists the UI state after app is killed.
+version: 0.0.1
+author: LucasAppCo <mail@lucasappco.com>
+homepage: https://github.com/lucaslcode/ui_state_persist
+
+environment:
+  sdk: ">=2.0.0-dev.68.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  path_provider: ^0.4.1
+  path: ^1.6.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+flutter:

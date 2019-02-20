@@ -1,0 +1,22 @@
+name: sum_up_plugin
+description: A new Flutter plugin.
+version: 0.0.4
+authors:
+  - Jacquot Jean-Paul <jp.jacquot@gmail.com>
+  - Courivaud Raphaël <r.courivaud@gmail.com>
+homepage: http://www.github.com
+
+environment:
+  sdk: ">=2.0.0-dev.68.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  http: ^0.11.3
+  flutter_webview_plugin: ^0.3.0
+  shared_preferences: ^0.4.2
+
+flutter:
+  plugin:
+    androidPackage: courivaud.com.sumupplugin
+    pluginClass: SumUpPlugin

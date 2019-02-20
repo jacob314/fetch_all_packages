@@ -1,0 +1,15 @@
+name: example
+description: A progress_hud example
+
+dependencies:
+  flutter:
+    sdk: flutter
+  progress_hud_v2:
+    path: ../
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true

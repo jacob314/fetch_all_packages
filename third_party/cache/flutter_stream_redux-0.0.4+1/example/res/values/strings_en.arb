@@ -1,0 +1,11 @@
+{
+  "manual_stream_connection": "Manual stream connection",
+  "start_stream": "Start stream",
+  "stop_stream": "Stop stream",
+  "automatic_stream_connection": "Automatic stream connection",
+  "interval_milliseconds": "Interval: $durationInMilliseconds milliseconds",
+  "stop_the_stream": "Stop the stream first.",
+  "automatic_explanation": "We start listening to the stream when the Widget in on page and we close the connection when the Widget is disposed.",
+  "manually_explanation": "We are manually registering to the stream on button press.",
+  "now_text": "Now: $now"
+}

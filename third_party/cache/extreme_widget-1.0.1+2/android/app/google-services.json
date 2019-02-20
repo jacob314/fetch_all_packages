@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "308620594729",
+    "firebase_url": "https://anagata-monitor-app.firebaseio.com",
+    "project_id": "anagata-monitor-app",
+    "storage_bucket": "anagata-monitor-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:308620594729:android:43756c6668369ca5",
+        "android_client_info": {
+          "package_name": "id.anagatadev.monitoringapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "308620594729-t35fdi8s6fd8erijevnfhls95ddi071v.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDqyh1kyfqdt6iSgTeaB6_C_Dy9TAv4Pvk"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

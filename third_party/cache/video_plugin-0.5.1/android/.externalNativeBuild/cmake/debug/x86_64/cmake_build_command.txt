@@ -1,0 +1,21 @@
+Executable : /Users/yurikomlev/Library/Android/sdk/cmake/3.10.2.4988404/bin/cmake
+arguments : 
+-H/Users/yurikomlev/android_github/plugins/video/video_plugin/android
+-B/Users/yurikomlev/android_github/plugins/video/video_plugin/android/.externalNativeBuild/cmake/debug/x86_64
+-DANDROID_ABI=x86_64
+-DANDROID_PLATFORM=android-16
+-DCMAKE_LIBRARY_OUTPUT_DIRECTORY=/Users/yurikomlev/android_github/plugins/video/video_plugin/example/build/video_plugin/intermediates/cmake/debug/obj/x86_64
+-DCMAKE_BUILD_TYPE=Debug
+-DANDROID_NDK=/Users/yurikomlev/Library/Android/sdk/ndk-bundle
+-DCMAKE_CXX_FLAGS=-std=c++11 -frtti -fexceptions
+-DCMAKE_SYSTEM_NAME=Android
+-DCMAKE_ANDROID_ARCH_ABI=x86_64
+-DCMAKE_SYSTEM_VERSION=16
+-DCMAKE_EXPORT_COMPILE_COMMANDS=ON
+-DCMAKE_ANDROID_NDK=/Users/yurikomlev/Library/Android/sdk/ndk-bundle
+-DCMAKE_TOOLCHAIN_FILE=/Users/yurikomlev/Library/Android/sdk/ndk-bundle/build/cmake/android.toolchain.cmake
+-G Ninja
+-DCMAKE_MAKE_PROGRAM=/Users/yurikomlev/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja
+-DANDROID_ARM_NEON=TRUE -DANDROID_PLATFORM=android-16 -DMEASURE_TIME=TRUE
+jvmArgs : 
+

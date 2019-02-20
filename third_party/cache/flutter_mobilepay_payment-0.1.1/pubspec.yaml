@@ -1,0 +1,17 @@
+name: flutter_mobilepay_payment
+description: A Flutter plugin for integrating Scandinavian payment provider MobilePay.
+version: 0.1.1
+author: Kristoffer Vinther <kristoffer@zliide.com>
+homepage: https://github.com/zliide/flutter_mobilepay_payment
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+flutter:
+  plugin:
+    androidPackage: io.flutter.fluttermobilepaypayment
+    pluginClass: FlutterMobilepayPaymentPlugin
+
+environment:
+  sdk: ">=2.0.0-dev.28.0 <3.0.0"

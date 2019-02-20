@@ -1,0 +1,18 @@
+name: bflutter
+description: BeeSight Soft Flutter core
+version: 0.0.3
+author: BeeSight Soft <info@beesightsoft.com>
+homepage: https://github.com/beesightsoft/bflutter
+
+environment:
+  sdk: ">=2.0.0-dev.68.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  rxdart: ^0.19.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+

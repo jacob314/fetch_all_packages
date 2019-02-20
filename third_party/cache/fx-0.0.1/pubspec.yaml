@@ -1,0 +1,18 @@
+name: fx
+description: Library of fx widgets for Flutter
+version: 0.0.1
+author: Matt Sullivan <matt.j.sullivan@gmail.com>
+homepage: https://github.com/mjohnsullivan/flutter-fx
+
+environment:
+  sdk: ">=2.0.0-dev.68.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:

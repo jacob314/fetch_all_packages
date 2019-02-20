@@ -1,0 +1,19 @@
+name: barometer_test_publish
+description: Measure the air pressure of your surrounding environment.
+version: 0.0.1
+author: Andrew Brogdon <redbrogdon@google.com>
+homepage: https://github.com/RedBrogdon/barometer
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+environment:
+  sdk: '>=1.19.0 <2.1.0'
+  flutter: '>=0.1.0 <2.0.0'
+
+# The following section is specific to Flutter.
+flutter:
+  plugin:
+    androidPackage: io.flutter.barometer
+    pluginClass: BarometerPlugin

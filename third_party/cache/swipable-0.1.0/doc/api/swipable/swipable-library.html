@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="swipable library API docs, for the Dart programming language.">
+  <title>swipable library - Dart API</title>
+  <!-- required because all the links are pseudo-absolute -->
+  <base href="..">
+
+  <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:500,400i,400,300|Source+Sans+Pro:400,300,700" rel="stylesheet">
+  <link rel="stylesheet" href="static-assets/github.css">
+  <link rel="stylesheet" href="static-assets/styles.css">
+  <link rel="icon" href="static-assets/favicon.png">
+
+</head>
+
+<body>
+
+<div id="overlay-under-drawer"></div>
+
+<header id="title">
+  <button id="sidenav-left-toggle" type="button">&nbsp;</button>
+  <ol class="breadcrumbs gt-separated dark hidden-xs">
+    <li><a href="index.html">swipable</a></li>
+    <li class="self-crumb">swipable library</li>
+  </ol>
+  <div class="self-name">swipable</div>
+  <form class="search navbar-right" role="search">
+    <input type="text" id="search-box" autocomplete="off" disabled class="form-control typeahead" placeholder="Loading search...">
+  </form>
+</header>
+
+<main>
+
+  <div class="col-xs-6 col-sm-3 col-md-2 sidebar sidebar-offcanvas-left">
+    <h5><span class="package-name">swipable</span> <span class="package-kind">package</span></h5>
+    <ol>
+          <li class="section-title">Libraries</li>
+          <li><a href="swipable/swipable-library.html">swipable</a></li>
+    </ol>
+  </div>
+
+  <div class="col-xs-12 col-sm-9 col-md-8 main-content">
+    <h1>swipable library</h1>
+
+    <section class="desc markdown">
+      <h1>Swipable</h1>
+<p>Widget that can be animated in response to gestures, and calls event
+handlers with custom swipe/flick gestures are detected. Animations and
+gesture detection are parameterized.</p>
+<p><a href="swipable/Swipable-class.html">Swipable</a> is the only new <code>Widget</code> in this library, and accepts a <code>child</code>
+that can be animated with a <code>Transform.scale</code>, <code>Transform.translate</code>,
+<code>Transform.rotate</code> or <code>Opacity</code> as defined by user functions.</p>
+<h2>Animation</h2>
+<p>Animation tween functions receive a <a href="swipable/SwipableInfo-class.html">SwipableInfo</a> containing:</p><ul><li><code>position</code> the current location of the pointer along the x-axis</li><li><code>startPosition</code> the location of the pointer along the x-axis when the
+gesture was initiated</li><li><code>lastPosition</code> the previous location of the pointer along the x-axis</li><li><code>contextWidth</code> the width of the provided <code>BuildContext</code>, used to
+ calculate fractional values</li><li><code>fractionalPosition</code> the fraction of <code>contextWidth</code> represented by
+<code>position</code></li><li><code>delta</code> the difference between <code>pointer</code> and <code>startPosition</code></li><li><code>fractionalDelta</code> the fraction of <code>contextWidth</code> represented by
+<code>delta</code></li><li><code>velocity</code> the difference between <code>pointer</code> and <code>lastPosition</code></li><li><code>fractionalVelocity</code> the fraction of <code>contextWidth</code> represented by
+<code>velocity</code></li></ul>
+<p>Tween functions should not modify the <a href="swipable/SwipableInfo-class.html">SwipableInfo</a> state they consume,
+though this is still allowed for simpler code and to allow for advanced
+customization (especially with altering <code>startPosition</code>).</p>
+<p>The <code>tweenOpacity</code>, <code>tweenRotation</code>, and <code>tweenScale</code> functions should
+yield <code>double</code>s. The <code>tweenTranslation</code> function should yield an <code>Offset</code>.</p>
+<h2>Gesture Detection</h2>
+<p>The <code>onSwipe</code> and <code>onFling</code> event handler callback functions receive the
+<a href="swipable/SwipableInfo-class.html">SwipableInfo</a> state and the <code>DragEndDetails</code> and yield a <code>bool</code> that can be
+used by <code>onFling</code> to cancel calling <code>onSwipe</code> if it yields <code>false</code>. These
+event handlers are typically used to alter the <code>child</code> parameter. Simply
+put, <code>onFling</code> will be called upon drag end if it meets the fling-related
+parameters, and <code>onSwipe</code> will be called on drag end unless <code>onFling</code> yields
+<code>false</code>.</p><ul><li><code>maxFlingVelocity</code> is the greatest (inclusive) <code>velocity</code> of the
+<code>DragEndDetails</code> that will result in the <code>onFling</code> event handler being
+called.</li><li><code>minFlingDistance</code> is the smallest (inclusive) <code>delta</code> of the
+<a href="swipable/SwipableInfo-class.html">SwipableInfo</a> that will result in the <code>onFling</code> event handler being
+called.</li><li><code>minFlingVelocity</code> is the smallest (inclusive) <code>velocity</code> of the
+<code>DragEndDetails</code> that will result in the <code>onFling</code> event handler being
+called.</li></ul>
+    </section>
+    
+    <section class="summary offset-anchor" id="classes">
+      <h2>Classes</h2>
+
+      <dl>
+        <dt id="Swipable">
+          <span class="name "><a href="swipable/Swipable-class.html">Swipable</a></span>
+        </dt>
+        <dd>
+          Widget in <a href="swipable/Swipable-class.html">Swipable</a> library, detects gestures and calls event handlers.
+        </dd>
+        <dt id="SwipableInfo">
+          <span class="name "><a href="swipable/SwipableInfo-class.html">SwipableInfo</a></span>
+        </dt>
+        <dd>
+          
+        </dd>
+      </dl>
+    </section>
+
+
+
+
+
+    <section class="summary offset-anchor" id="typedefs">
+      <h2>Typedefs</h2>
+
+      <dl class="callables">
+        <dt id="SwipableCallbackFunction" class="callable">
+          <span class="name"><a href="swipable/SwipableCallbackFunction.html">SwipableCallbackFunction</a></span><span class="signature">(<wbr><span class="parameter" id="SwipableCallbackFunction-param-swipe"><span class="type-annotation"><a href="swipable/SwipableInfo-class.html">SwipableInfo</a></span> <span class="parameter-name">swipe</span>, </span> <span class="parameter" id="SwipableCallbackFunction-param-event"><span class="type-annotation">DragEndDetails</span> <span class="parameter-name">event</span></span>)
+            <span class="returntype parameter">&#8594; bool</span>
+          </span>
+        </dt>
+        <dd>
+          
+          
+</dd>
+        <dt id="SwipableTweenDoubleFunction" class="callable">
+          <span class="name"><a href="swipable/SwipableTweenDoubleFunction.html">SwipableTweenDoubleFunction</a></span><span class="signature">(<wbr><span class="parameter" id="SwipableTweenDoubleFunction-param-swipe"><span class="type-annotation"><a href="swipable/SwipableInfo-class.html">SwipableInfo</a></span> <span class="parameter-name">swipe</span></span>)
+            <span class="returntype parameter">&#8594; double</span>
+          </span>
+        </dt>
+        <dd>
+          
+          
+</dd>
+        <dt id="SwipableTweenOffsetFunction" class="callable">
+          <span class="name"><a href="swipable/SwipableTweenOffsetFunction.html">SwipableTweenOffsetFunction</a></span><span class="signature">(<wbr><span class="parameter" id="SwipableTweenOffsetFunction-param-swipe"><span class="type-annotation"><a href="swipable/SwipableInfo-class.html">SwipableInfo</a></span> <span class="parameter-name">swipe</span></span>)
+            <span class="returntype parameter">&#8594; Offset</span>
+          </span>
+        </dt>
+        <dd>
+          
+          
+</dd>
+      </dl>
+    </section>
+
+
+  </div> <!-- /.main-content -->
+
+  <div class="col-xs-6 col-sm-6 col-md-2 sidebar sidebar-offcanvas-right">
+    <h5>swipable library</h5>
+    <ol>
+      <li class="section-title"><a href="swipable/swipable-library.html#classes">Classes</a></li>
+      <li><a href="swipable/Swipable-class.html">Swipable</a></li>
+      <li><a href="swipable/SwipableInfo-class.html">SwipableInfo</a></li>
+    
+    
+    
+    
+    
+      <li class="section-title"><a href="swipable/swipable-library.html#typedefs">Typedefs</a></li>
+      <li><a href="swipable/SwipableCallbackFunction.html">SwipableCallbackFunction</a></li>
+      <li><a href="swipable/SwipableTweenDoubleFunction.html">SwipableTweenDoubleFunction</a></li>
+      <li><a href="swipable/SwipableTweenOffsetFunction.html">SwipableTweenOffsetFunction</a></li>
+    
+    </ol>
+  </div><!--/sidebar-offcanvas-right-->
+
+</main>
+
+<footer>
+  <span class="no-break">
+    swipable 0.0.4
+  </span>
+
+</footer>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="static-assets/typeahead.bundle.min.js"></script>
+<script src="static-assets/highlight.pack.js"></script>
+<script src="static-assets/URI.js"></script>
+<script src="static-assets/script.js"></script>
+
+
+</body>
+
+</html>

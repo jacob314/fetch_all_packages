@@ -1,0 +1,27 @@
+name: flame
+description: A minimalist Flutter game engine, provides a nice set of somewhat independent modules you can choose from.
+version: 0.10.2
+author: Luan Nico <luannico27@gmail.com>
+homepage: https://github.com/luanpotter/flame
+
+flutter:
+  uses-material-design: false
+
+dependencies:
+  flutter:
+    sdk: flutter
+  audioplayers: ^0.7.7
+  ordered_set: ^1.1.2
+  path_provider: ^0.4.1
+  box2d_flame: ^0.4.2
+  synchronized: ^1.5.1+1
+  tiled: ^0.2.0
+  convert: ^2.0.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  test: ^1.5.1+1
+
+environment:
+  sdk: ">=2.0.0-dev.50.0 <3.0.0"

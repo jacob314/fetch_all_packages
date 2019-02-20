@@ -1,0 +1,16 @@
+name: boxed_vertical_seekbar
+description: A vertical SeekBar build on two [SizedBox] with versatile appearance.
+version: 1.0.1
+author: Nick Panagopoulos <panagopnick@gmail.com>
+homepage: https://github.com/npanagop/flutter_boxed_vertical_seekbar
+
+environment:
+  sdk: ">=2.0.0-dev.68.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter

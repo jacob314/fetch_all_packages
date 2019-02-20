@@ -1,0 +1,22 @@
+os: osx
+language: generic
+osx_image: xcode10.1
+before_script:
+- git clone https://github.com/flutter/flutter.git -b beta
+- export PATH=$PATH:`pwd`/flutter/bin
+script:
+- flutter doctor
+- flutter packages get
+- flutter test
+deploy:
+  provider: script
+  script:
+    - flutter test
+  on:
+    tags: true
+cache:
+  directories:
+  - "$HOME/.pub-cache"
+notifications:
+  slack:
+    secure: fesO5G0vNPcFo5E3sEMr21owxcKvnIuFStvmSZ5k1b1GFa23/PvXFQIFGsmcF+Y1x4kq3ZFyXQKXWkDnrBFGfzBmP6NVbOe+XT/mRbcGEpaH3K5s+W5tiBdD51BB26Zh1cm2XZfBJD5M7YNBVVI69Fq9TCiWCaCQp+0n2UnxpBgBI5oBem9ED3fJJDg4HgWbbRB2PrU1YsTDc6VoQFkBspuDkTYO7cNXID7HBn4Xk3+KwlrBrqO3oNmUs2jWL6CLTjSuKydkf588y4rcI7g9uG0BlrD5iV7x+G6b4Vopr8QPwgdHAlVO14BUntUcJU0HFkx6XhixfFbSFTOLqyVmUvm1w0DoRFYikHiUIw1rsa8C+Yv9XsqabYO2WQW/ed3mXErxb9EBmV6h6JD5x0uSWNTG5PY9ICccAbLAlyv8b6pRlEAUp1sXA/EkLoawJ6NgfYNAiKwuA8onct47JVPJhPRW7ib8mZlk51HRa1Rm45t+43A2T2QcJjB6oSpNNh+oDlrwX4RpCErY6EZpIARFuY0YM6gnLSBuJB6Llfsx0y2Z2CYfnY/J2ud3eb0X8WwJRuruuOu5jRv4RGpZxHtkdTp/AEienbqsUa6pDDrtO2GE1zsqy3+ryMOhlcnKoT2LJF+NUBNdKJS53xQmrkAj4gS3oosV1IP9OvZQfhXWk6Q=

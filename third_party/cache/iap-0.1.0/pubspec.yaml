@@ -1,0 +1,23 @@
+name: iap
+description: Flutter plugin for integrating in-app purchases on iOS (StoreKit) and Android (PlayBilling).
+version: 0.1.0
+author: Anatoly Pulyaevskiy <anatoly.pulyaevskiy@gmail.com>
+homepage: https://github.com/memspace/iap
+
+environment:
+  sdk: ">=2.0.0-dev.68.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  test: ^1.5.1
+
+# The following section is specific to Flutter.
+flutter:
+  plugin:
+    androidPackage: io.memspace.flutter.iap
+    pluginClass: IapPlugin

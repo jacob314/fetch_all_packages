@@ -1,0 +1,19 @@
+name: ntp
+description: Fetch accurate time or current DateTime object from (NTP) Network Time Protocol server.
+version: 1.0.2
+author: Luka Knezic <luka.knezic@gmail.com>
+homepage: https://github.com/knezzz/ntp
+
+flutter:
+  uses-material-design: false
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+environment:
+  sdk: ">=1.19.0 <3.0.0"

@@ -1,0 +1,22 @@
+PODS:
+  - Flutter (1.0.0)
+  - proximity_plugin (0.0.1):
+    - Flutter
+
+DEPENDENCIES:
+  - Flutter (from `/Users/manojn/Documents/flutter/bin/cache/artifacts/engine/ios`)
+  - proximity_plugin (from `/Users/manojn/Sites/manoj/proximity_plugin/ios`)
+
+EXTERNAL SOURCES:
+  Flutter:
+    :path: "/Users/manojn/Documents/flutter/bin/cache/artifacts/engine/ios"
+  proximity_plugin:
+    :path: "/Users/manojn/Sites/manoj/proximity_plugin/ios"
+
+SPEC CHECKSUMS:
+  Flutter: 9d0fac939486c9aba2809b7982dfdbb47a7b0296
+  proximity_plugin: 9b49095acd39788cd9b7138ba979a48feb50a9f4
+
+PODFILE CHECKSUM: 351e02e34b831289961ec3558a535cbd2c4965d2
+
+COCOAPODS: 1.5.3

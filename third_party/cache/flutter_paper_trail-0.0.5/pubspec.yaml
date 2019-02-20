@@ -1,0 +1,25 @@
+name: flutter_paper_trail
+description: A new flutter plugin project.
+version: 0.0.5
+authors:
+ - Lumen Team <support@lumen.me>
+homepage: https://github.com/metaflowltd/flutter_paper_trail
+
+dependencies:
+  meta: "^1.0.5"
+  flutter:
+    sdk: flutter
+
+# For information on the generic Dart part of this file, see the
+# following page: https://www.dartlang.org/tools/pub/pubspec
+
+# The following section is specific to Flutter.
+flutter:
+  plugin:
+    androidPackage: com.metaflow.flutterpapertrail
+    pluginClass: FlutterPaperTrailPlugin
+
+
+environment:
+  sdk: ">=2.0.0-dev.28.0 <3.0.0"
+  flutter: ">=0.1.4 <2.0.0"

@@ -1,0 +1,27 @@
+name: rebloc
+description: |
+  A state management library for Flutter that combines aspects of
+  Redux and BLoC. Rebloc uses streams and BLoCs to compose
+  middleware and reducers.
+
+version: 0.2.1
+author: Andrew Brogdon <brogdon+github@gmail.com>
+homepage: https://github.com/redbrogdon/rebloc
+
+dependencies:
+
+  rxdart: ^0.18.1
+  meta: ^1.1.5
+
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  test: ^1.5.1
+  flutter_test:
+    sdk: flutter
+
+environment:
+  sdk: '>=2.0.0 <3.0.0'
+
+flutter:

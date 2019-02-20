@@ -1,0 +1,24 @@
+{
+  "buildFiles": [
+    "/Users/yurikomlev/android_github/plugins/video/video_plugin/android/../../../../../Library/Android/sdk/ndk-bundle/build/cmake/android.toolchain.cmake",
+    "/Users/yurikomlev/android_github/plugins/video/video_plugin/android/CMakeLists.txt",
+    "/Users/yurikomlev/android_github/plugins/video/video_plugin/android/../../../../../Library/Android/sdk/ndk-bundle/build/cmake/platforms.cmake"
+  ],
+  "cleanCommands": [
+    "/Users/yurikomlev/Library/Android/sdk/cmake/3.10.2.4988404/bin/cmake --build /Users/yurikomlev/android_github/plugins/video/video_plugin/android/.externalNativeBuild/cmake/debug/x86_64 --target clean"
+  ],
+  "libraries": {
+    "videocreator-Debug-x86_64": {
+      "artifactName": "videocreator",
+      "buildCommand": "/Users/yurikomlev/Library/Android/sdk/cmake/3.10.2.4988404/bin/cmake --build /Users/yurikomlev/android_github/plugins/video/video_plugin/android/.externalNativeBuild/cmake/debug/x86_64 --target videocreator",
+      "abi": "x86_64",
+      "output": "/Users/yurikomlev/android_github/plugins/video/video_plugin/example/build/video_plugin/intermediates/cmake/debug/obj/x86_64/libvideocreator.so"
+    },
+    "yuv-Debug-x86_64": {
+      "artifactName": "yuv",
+      "buildCommand": "/Users/yurikomlev/Library/Android/sdk/cmake/3.10.2.4988404/bin/cmake --build /Users/yurikomlev/android_github/plugins/video/video_plugin/android/.externalNativeBuild/cmake/debug/x86_64 --target yuv",
+      "abi": "x86_64",
+      "output": "/Users/yurikomlev/android_github/plugins/video/video_plugin/example/build/video_plugin/intermediates/cmake/debug/obj/x86_64/libyuv.so"
+    }
+  }
+}

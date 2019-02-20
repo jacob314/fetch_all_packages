@@ -1,0 +1,246 @@
+Index: lib/src/carousel_pro.dart
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>import 'dart:math';\nimport 'package:flutter/material.dart';\n\nclass Carousel extends StatefulWidget {\n  //All the images on this Carousel.\n  final List images;\n\n  //The transition animation timing curve. Default is [Curves.ease]\n  final Curve animationCurve;\n\n  //The transition animation duration. Default is 300ms.\n  final Duration animationDuration;\n\n  // The base size of the dots. Default is 8.0\n  final double dotSize;\n\n  // The increase in the size of the selected dot. Default is 2.0\n  final double dotIncreaseSize;\n\n  // The distance between the center of each dot. Default is 25.0\n  final double dotSpacing;\n\n  // The Color of each dot. Default is Colors.white\n  final Color dotColor;\n\n  // The background Color of the dots. Default is [Colors.grey[800].withOpacity(0.5)]\n  final Color dotBgColor;\n\n  // Enable or Disable the indicator (dots). Default is true\n  final bool showIndicator;\n\n  //Padding Size of the background Indicator. Default is 20.0\n  final double indicatorBgPadding;\n\n  //How to show the images in the box. Default is cover\n  final BoxFit boxFit;\n\n  //Enable/Disable radius Border for the images. Default is false\n  final bool borderRadius;\n\n  //Border Radius of the images. Default is [Radius.circular(8.0)]\n  final Radius radius;\n\n  //Move the Indicator From the Bottom\n  final double moveIndicatorFromBottom;\n\n  //Remove the radius bottom from the indicator background. Default false\n  final bool noRadiusForIndicator;\n\n  //Enable/Disable Image Overlay Shadow. Default false\n  final bool overlayShadow;\n\n  //Choose the color of the overlay Shadow color. Default Colors.grey[800]\n  final Color overlayShadowColors;\n\n  //Choose the size of the Overlay Shadow, from 0.0 to 1.0. Default 0.5\n  final double overlayShadowSize;\n\n  Carousel({\n    this.images,\n    this.animationCurve = Curves.ease,\n    this.animationDuration = const Duration(milliseconds: 300),\n    this.dotSize = 8.0,\n    this.dotSpacing = 25.0,\n    this.dotIncreaseSize = 2.0,\n    this.dotColor = Colors.white,\n    this.dotBgColor,\n    this.showIndicator = true,\n    this.indicatorBgPadding = 20.0,\n    this.boxFit = BoxFit.cover,\n    this.borderRadius = false,\n    this.radius,\n    this.moveIndicatorFromBottom = 0.0,\n    this.noRadiusForIndicator = false,\n    this.overlayShadow = false,\n    this.overlayShadowColors,\n    this.overlayShadowSize = 0.5\n  }) :\n        assert(images != null),\n        assert(animationCurve != null),\n        assert(animationDuration != null),\n        assert(dotSize != null),\n        assert(dotSpacing != null),\n        assert(dotIncreaseSize != null),\n        assert(dotColor != null);\n\n  @override\n  State createState() => new CarouselState();\n}\n\nclass CarouselState extends State<Carousel> {\n\n  final _controller = new PageController();\n\n  @override\n  Widget build(BuildContext context) {\n    final List<Widget> listImages = widget.images.map(\n            (netImage) =>\n        new Container(\n          decoration: new BoxDecoration(\n              borderRadius: widget.borderRadius ? new BorderRadius.all(\n                  widget.radius != null ? widget.radius : new Radius.circular(8.0)\n              ) : null,\n              image: new DecorationImage(\n                //colorFilter: new ColorFilter.mode(Colors.black.withOpacity(0.2), BlendMode.dstATop),\n                image: netImage,\n                fit: BoxFit.cover,\n              )\n          ),\n          child: widget.overlayShadow ? new Container(\n            decoration: new BoxDecoration(\n              gradient: new LinearGradient(\n                begin: Alignment.bottomCenter,\n                end: Alignment.center,\n                stops: [0.0, widget.overlayShadowSize],\n                colors: [\n                  widget.overlayShadowColors != null ? widget.overlayShadowColors.withOpacity(1.0) : Colors.grey[800].withOpacity(1.0),\n                  widget.overlayShadowColors != null ? widget.overlayShadowColors.withOpacity(0.0) : Colors.grey[800].withOpacity(0.0)\n                ],\n              ),\n            ),\n          ) : new Container(),\n        )\n    ).toList();\n\n\n    return new Scaffold(\n      body: new Stack(\n        children: <Widget>[\n\n          new Container(\n            child: new PageView(\n              physics: new AlwaysScrollableScrollPhysics(),\n              controller: _controller,\n              children: listImages,\n            ),\n          ),\n\n          widget.showIndicator ? new Positioned(\n            bottom: widget.moveIndicatorFromBottom,\n            left: 0.0,\n            right: 0.0,\n            child: new Container(\n              decoration: new BoxDecoration(\n                color: widget.dotBgColor == null ? Colors.grey[800].withOpacity(0.5) : widget.dotBgColor,\n                borderRadius: widget.borderRadius ? (widget.noRadiusForIndicator ? null : new BorderRadius.only(\n                    bottomLeft: widget.radius != null ? widget.radius : new Radius.circular(8.0),\n                    bottomRight: widget.radius != null ? widget.radius : new Radius.circular(8.0)\n                )) : null,\n              ),\n              padding: new EdgeInsets.all(widget.indicatorBgPadding),\n              child: new Center(\n                child: new DotsIndicator(\n                  controller: _controller,\n                  itemCount: listImages.length,\n                  color: widget.dotColor,\n                  dotSize: widget.dotSize,\n                  dotSpacing: widget.dotSpacing,\n                  dotIncreaseSize: widget.dotIncreaseSize,\n                  onPageSelected: (int page) {\n                    _controller.animateToPage(\n                      page,\n                      duration: widget.animationDuration,\n                      curve: widget.animationCurve,\n                    );\n                  },\n                ),\n              ),\n            ),\n          ) : new Container(),\n\n        ],\n      ),\n    );\n  }\n}\n\n/// An indicator showing the currently selected page of a PageController\nclass DotsIndicator extends AnimatedWidget {\n  DotsIndicator({\n    this.controller,\n    this.itemCount,\n    this.onPageSelected,\n    this.color,\n    this.dotSize,\n    this.dotIncreaseSize,\n    this.dotSpacing\n  }) : super(listenable: controller);\n\n  // The PageController that this DotsIndicator is representing.\n  final PageController controller;\n\n  // The number of items managed by the PageController\n  final int itemCount;\n\n  // Called when a dot is tapped\n  final ValueChanged<int> onPageSelected;\n\n  // The color of the dots.\n  final Color color;\n\n  // The base size of the dots\n  final double dotSize;\n\n  // The increase in the size of the selected dot\n  final double dotIncreaseSize;\n\n  // The distance between the center of each dot\n  final double dotSpacing;\n\n  Widget _buildDot(int index) {\n    double selectedness = Curves.easeOut.transform(\n      max(\n        0.0,\n        1.0 - ((controller.page ?? controller.initialPage) - index).abs(),\n      ),\n    );\n    double zoom = 1.0 + (dotIncreaseSize - 1.0) * selectedness;\n    return new Container(\n      width: dotSpacing,\n      child: new Center(\n        child: new Material(\n          color: color,\n          type: MaterialType.circle,\n          child: new Container(\n            width: dotSize * zoom,\n            height: dotSize * zoom,\n            child: new InkWell(\n              onTap: () => onPageSelected(index),\n            ),\n          ),\n        ),\n      ),\n    );\n  }\n\n  Widget build(BuildContext context) {\n    return new Row(\n      mainAxisAlignment: MainAxisAlignment.center,\n      children: new List<Widget>.generate(itemCount, _buildDot),\n    );\n  }\n}\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- lib/src/carousel_pro.dart	(revision 852be3ff42becc0c0d31a83f45bdf96e30ddd661)
++++ lib/src/carousel_pro.dart	(date 1527243415000)
+@@ -56,27 +56,26 @@
+   //Choose the size of the Overlay Shadow, from 0.0 to 1.0. Default 0.5
+   final double overlayShadowSize;
+ 
+-  Carousel({
+-    this.images,
+-    this.animationCurve = Curves.ease,
+-    this.animationDuration = const Duration(milliseconds: 300),
+-    this.dotSize = 8.0,
+-    this.dotSpacing = 25.0,
+-    this.dotIncreaseSize = 2.0,
+-    this.dotColor = Colors.white,
+-    this.dotBgColor,
+-    this.showIndicator = true,
+-    this.indicatorBgPadding = 20.0,
+-    this.boxFit = BoxFit.cover,
+-    this.borderRadius = false,
+-    this.radius,
+-    this.moveIndicatorFromBottom = 0.0,
+-    this.noRadiusForIndicator = false,
+-    this.overlayShadow = false,
+-    this.overlayShadowColors,
+-    this.overlayShadowSize = 0.5
+-  }) :
+-        assert(images != null),
++  Carousel(
++      {this.images,
++      this.animationCurve = Curves.ease,
++      this.animationDuration = const Duration(milliseconds: 300),
++      this.dotSize = 8.0,
++      this.dotSpacing = 25.0,
++      this.dotIncreaseSize = 2.0,
++      this.dotColor = Colors.white,
++      this.dotBgColor,
++      this.showIndicator = true,
++      this.indicatorBgPadding = 20.0,
++      this.boxFit = BoxFit.cover,
++      this.borderRadius = false,
++      this.radius,
++      this.moveIndicatorFromBottom = 0.0,
++      this.noRadiusForIndicator = false,
++      this.overlayShadow = false,
++      this.overlayShadowColors,
++      this.overlayShadowSize = 0.5})
++      : assert(images != null),
+         assert(animationCurve != null),
+         assert(animationDuration != null),
+         assert(dotSize != null),
+@@ -89,45 +88,48 @@
+ }
+ 
+ class CarouselState extends State<Carousel> {
+-
+   final _controller = new PageController();
+ 
+   @override
+   Widget build(BuildContext context) {
+-    final List<Widget> listImages = widget.images.map(
+-            (netImage) =>
+-        new Container(
+-          decoration: new BoxDecoration(
+-              borderRadius: widget.borderRadius ? new BorderRadius.all(
+-                  widget.radius != null ? widget.radius : new Radius.circular(8.0)
+-              ) : null,
+-              image: new DecorationImage(
+-                //colorFilter: new ColorFilter.mode(Colors.black.withOpacity(0.2), BlendMode.dstATop),
+-                image: netImage,
+-                fit: BoxFit.cover,
+-              )
+-          ),
+-          child: widget.overlayShadow ? new Container(
+-            decoration: new BoxDecoration(
+-              gradient: new LinearGradient(
+-                begin: Alignment.bottomCenter,
+-                end: Alignment.center,
+-                stops: [0.0, widget.overlayShadowSize],
+-                colors: [
+-                  widget.overlayShadowColors != null ? widget.overlayShadowColors.withOpacity(1.0) : Colors.grey[800].withOpacity(1.0),
+-                  widget.overlayShadowColors != null ? widget.overlayShadowColors.withOpacity(0.0) : Colors.grey[800].withOpacity(0.0)
+-                ],
+-              ),
+-            ),
+-          ) : new Container(),
+-        )
+-    ).toList();
+-
++    final List<Widget> listImages = widget.images
++        .map((netImage) => new Container(
++              decoration: new BoxDecoration(
++                  borderRadius: widget.borderRadius
++                      ? new BorderRadius.all(widget.radius != null
++                          ? widget.radius
++                          : new Radius.circular(8.0))
++                      : null,
++                  image: new DecorationImage(
++                    //colorFilter: new ColorFilter.mode(Colors.black.withOpacity(0.2), BlendMode.dstATop),
++                    image: netImage,
++                    fit: BoxFit.cover,
++                  )),
++              child: widget.overlayShadow
++                  ? new Container(
++                      decoration: new BoxDecoration(
++                        gradient: new LinearGradient(
++                          begin: Alignment.bottomCenter,
++                          end: Alignment.center,
++                          stops: [0.0, widget.overlayShadowSize],
++                          colors: [
++                            widget.overlayShadowColors != null
++                                ? widget.overlayShadowColors.withOpacity(1.0)
++                                : Colors.grey[800].withOpacity(1.0),
++                            widget.overlayShadowColors != null
++                                ? widget.overlayShadowColors.withOpacity(0.0)
++                                : Colors.grey[800].withOpacity(0.0)
++                          ],
++                        ),
++                      ),
++                    )
++                  : new Container(),
++            ))
++        .toList();
+ 
+     return new Scaffold(
+       body: new Stack(
+         children: <Widget>[
+-
+           new Container(
+             child: new PageView(
+               physics: new AlwaysScrollableScrollPhysics(),
+@@ -135,40 +137,49 @@
+               children: listImages,
+             ),
+           ),
+-
+-          widget.showIndicator ? new Positioned(
+-            bottom: widget.moveIndicatorFromBottom,
+-            left: 0.0,
+-            right: 0.0,
+-            child: new Container(
+-              decoration: new BoxDecoration(
+-                color: widget.dotBgColor == null ? Colors.grey[800].withOpacity(0.5) : widget.dotBgColor,
+-                borderRadius: widget.borderRadius ? (widget.noRadiusForIndicator ? null : new BorderRadius.only(
+-                    bottomLeft: widget.radius != null ? widget.radius : new Radius.circular(8.0),
+-                    bottomRight: widget.radius != null ? widget.radius : new Radius.circular(8.0)
+-                )) : null,
+-              ),
+-              padding: new EdgeInsets.all(widget.indicatorBgPadding),
+-              child: new Center(
+-                child: new DotsIndicator(
+-                  controller: _controller,
+-                  itemCount: listImages.length,
+-                  color: widget.dotColor,
+-                  dotSize: widget.dotSize,
+-                  dotSpacing: widget.dotSpacing,
+-                  dotIncreaseSize: widget.dotIncreaseSize,
+-                  onPageSelected: (int page) {
+-                    _controller.animateToPage(
+-                      page,
+-                      duration: widget.animationDuration,
+-                      curve: widget.animationCurve,
+-                    );
+-                  },
+-                ),
+-              ),
+-            ),
+-          ) : new Container(),
+-
++          widget.showIndicator
++              ? new Positioned(
++                  bottom: widget.moveIndicatorFromBottom,
++                  left: 0.0,
++                  right: 0.0,
++                  child: new Container(
++                    decoration: new BoxDecoration(
++                      color: widget.dotBgColor == null
++                          ? Colors.grey[800].withOpacity(0.5)
++                          : widget.dotBgColor,
++                      borderRadius: widget.borderRadius
++                          ? (widget.noRadiusForIndicator
++                              ? null
++                              : new BorderRadius.only(
++                                  bottomLeft: widget.radius != null
++                                      ? widget.radius
++                                      : new Radius.circular(8.0),
++                                  bottomRight: widget.radius != null
++                                      ? widget.radius
++                                      : new Radius.circular(8.0)))
++                          : null,
++                    ),
++                    padding: new EdgeInsets.all(widget.indicatorBgPadding),
++                    child: new Center(
++                      child: new DotsIndicator(
++                        controller: _controller,
++                        itemCount: listImages.length,
++                        color: widget.dotColor,
++                        dotSize: widget.dotSize,
++                        dotSpacing: widget.dotSpacing,
++                        dotIncreaseSize: widget.dotIncreaseSize,
++                        onPageSelected: (int page) {
++                          _controller.animateToPage(
++                            page,
++                            duration: widget.animationDuration,
++                            curve: widget.animationCurve,
++                          );
++                        },
++                      ),
++                    ),
++                  ),
++                )
++              : new Container(),
+         ],
+       ),
+     );
+@@ -177,15 +188,15 @@
+ 
+ /// An indicator showing the currently selected page of a PageController
+ class DotsIndicator extends AnimatedWidget {
+-  DotsIndicator({
+-    this.controller,
+-    this.itemCount,
+-    this.onPageSelected,
+-    this.color,
+-    this.dotSize,
+-    this.dotIncreaseSize,
+-    this.dotSpacing
+-  }) : super(listenable: controller);
++  DotsIndicator(
++      {this.controller,
++      this.itemCount,
++      this.onPageSelected,
++      this.color,
++      this.dotSize,
++      this.dotIncreaseSize,
++      this.dotSpacing})
++      : super(listenable: controller);
+ 
+   // The PageController that this DotsIndicator is representing.
+   final PageController controller;

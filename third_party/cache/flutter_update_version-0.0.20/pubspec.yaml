@@ -1,0 +1,20 @@
+name: flutter_update_version
+description: A plugin to manage semantic versioning.
+version: 0.0.20
+author: Richard Sween <rsween@kopismobile.com>
+homepage: http://kopismobile.com
+
+environment:
+    sdk: ">=1.8.0 <2.0.0"
+
+dependencies:
+  dart_config: ^0.5.0
+  flutter:
+    sdk: flutter
+
+
+dev_dependencies:
+  test: 0.12.0
+
+# For information on the generic Dart part of this file, see the
+# following page: https://www.dartlang.org/tools/pub/pubspec

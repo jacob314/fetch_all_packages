@@ -1,0 +1,297 @@
+{
+  "stringTable": {
+    "0": "/Users/yurikomlev/android_github/plugins/video/video_plugin/android/.externalNativeBuild/cmake/release/x86_64",
+    "1": "--target=x86_64-none-linux-android21 --gcc-toolchain=/Users/yurikomlev/Library/Android/sdk/ndk-bundle/toolchains/x86_64-4.9/prebuilt/darwin-x86_64 --sysroot=/Users/yurikomlev/Library/Android/sdk/ndk-bundle/sysroot -Dvideocreator_EXPORTS -I../../../../ext-src/yuv/include -I../../../../ext-lib/ffmpeg/lib/x86_64/include -I../../../../src/main/cpp/jni_nclude -isystem /Users/yurikomlev/Library/Android/sdk/ndk-bundle/sources/cxx-stl/llvm-libc++/include -isystem /Users/yurikomlev/Library/Android/sdk/ndk-bundle/sources/cxx-stl/llvm-libc++abi/include -isystem /Users/yurikomlev/Library/Android/sdk/ndk-bundle/sysroot/usr/include/x86_64-linux-android -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -std=c++11 -std=c++11 -frtti -fexceptions -O2 -DNDEBUG -fPIC",
+    "2": "--target=x86_64-none-linux-android21 --gcc-toolchain=/Users/yurikomlev/Library/Android/sdk/ndk-bundle/toolchains/x86_64-4.9/prebuilt/darwin-x86_64 --sysroot=/Users/yurikomlev/Library/Android/sdk/ndk-bundle/sysroot -Dyuv_EXPORTS -I../../../../ext-src/yuv/include -I../../../../ext-lib/ffmpeg/lib/x86_64/include -I../../../../src/main/cpp/jni_nclude -isystem /Users/yurikomlev/Library/Android/sdk/ndk-bundle/sources/cxx-stl/llvm-libc++/include -isystem /Users/yurikomlev/Library/Android/sdk/ndk-bundle/sources/cxx-stl/llvm-libc++abi/include -isystem /Users/yurikomlev/Library/Android/sdk/ndk-bundle/sysroot/usr/include/x86_64-linux-android -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -std=c++11 -std=c++11 -frtti -fexceptions -O2 -DNDEBUG -fPIC"
+  },
+  "buildFiles": [
+    "/Users/yurikomlev/android_github/plugins/video/video_plugin/android/../../../../../Library/Android/sdk/ndk-bundle/build/cmake/android.toolchain.cmake",
+    "/Users/yurikomlev/android_github/plugins/video/video_plugin/android/CMakeLists.txt",
+    "/Users/yurikomlev/android_github/plugins/video/video_plugin/android/../../../../../Library/Android/sdk/ndk-bundle/build/cmake/platforms.cmake"
+  ],
+  "cleanCommands": [
+    "/Users/yurikomlev/Library/Android/sdk/cmake/3.10.2.4988404/bin/cmake --build /Users/yurikomlev/android_github/plugins/video/video_plugin/android/.externalNativeBuild/cmake/release/x86_64 --target clean"
+  ],
+  "libraries": {
+    "yuv-Release-x86_64": {
+      "buildCommand": "/Users/yurikomlev/Library/Android/sdk/cmake/3.10.2.4988404/bin/cmake --build /Users/yurikomlev/android_github/plugins/video/video_plugin/android/.externalNativeBuild/cmake/release/x86_64 --target yuv",
+      "buildType": "release",
+      "toolchain": "4283485088",
+      "abi": "x86_64",
+      "artifactName": "yuv",
+      "files": [
+        {
+          "src": "/Users/yurikomlev/android_github/plugins/video/video_plugin/android/ext-src/yuv/compare.cc",
+          "flagsOrdinal": 2,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/yurikomlev/android_github/plugins/video/video_plugin/android/ext-src/yuv/compare_common.cc",
+          "flagsOrdinal": 2,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/yurikomlev/android_github/plugins/video/video_plugin/android/ext-src/yuv/compare_gcc.cc",
+          "flagsOrdinal": 2,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/yurikomlev/android_github/plugins/video/video_plugin/android/ext-src/yuv/compare_mmi.cc",
+          "flagsOrdinal": 2,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/yurikomlev/android_github/plugins/video/video_plugin/android/ext-src/yuv/compare_msa.cc",
+          "flagsOrdinal": 2,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/yurikomlev/android_github/plugins/video/video_plugin/android/ext-src/yuv/compare_neon.cc",
+          "flagsOrdinal": 2,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/yurikomlev/android_github/plugins/video/video_plugin/android/ext-src/yuv/compare_neon64.cc",
+          "flagsOrdinal": 2,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/yurikomlev/android_github/plugins/video/video_plugin/android/ext-src/yuv/compare_win.cc",
+          "flagsOrdinal": 2,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/yurikomlev/android_github/plugins/video/video_plugin/android/ext-src/yuv/convert.cc",
+          "flagsOrdinal": 2,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/yurikomlev/android_github/plugins/video/video_plugin/android/ext-src/yuv/convert_argb.cc",
+          "flagsOrdinal": 2,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/yurikomlev/android_github/plugins/video/video_plugin/android/ext-src/yuv/convert_from.cc",
+          "flagsOrdinal": 2,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/yurikomlev/android_github/plugins/video/video_plugin/android/ext-src/yuv/convert_from_argb.cc",
+          "flagsOrdinal": 2,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/yurikomlev/android_github/plugins/video/video_plugin/android/ext-src/yuv/convert_jpeg.cc",
+          "flagsOrdinal": 2,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/yurikomlev/android_github/plugins/video/video_plugin/android/ext-src/yuv/convert_to_argb.cc",
+          "flagsOrdinal": 2,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/yurikomlev/android_github/plugins/video/video_plugin/android/ext-src/yuv/convert_to_i420.cc",
+          "flagsOrdinal": 2,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/yurikomlev/android_github/plugins/video/video_plugin/android/ext-src/yuv/cpu_id.cc",
+          "flagsOrdinal": 2,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/yurikomlev/android_github/plugins/video/video_plugin/android/ext-src/yuv/mjpeg_decoder.cc",
+          "flagsOrdinal": 2,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/yurikomlev/android_github/plugins/video/video_plugin/android/ext-src/yuv/mjpeg_validate.cc",
+          "flagsOrdinal": 2,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/yurikomlev/android_github/plugins/video/video_plugin/android/ext-src/yuv/planar_functions.cc",
+          "flagsOrdinal": 2,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/yurikomlev/android_github/plugins/video/video_plugin/android/ext-src/yuv/rotate.cc",
+          "flagsOrdinal": 2,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/yurikomlev/android_github/plugins/video/video_plugin/android/ext-src/yuv/rotate_any.cc",
+          "flagsOrdinal": 2,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/yurikomlev/android_github/plugins/video/video_plugin/android/ext-src/yuv/rotate_argb.cc",
+          "flagsOrdinal": 2,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/yurikomlev/android_github/plugins/video/video_plugin/android/ext-src/yuv/rotate_common.cc",
+          "flagsOrdinal": 2,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/yurikomlev/android_github/plugins/video/video_plugin/android/ext-src/yuv/rotate_gcc.cc",
+          "flagsOrdinal": 2,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/yurikomlev/android_github/plugins/video/video_plugin/android/ext-src/yuv/rotate_mmi.cc",
+          "flagsOrdinal": 2,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/yurikomlev/android_github/plugins/video/video_plugin/android/ext-src/yuv/rotate_msa.cc",
+          "flagsOrdinal": 2,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/yurikomlev/android_github/plugins/video/video_plugin/android/ext-src/yuv/rotate_neon.cc",
+          "flagsOrdinal": 2,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/yurikomlev/android_github/plugins/video/video_plugin/android/ext-src/yuv/rotate_neon64.cc",
+          "flagsOrdinal": 2,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/yurikomlev/android_github/plugins/video/video_plugin/android/ext-src/yuv/rotate_win.cc",
+          "flagsOrdinal": 2,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/yurikomlev/android_github/plugins/video/video_plugin/android/ext-src/yuv/row_any.cc",
+          "flagsOrdinal": 2,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/yurikomlev/android_github/plugins/video/video_plugin/android/ext-src/yuv/row_common.cc",
+          "flagsOrdinal": 2,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/yurikomlev/android_github/plugins/video/video_plugin/android/ext-src/yuv/row_gcc.cc",
+          "flagsOrdinal": 2,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/yurikomlev/android_github/plugins/video/video_plugin/android/ext-src/yuv/row_mmi.cc",
+          "flagsOrdinal": 2,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/yurikomlev/android_github/plugins/video/video_plugin/android/ext-src/yuv/row_msa.cc",
+          "flagsOrdinal": 2,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/yurikomlev/android_github/plugins/video/video_plugin/android/ext-src/yuv/row_neon.cc",
+          "flagsOrdinal": 2,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/yurikomlev/android_github/plugins/video/video_plugin/android/ext-src/yuv/row_neon64.cc",
+          "flagsOrdinal": 2,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/yurikomlev/android_github/plugins/video/video_plugin/android/ext-src/yuv/row_win.cc",
+          "flagsOrdinal": 2,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/yurikomlev/android_github/plugins/video/video_plugin/android/ext-src/yuv/scale.cc",
+          "flagsOrdinal": 2,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/yurikomlev/android_github/plugins/video/video_plugin/android/ext-src/yuv/scale_any.cc",
+          "flagsOrdinal": 2,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/yurikomlev/android_github/plugins/video/video_plugin/android/ext-src/yuv/scale_argb.cc",
+          "flagsOrdinal": 2,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/yurikomlev/android_github/plugins/video/video_plugin/android/ext-src/yuv/scale_common.cc",
+          "flagsOrdinal": 2,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/yurikomlev/android_github/plugins/video/video_plugin/android/ext-src/yuv/scale_gcc.cc",
+          "flagsOrdinal": 2,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/yurikomlev/android_github/plugins/video/video_plugin/android/ext-src/yuv/scale_mmi.cc",
+          "flagsOrdinal": 2,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/yurikomlev/android_github/plugins/video/video_plugin/android/ext-src/yuv/scale_msa.cc",
+          "flagsOrdinal": 2,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/yurikomlev/android_github/plugins/video/video_plugin/android/ext-src/yuv/scale_neon.cc",
+          "flagsOrdinal": 2,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/yurikomlev/android_github/plugins/video/video_plugin/android/ext-src/yuv/scale_neon64.cc",
+          "flagsOrdinal": 2,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/yurikomlev/android_github/plugins/video/video_plugin/android/ext-src/yuv/scale_win.cc",
+          "flagsOrdinal": 2,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/yurikomlev/android_github/plugins/video/video_plugin/android/ext-src/yuv/video_common.cc",
+          "flagsOrdinal": 2,
+          "workingDirectoryOrdinal": 0
+        }
+      ],
+      "output": "/Users/yurikomlev/android_github/plugins/video/video_plugin/example/build/video_plugin/intermediates/cmake/release/obj/x86_64/libyuv.so"
+    },
+    "videocreator-Release-x86_64": {
+      "buildCommand": "/Users/yurikomlev/Library/Android/sdk/cmake/3.10.2.4988404/bin/cmake --build /Users/yurikomlev/android_github/plugins/video/video_plugin/android/.externalNativeBuild/cmake/release/x86_64 --target videocreator",
+      "buildType": "release",
+      "toolchain": "4283485088",
+      "abi": "x86_64",
+      "artifactName": "videocreator",
+      "files": [
+        {
+          "src": "/Users/yurikomlev/android_github/plugins/video/video_plugin/android/src/main/cpp/native.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/yurikomlev/android_github/plugins/video/video_plugin/android/src/main/cpp/encode_video_c.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        }
+      ],
+      "output": "/Users/yurikomlev/android_github/plugins/video/video_plugin/example/build/video_plugin/intermediates/cmake/release/obj/x86_64/libvideocreator.so"
+    }
+  },
+  "toolchains": {
+    "4283485088": {
+      "cppCompilerExecutable": "/Users/yurikomlev/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++"
+    }
+  },
+  "cFileExtensions": [],
+  "cppFileExtensions": [
+    "cc",
+    "cpp"
+  ]
+}

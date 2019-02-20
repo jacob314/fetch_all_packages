@@ -1,0 +1,6 @@
+<manifest 
+  xmlns:android="http://schemas.android.com/apk/res/android" package="ng.i.handikraft.flutterravepay">
+  <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+  <uses-permission android:name="android.Manifest.permission.READ_PHONE_STATE" />
+  <uses-permission android:name="android.permission.INTERNET" />
+</manifest>

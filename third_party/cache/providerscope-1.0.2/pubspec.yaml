@@ -1,0 +1,21 @@
+# Copyright 2017 The Fuchsia Authors. All rights reserved.
+# Use of this source code is governed by a BSD-style license that can be
+# found in the LICENSE file.
+
+name: providerscope
+description:  A Widget that passes a Reactive Model to all of it's children by scope
+version: 1.0.2
+authors:
+  - Mishel - mishudark<mishu.drk@gmail.com>
+homepage: https://github.com/mishudark/providerscope
+
+environment:
+  sdk: '>=2.0.0 <3.0.0'
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_image: ^1.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter

@@ -1,0 +1,19 @@
+name: pushwoosh_inbox
+description: This plugin enables Pushwoosh Inbox feature.
+version: 1.12.1
+author: Pushwoosh <support@pushwoosh.com>
+homepage: https://www.pushwoosh.com/v1.0/docs/message-inbox
+
+dependencies:
+  flutter:
+    sdk: flutter
+  pushwoosh: '^1.12.1'
+
+environment:
+  sdk: ">=1.19.0 <3.0.0"
+
+# The following section is specific to Flutter.
+flutter:
+  plugin:
+    androidPackage: com.pushwoosh.pushwooshinbox
+    pluginClass: PushwooshInboxPlugin

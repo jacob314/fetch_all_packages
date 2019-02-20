@@ -1,0 +1,17 @@
+name: appspector_plugin
+description: A AppSpector Flutter plugin.
+version: 0.0.1
+author: AppSpector <info@appspector.com>
+homepage: https://appspector.com
+
+environment:
+  sdk: ">=2.0.0-dev.68.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+flutter:
+  plugin:
+    androidPackage: com.appspector.flutter.plugin
+    pluginClass: AppSpectorPlugin

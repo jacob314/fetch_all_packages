@@ -1,0 +1,20 @@
+## [0.0.2] - 31/05/2018
+
+* Button wrapper with native styles for Android and iOS
+* PlatformSwitcher widget
+* ConditionalBuilder widget
+
+## [0.0.3] - 01/06/2018
+
+* BSD License
+* API Docs
+* Child property is now required for Button widget.
+
+## [0.0.4] - 05/06/2018
+
+* Tests
+* iOS FormView and FormFieldView widgets.
+
+## [0.0.5] - 05/08/2018
+
+* Dart 2 compatibility.

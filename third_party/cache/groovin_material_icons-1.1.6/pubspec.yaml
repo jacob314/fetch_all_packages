@@ -1,0 +1,46 @@
+name: groovin_material_icons
+description: A Flutter icons package that provides Material icons from both Google and the community.
+version: 1.1.6
+author: GroovinChip <groovinchip@gmail.com>
+homepage: https://github.com/GroovinChip/groovin_material_icons
+#---
+# Release commands:
+# 1) flutter packages pub publish --dry-run
+# 2) flutter packages pub publish
+#---
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+    fonts:
+      - family: MaterialDesignIconFont
+        fonts:
+          - asset: fonts/materialdesignicons-webfont.ttf
+      - family: CustomMaterialIcons
+        fonts:
+          - asset: fonts/flutter_icon_custom.ttf
+      - family: BallotIcons
+        fonts:
+          - asset: fonts/ballot_icons.ttf
+      - family: PubIcon
+        fonts:
+          - asset: fonts/pub_icon.ttf
+      - family: MaterialOutlineIcons1
+        fonts:
+          - asset: fonts/MaterialOutlineIcons1.ttf
+      - family: SendOutlineIcon
+        fonts:
+          - asset: fonts/send_outline.ttf
+
+    assets:
+      - assets/flutter.png
+
+environment:
+    sdk: '>=1.19.0 <3.0.0'
+    flutter: '>=0.5.0'

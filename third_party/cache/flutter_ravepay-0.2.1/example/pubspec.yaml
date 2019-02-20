@@ -1,0 +1,11 @@
+name: flutter_ravepay_example
+description: Demonstrates how to use the flutter_ravepay plugin.
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_ravepay:
+    path: ../
+
+flutter:
+  uses-material-design: true

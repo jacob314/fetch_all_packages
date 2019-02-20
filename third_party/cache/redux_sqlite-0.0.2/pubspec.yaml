@@ -1,0 +1,18 @@
+name: redux_sqlite
+description: Package of redux implementation with sqlite
+version: 0.0.2
+author: Ramis Akhmetzyanov <ramisaz74@gmail.com>
+homepage: https://github.com/RamisAkhmetzyanov
+
+environment:
+  sdk: ">=2.0.0-dev.68.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  redux: ^3.0.0
+  sqflite: ^1.0.0
+  path_provider: ^0.5.0
+  path: ^1.6.2
+
+flutter:

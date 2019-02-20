@@ -1,0 +1,4 @@
+/Users/yurikomlev/android_github/plugins/video/video_plugin/android/.externalNativeBuild/cmake/release/armeabi-v7a/CMakeFiles/videocreator.dir
+/Users/yurikomlev/android_github/plugins/video/video_plugin/android/.externalNativeBuild/cmake/release/armeabi-v7a/CMakeFiles/rebuild_cache.dir
+/Users/yurikomlev/android_github/plugins/video/video_plugin/android/.externalNativeBuild/cmake/release/armeabi-v7a/CMakeFiles/edit_cache.dir
+/Users/yurikomlev/android_github/plugins/video/video_plugin/android/.externalNativeBuild/cmake/release/armeabi-v7a/CMakeFiles/yuv.dir

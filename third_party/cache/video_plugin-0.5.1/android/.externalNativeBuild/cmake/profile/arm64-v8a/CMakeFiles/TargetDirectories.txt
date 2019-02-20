@@ -1,0 +1,4 @@
+/Users/yurikomlev/android_github/plugins/video/video_plugin/android/.externalNativeBuild/cmake/profile/arm64-v8a/CMakeFiles/videocreator.dir
+/Users/yurikomlev/android_github/plugins/video/video_plugin/android/.externalNativeBuild/cmake/profile/arm64-v8a/CMakeFiles/rebuild_cache.dir
+/Users/yurikomlev/android_github/plugins/video/video_plugin/android/.externalNativeBuild/cmake/profile/arm64-v8a/CMakeFiles/edit_cache.dir
+/Users/yurikomlev/android_github/plugins/video/video_plugin/android/.externalNativeBuild/cmake/profile/arm64-v8a/CMakeFiles/yuv.dir

@@ -1,0 +1,16 @@
+name: flutter_chameleon
+description: A new flutter package project.
+version: 0.1.4
+author: Salvatore Giordano <salvatoregiordanoo@gmail.com>
+homepage: https://github.com/Salvatore-Giordano/flutter_chameleon
+
+environment:
+  sdk: ">=1.2.0  <=2.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter

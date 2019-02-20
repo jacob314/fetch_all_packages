@@ -1,0 +1,24 @@
+name: flutter_geo_location
+description: Flutter plugin for getting accurate locations on the Android & iOS devices.
+version: 0.0.2
+authors:
+- Deepak Nishad <deepak@aeologic.com>
+- Naveen <naveen@aeologic.com>
+homepage: https://www.flutterdevs.com
+documentation: https://docs.flutterdevs.com/flutter_location
+
+environment:
+  sdk: ">=2.0.0-dev.68.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+flutter:
+  plugin:
+    androidPackage: com.successive.adhoc.flutterlocationplugin
+    pluginClass: FlutterLocationPlugin
+
+                    
+                                      

@@ -1,0 +1,18 @@
+name: titled_page_view
+description: A Flutter PageView with an additional title bar and optional controls.
+version: 0.1.0
+author: Kevin Kleinbeck <kleinbeck@itp3.uni-stuttgart.de>
+homepage: https://github.com/KKleinbeck/titled_page_view
+
+environment:
+  sdk: ">=2.0.0-dev.68.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:

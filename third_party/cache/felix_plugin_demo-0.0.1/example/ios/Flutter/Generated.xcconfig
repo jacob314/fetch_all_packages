@@ -1,0 +1,7 @@
+// This is a generated file; do not edit or check into version control.
+FLUTTER_ROOT=/Users/Felix/flutter_store/flutter_sdk
+FLUTTER_APPLICATION_PATH=/Users/Felix/flutter_store/flutter_code_store/felix_plugin_demo/example
+FLUTTER_TARGET=lib/main.dart
+FLUTTER_BUILD_DIR=build
+SYMROOT=${SOURCE_ROOT}/../build/ios
+FLUTTER_FRAMEWORK_DIR=/Users/Felix/flutter_store/flutter_sdk/bin/cache/artifacts/engine/ios

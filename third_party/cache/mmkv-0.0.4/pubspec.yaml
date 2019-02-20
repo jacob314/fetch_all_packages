@@ -1,0 +1,17 @@
+name: mmkv
+description: Tencent MMKV Flutter wrapper
+version: 0.0.4
+author: haoguo <bard.guo@gmail.com>
+homepage: https://github.com/haoguo/mmkv
+
+environment:
+  sdk: ">=2.0.0-dev.68.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+flutter:
+  plugin:
+    androidPackage: me.haog.mmkv
+    pluginClass: MmkvPlugin

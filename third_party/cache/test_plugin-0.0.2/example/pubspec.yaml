@@ -1,0 +1,23 @@
+name: test_plugin_example
+version: 0.0.2
+description: Demonstrates how to use the test_plugin plugin.
+publish_to: 'none'
+
+environment:
+  sdk: ">=2.0.0-dev.68.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^0.1.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  test_plugin:
+    path: ../
+
+flutter:
+  uses-material-design: true

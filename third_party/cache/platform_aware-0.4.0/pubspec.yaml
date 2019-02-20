@@ -1,0 +1,17 @@
+name: platform_aware
+description: Flutter widgets providing a native look on both Android and iOS.
+version: 0.4.0
+author: Jan Garcia <jan@jmgprog.com>
+homepage: https://gitlab.com/jmgprog/platform_aware 
+
+environment:
+  sdk: '>=1.24.0 <3.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  test: "^0.12.0"
+  flutter_test:
+    sdk: flutter

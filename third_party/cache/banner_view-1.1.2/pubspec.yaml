@@ -1,0 +1,18 @@
+name: banner_view
+description: A BannerView flutter package project.
+version: 1.1.2
+author: lingjinian <hn_yangxiaowei@163.com>
+homepage: https://github.com/yangxiaoweihn/BannerView
+documentation: https://github.com/yangxiaoweihn/BannerView
+
+environment:
+  sdk: '>=1.23.0 <3.0.0'
+  flutter: '>=0.1.2'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter

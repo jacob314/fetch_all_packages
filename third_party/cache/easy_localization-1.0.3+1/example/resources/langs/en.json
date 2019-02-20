@@ -1,0 +1,10 @@
+{
+  "title": "Hello",
+  "msg":"Hello {} in the {} world ",
+  "clickMe":"Click me",
+  "clicked": {
+    "zero": "You clicked {} times!",
+    "one": "You clicked {} time!",
+    "other": "You clicked {} times!"
+  }
+}

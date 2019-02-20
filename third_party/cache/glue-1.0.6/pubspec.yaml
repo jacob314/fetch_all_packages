@@ -1,0 +1,17 @@
+name: glue
+description: A library that allows you to easily pass a data Model from a one Widget to others using messaging system. This will help avoid passing delegates.
+version: 1.0.6
+author: Amine BIZID <amine.bizid@gmail.com>
+homepage: https://github.com/aminebizid/glue
+
+environment:
+  sdk: ">=2.0.0-dev.28.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  rxdart: ">=0.18.1 <1.0.0"
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter

@@ -1,0 +1,25 @@
+name: flutter_stream_redux
+description: Stream helper for build_redux and flutter_build_redux
+version: 0.0.4+1
+author: Lung Razvan (long1eu)<lung.razvan@gmail.com>
+homepage: http://www.long1.eu
+
+environment:
+  sdk: ">=1.19.0 <2.0.0"
+  flutter: "^0.1.2"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  built_redux: ^7.4.0
+  flutter_built_redux: ^0.4.5
+  built_collection: ^3.0.5
+  built_value: ^5.2.1
+  meta: ^1.1.2
+
+dev_dependencies:
+  test: ^0.12.0
+
+flutter:
+

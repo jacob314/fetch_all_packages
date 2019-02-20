@@ -1,0 +1,20 @@
+name: groovin_string_masks
+description: A string formatter and validator based on masks. Forked from EmersonMoura's 'string_mask' package as it appears to be abandonded.
+version: 1.0.0
+author: GroovinChip <groovinchip@gmail.com>
+homepage: https://github.com/GroovinChip/groovin_string_masks
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+#
+
+environment:
+    sdk: '>=1.19.0 <3.0.0'
+    flutter: ^0.5.1

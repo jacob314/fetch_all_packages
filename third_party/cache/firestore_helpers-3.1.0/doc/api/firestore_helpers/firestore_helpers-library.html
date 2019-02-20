@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="firestore_helpers library API docs, for the Dart programming language.">
+  <title>firestore_helpers library - Dart API</title>
+  <!-- required because all the links are pseudo-absolute -->
+  <base href="..">
+
+  <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:500,400i,400,300|Source+Sans+Pro:400,300,700" rel="stylesheet">
+  <link rel="stylesheet" href="static-assets/github.css">
+  <link rel="stylesheet" href="static-assets/styles.css">
+  <link rel="icon" href="static-assets/favicon.png">
+
+</head>
+
+<body>
+
+<div id="overlay-under-drawer"></div>
+
+<header id="title">
+  <button id="sidenav-left-toggle" type="button">&nbsp;</button>
+  <ol class="breadcrumbs gt-separated dark hidden-xs">
+    <li><a href="index.html">firestore_helpers</a></li>
+    <li class="self-crumb">firestore_helpers library</li>
+  </ol>
+  <div class="self-name">firestore_helpers</div>
+  <form class="search navbar-right" role="search">
+    <input type="text" id="search-box" autocomplete="off" disabled class="form-control typeahead" placeholder="Loading search...">
+  </form>
+</header>
+
+<main>
+
+  <div class="col-xs-6 col-sm-3 col-md-2 sidebar sidebar-offcanvas-left">
+    <h5><span class="package-name">firestore_helpers</span> <span class="package-kind">package</span></h5>
+    <ol>
+          <li class="section-title">Libraries</li>
+          <li><a href="firestore_helpers/firestore_helpers-library.html">firestore_helpers</a></li>
+    </ol>
+  </div>
+
+  <div class="col-xs-12 col-sm-9 col-md-8 main-content">
+    <h1>firestore_helpers library </h1>
+
+    
+    <section class="summary offset-anchor" id="classes">
+      <h2>Classes</h2>
+
+      <dl>
+        <dt id="Area">
+          <span class="name "><a href="firestore_helpers/Area-class.html">Area</a></span> 
+        </dt>
+        <dd>
+          Defines the search area by a  circle <a href="firestore_helpers/Area/center.html">center</a> / <a href="firestore_helpers/Area/radiusInKilometers.html">radiusInKilometers</a>
+Based on the limitations of FireStore we can only search in rectangles
+which means that from this definition a final search square is calculated
+that contains the circle
+        </dd>
+        <dt id="GeoBoundingBox">
+          <span class="name "><a href="firestore_helpers/GeoBoundingBox-class.html">GeoBoundingBox</a></span> 
+        </dt>
+        <dd>
+          Defines the boundingbox for the query based
+on its south-west and north-east corners
+        </dd>
+        <dt id="OrderConstraint">
+          <span class="name "><a href="firestore_helpers/OrderConstraint-class.html">OrderConstraint</a></span> 
+        </dt>
+        <dd>
+          Used by <a href="firestore_helpers/buildQuery.html">buildQuery</a> to define how the results should be ordered. The fields
+corespond to the possisble parameters of Firestore`s <code>oderby()</code> method.
+Using <a href="firestore_helpers/OrderConstraint-class.html">OrderConstraint</a> almost always requires to create an index for this field. Check your debug output for a message from FireStore with
+a link to create them
+        </dd>
+        <dt id="QueryConstraint">
+          <span class="name "><a href="firestore_helpers/QueryConstraint-class.html">QueryConstraint</a></span> 
+        </dt>
+        <dd>
+          Used by <a href="firestore_helpers/buildQuery.html">buildQuery</a>  and <a href="firestore_helpers/getDataInArea.html">getDataInArea</a> to define a list of constraints. Important besides the <a href="firestore_helpers/QueryConstraint/field.html">field</a> property not more than one of the others can ne <code>!=null</code>.
+They corespond to the possisble parameters of Firestore`s <code>where()</code> method.
+Using <a href="firestore_helpers/QueryConstraint-class.html">QueryConstraint</a> almost always requires to create an index for this field. Check your debug output for a message from FireStore with
+a link to create them
+        </dd>
+      </dl>
+    </section>
+
+
+
+
+    <section class="summary offset-anchor" id="functions">
+      <h2>Functions</h2>
+
+      <dl class="callables">
+        <dt id="boundingBoxCoordinates" class="callable">
+          <span class="name"><a href="firestore_helpers/boundingBoxCoordinates.html">boundingBoxCoordinates</a></span><span class="signature">(<wbr><span class="parameter" id="boundingBoxCoordinates-param-area"><span class="type-annotation"><a href="firestore_helpers/Area-class.html">Area</a></span> <span class="parameter-name">area</span></span>)
+            <span class="returntype parameter">&#8594; <a href="firestore_helpers/GeoBoundingBox-class.html">GeoBoundingBox</a></span>
+          </span>
+          </dt>
+        <dd>
+          Calculates the SW and NE corners of a bounding box around a center point for a given radius;
+<code>area</code> with the center given as .latitude and .longitude
+and the radius of the box (in kilometers)
+          
+</dd>
+        <dt id="buildQuery" class="callable">
+          <span class="name"><a href="firestore_helpers/buildQuery.html">buildQuery</a></span><span class="signature">(<wbr>{<span class="parameter" id="buildQuery-param-collection"><span class="type-annotation">Query</span> <span class="parameter-name">collection</span>, </span> <span class="parameter" id="buildQuery-param-constraints"><span class="type-annotation">List<span class="signature">&lt;<wbr><span class="type-parameter"><a href="firestore_helpers/QueryConstraint-class.html">QueryConstraint</a></span>&gt;</span></span> <span class="parameter-name">constraints</span>, </span> <span class="parameter" id="buildQuery-param-orderBy"><span class="type-annotation">List<span class="signature">&lt;<wbr><span class="type-parameter"><a href="firestore_helpers/OrderConstraint-class.html">OrderConstraint</a></span>&gt;</span></span> <span class="parameter-name">orderBy</span></span> })
+            <span class="returntype parameter">&#8594; Query</span>
+          </span>
+          </dt>
+        <dd>
+          Builds a query dynamically based on a list of <a href="firestore_helpers/QueryConstraint-class.html">QueryConstraint</a> and orders the result based on a list of <a href="firestore_helpers/OrderConstraint-class.html">OrderConstraint</a>.
+<code>collection</code> : the source collection for the new query
+<code>constraints</code> : a list of constraints that should be applied to the <code>collection</code>.
+<code>orderBy</code> : a list of order constraints that should be applied to the <code>collection</code> after the filtering by <code>constraints</code> was done.
+Important all limitation of FireStore apply for this method two on how you can query fields in collections and order them.
+          
+</dd>
+        <dt id="coordinatesValid" class="callable">
+          <span class="name"><a href="firestore_helpers/coordinatesValid.html">coordinatesValid</a></span><span class="signature">(<wbr><span class="parameter" id="coordinatesValid-param-latitude"><span class="type-annotation">double</span> <span class="parameter-name">latitude</span>, </span> <span class="parameter" id="coordinatesValid-param-longitude"><span class="type-annotation">double</span> <span class="parameter-name">longitude</span></span>)
+            <span class="returntype parameter">&#8594; bool</span>
+          </span>
+          </dt>
+        <dd>
+          Checks if these coordinates are valid geo coordinates.
+<code>latitude</code>  The latitude must be in the range <code>-90, 90</code>
+<code>longitude</code> The longitude must be in the range <code>-180, 180</code>
+returns <code>true</code> if these are valid geo coordinates
+          
+</dd>
+        <dt id="degreesToRadians" class="callable">
+          <span class="name"><a href="firestore_helpers/degreesToRadians.html">degreesToRadians</a></span><span class="signature">(<wbr><span class="parameter" id="degreesToRadians-param-degrees"><span class="type-annotation">double</span> <span class="parameter-name">degrees</span></span>)
+            <span class="returntype parameter">&#8594; double</span>
+          </span>
+          </dt>
+        <dd>
+          
+          
+</dd>
+        <dt id="distanceInKilometers" class="callable">
+          <span class="name"><a href="firestore_helpers/distanceInKilometers.html">distanceInKilometers</a></span><span class="signature">(<wbr><span class="parameter" id="distanceInKilometers-param-p1"><span class="type-annotation">GeoPoint</span> <span class="parameter-name">p1</span>, </span> <span class="parameter" id="distanceInKilometers-param-p2"><span class="type-annotation">GeoPoint</span> <span class="parameter-name">p2</span></span>)
+            <span class="returntype parameter">&#8594; double</span>
+          </span>
+          </dt>
+        <dd>
+          Calculates the distance, in kilometers, between two locations, via the
+Haversine formula. Note that this is approximate due to the fact that
+the Earth's radius varies between 6356.752 km and 6378.137 km.
+<code>p1</code> The first location given
+<code>p2</code> The second location given
+return the distance, in kilometers, between the two locations.
+          
+</dd>
+        <dt id="distanceInKilometers2" class="callable">
+          <span class="name"><a href="firestore_helpers/distanceInKilometers2.html">distanceInKilometers2</a></span><span class="signature">(<wbr><span class="parameter" id="distanceInKilometers2-param-p1"><span class="type-annotation">GeoPoint</span> <span class="parameter-name">p1</span>, </span> <span class="parameter" id="distanceInKilometers2-param-p2"><span class="type-annotation">GeoPoint</span> <span class="parameter-name">p2</span></span>)
+            <span class="returntype parameter">&#8594; double</span>
+          </span>
+          </dt>
+        <dd>
+          
+          
+</dd>
+        <dt id="geoPointValid" class="callable">
+          <span class="name"><a href="firestore_helpers/geoPointValid.html">geoPointValid</a></span><span class="signature">(<wbr><span class="parameter" id="geoPointValid-param-point"><span class="type-annotation">GeoPoint</span> <span class="parameter-name">point</span></span>)
+            <span class="returntype parameter">&#8594; bool</span>
+          </span>
+          </dt>
+        <dd>
+          Checks if the coordinates  of a GeopPoint are valid geo coordinates.
+<code>latitude</code>  The latitude must be in the range <code>-90, 90</code>
+<code>longitude</code> The longitude must be in the range <code>-180, 180</code>
+returns <code>true</code> if these are valid geo coordinates
+          
+</dd>
+        <dt id="getDataFromQuery" class="callable">
+          <span class="name"><a href="firestore_helpers/getDataFromQuery.html">getDataFromQuery</a></span><span class="signature">&lt;<wbr><span class="type-parameter">T</span>&gt;</span><span class="signature">(<wbr>{<span class="parameter" id="getDataFromQuery-param-query"><span class="type-annotation">Query</span> <span class="parameter-name">query</span>, </span> <span class="parameter" id="getDataFromQuery-param-mapper"><span class="type-annotation"><a href="firestore_helpers/DocumentMapper.html">DocumentMapper</a><span class="signature">&lt;<wbr><span class="type-parameter">T</span>&gt;</span></span> <span class="parameter-name">mapper</span>, </span> <span class="parameter" id="getDataFromQuery-param-clientSidefilters"><span class="type-annotation">List<span class="signature">&lt;<wbr><span class="type-parameter"><a href="firestore_helpers/ItemFilter.html">ItemFilter</a><span class="signature">&lt;<wbr><span class="type-parameter">T</span>&gt;</span></span>&gt;</span></span> <span class="parameter-name">clientSidefilters</span>, </span> <span class="parameter" id="getDataFromQuery-param-orderComparer"><span class="type-annotation"><a href="firestore_helpers/ItemComparer.html">ItemComparer</a><span class="signature">&lt;<wbr><span class="type-parameter">T</span>&gt;</span></span> <span class="parameter-name">orderComparer</span></span> })
+            <span class="returntype parameter">&#8594; Stream<span class="signature">&lt;<wbr><span class="type-parameter">List<span class="signature">&lt;<wbr><span class="type-parameter">T</span>&gt;</span></span>&gt;</span></span>
+          </span>
+          </dt>
+        <dd>
+          Convenience Method to access the data of a Query as a stream while applying
+a mapping function on each document with optional client side filtering and sorting
+<code>qery</code> : the data source
+<code>mapper</code> : mapping function that gets applied to every document in the query.
+Typically used to deserialize the Map returned from FireStore
+<code>clientSideFilters</code> : optional list of filter functions that execute a <code>.where()</code>
+on the result on the client side
+<code>orderComparer</code> : optional comparisson function. If provided your resulting data
+will be sorted based on it on the client
+          
+</dd>
+        <dt id="getDataInArea" class="callable">
+          <span class="name"><a href="firestore_helpers/getDataInArea.html">getDataInArea</a></span><span class="signature">&lt;<wbr><span class="type-parameter">T</span>&gt;</span><span class="signature">(<wbr>{<span class="parameter" id="getDataInArea-param-area"><span class="type-annotation"><a href="firestore_helpers/Area-class.html">Area</a></span> <span class="parameter-name">area</span>, </span> <span class="parameter" id="getDataInArea-param-source"><span class="type-annotation">Query</span> <span class="parameter-name">source</span>, </span> <span class="parameter" id="getDataInArea-param-mapper"><span class="type-annotation"><a href="firestore_helpers/DocumentMapper.html">DocumentMapper</a><span class="signature">&lt;<wbr><span class="type-parameter">T</span>&gt;</span></span> <span class="parameter-name">mapper</span>, </span> <span class="parameter" id="getDataInArea-param-locationFieldNameInDB"><span class="type-annotation">String</span> <span class="parameter-name">locationFieldNameInDB</span>, </span> <span class="parameter" id="getDataInArea-param-locationAccessor"><span class="type-annotation"><a href="firestore_helpers/LocationAccessor.html">LocationAccessor</a><span class="signature">&lt;<wbr><span class="type-parameter">T</span>&gt;</span></span> <span class="parameter-name">locationAccessor</span>, </span> <span class="parameter" id="getDataInArea-param-clientSidefilters"><span class="type-annotation">List<span class="signature">&lt;<wbr><span class="type-parameter"><a href="firestore_helpers/ItemFilter.html">ItemFilter</a><span class="signature">&lt;<wbr><span class="type-parameter">T</span>&gt;</span></span>&gt;</span></span> <span class="parameter-name">clientSidefilters</span>, </span> <span class="parameter" id="getDataInArea-param-distanceMapper"><span class="type-annotation"><a href="firestore_helpers/DistanceMapper.html">DistanceMapper</a><span class="signature">&lt;<wbr><span class="type-parameter">T</span>&gt;</span></span> <span class="parameter-name">distanceMapper</span>, </span> <span class="parameter" id="getDataInArea-param-distanceAccessor"><span class="type-annotation"><a href="firestore_helpers/DistanceAccessor.html">DistanceAccessor</a><span class="signature">&lt;<wbr><span class="type-parameter">T</span>&gt;</span></span> <span class="parameter-name">distanceAccessor</span>, </span> <span class="parameter" id="getDataInArea-param-sortDecending"><span class="type-annotation">bool</span> <span class="parameter-name">sortDecending</span>: <span class="default-value">false</span>, </span> <span class="parameter" id="getDataInArea-param-serverSideConstraints"><span class="type-annotation">List<span class="signature">&lt;<wbr><span class="type-parameter"><a href="firestore_helpers/QueryConstraint-class.html">QueryConstraint</a></span>&gt;</span></span> <span class="parameter-name">serverSideConstraints</span>, </span> <span class="parameter" id="getDataInArea-param-serverSideOrdering"><span class="type-annotation">List<span class="signature">&lt;<wbr><span class="type-parameter"><a href="firestore_helpers/OrderConstraint-class.html">OrderConstraint</a></span>&gt;</span></span> <span class="parameter-name">serverSideOrdering</span></span> })
+            <span class="returntype parameter">&#8594; Stream<span class="signature">&lt;<wbr><span class="type-parameter">List<span class="signature">&lt;<wbr><span class="type-parameter">T</span>&gt;</span></span>&gt;</span></span>
+          </span>
+          </dt>
+        <dd>
+          Provides as Stream of lists of data items of type <code>T</code> that have a location field in a
+specified area sorted by the distance of to the areas center.
+<code>area</code>  : The area that constraints the query
+<code>source</code> : The source FireStore document collection
+<code>mapper</code> : mapping function that gets applied to every document in the query.
+Typically used to deserialize the Map returned from FireStore
+<code>locationFieldInDb</code> : The name of the data field in your FireStore document.
+Need to make the location based search on the server side
+<code>locationAccessor</code> : As this is a generic function it cannot know where your
+location is stored in you generic type.
+optional if you don't use <code>distanceMapper</code> and don't want to sort by distance
+Therefore pass a function that returns a valur from the location field inside
+your generic type.
+<code>distanceMapper</code> : optional mapper that gets the distance to the center of the
+area passed to give you the chance to save this inside your item
+if you use a <code>distanceMapper</code> you HAVE to pass <code>locationAccessor</code>
+<code>clientSideFilters</code> : optional list of filter functions that execute a <code>.where()</code>
+on the result on the client side
+<code>distanceAccessor</code> : if you have stored the distance using a <code>distanceMapper</code> passing
+this accessor function will prevent additional distance computing for sorting.
+<code>sortDecending</code> : if the resulting list should be sorted descending by the distance
+to the area's center. If you don't provide <code>loacationAccessor</code> or <code>distanceAccessor</code>
+no sorting is done. This Sorting is done one the client side
+<code>serverSideConstraints</code> : If you need some serverside filtering besides the <a href="firestore_helpers/Area-class.html">Area</a> pass a list of <a href="firestore_helpers/QueryConstraint-class.html">QueryConstraint</a>
+<code>serverSideOrdering</code> : If you need some serverside ordering you can pass a List of <code>OrderConstraints</code>
+Using <code>serverSideConstraints</code> or  <code>serverSideOrdering</code> almost always requires to create an index for
+this field. Check your debug output for a message from FireStore with
+a link to create them
+          
+</dd>
+        <dt id="getLocationsConstraint" class="callable">
+          <span class="name"><a href="firestore_helpers/getLocationsConstraint.html">getLocationsConstraint</a></span><span class="signature">(<wbr><span class="parameter" id="getLocationsConstraint-param-fieldName"><span class="type-annotation">String</span> <span class="parameter-name">fieldName</span>, </span> <span class="parameter" id="getLocationsConstraint-param-area"><span class="type-annotation"><a href="firestore_helpers/Area-class.html">Area</a></span> <span class="parameter-name">area</span></span>)
+            <span class="returntype parameter">&#8594; List<span class="signature">&lt;<wbr><span class="type-parameter"><a href="firestore_helpers/QueryConstraint-class.html">QueryConstraint</a></span>&gt;</span></span>
+          </span>
+          </dt>
+        <dd>
+          Creates the necessary constraints to query for items in a FireStore collection that are inside a specific range from a center point
+<code>fieldName</code> : the name of the field in FireStore where the location of the items is stored
+<code>area</code> : Area within that the returned items should be
+          
+</dd>
+        <dt id="kilometersToLongitudeDegrees" class="callable">
+          <span class="name"><a href="firestore_helpers/kilometersToLongitudeDegrees.html">kilometersToLongitudeDegrees</a></span><span class="signature">(<wbr><span class="parameter" id="kilometersToLongitudeDegrees-param-distance"><span class="type-annotation">double</span> <span class="parameter-name">distance</span>, </span> <span class="parameter" id="kilometersToLongitudeDegrees-param-latitude"><span class="type-annotation">double</span> <span class="parameter-name">latitude</span></span>)
+            <span class="returntype parameter">&#8594; double</span>
+          </span>
+          </dt>
+        <dd>
+          Calculates the number of degrees a given distance is at a given latitude.
+<code>distance</code> The distance to convert.
+<code>latitude</code> The latitude at which to calculate.
+returns the number of degrees the distance corresponds to.
+          
+</dd>
+        <dt id="wrapLongitude" class="callable">
+          <span class="name"><a href="firestore_helpers/wrapLongitude.html">wrapLongitude</a></span><span class="signature">(<wbr><span class="parameter" id="wrapLongitude-param-longitude"><span class="type-annotation">double</span> <span class="parameter-name">longitude</span></span>)
+            <span class="returntype parameter">&#8594; double</span>
+          </span>
+          </dt>
+        <dd>
+          Wraps the longitude to <code>-180,180</code>. <a href="firestore_helpers/wrapLongitude.html">[...]</a>
+          
+</dd>
+      </dl>
+    </section>
+
+
+    <section class="summary offset-anchor" id="typedefs">
+      <h2>Typedefs</h2>
+
+      <dl class="callables">
+        <dt id="DistanceAccessor" class="callable">
+          <span class="name"><a href="firestore_helpers/DistanceAccessor.html">DistanceAccessor</a></span><span class="signature">&lt;<wbr><span class="type-parameter">T</span>&gt;</span><span class="signature">(<wbr><span class="parameter" id="DistanceAccessor-param-item"><span class="type-annotation">T</span> <span class="parameter-name">item</span></span>)
+            <span class="returntype parameter">&#8594; double</span>
+          </span>
+          </dt>
+        <dd>
+          function typse used to access the distance field that contains the
+distance to the target inside the generic type
+          
+</dd>
+        <dt id="DistanceMapper" class="callable">
+          <span class="name"><a href="firestore_helpers/DistanceMapper.html">DistanceMapper</a></span><span class="signature">&lt;<wbr><span class="type-parameter">T</span>&gt;</span><span class="signature">(<wbr><span class="parameter" id="DistanceMapper-param-item"><span class="type-annotation">T</span> <span class="parameter-name">item</span>, </span> <span class="parameter" id="DistanceMapper-param-itemsDistance"><span class="type-annotation">double</span> <span class="parameter-name">itemsDistance</span></span>)
+            <span class="returntype parameter">&#8594; T</span>
+          </span>
+          </dt>
+        <dd>
+          
+          
+</dd>
+        <dt id="DocumentMapper" class="callable">
+          <span class="name"><a href="firestore_helpers/DocumentMapper.html">DocumentMapper</a></span><span class="signature">&lt;<wbr><span class="type-parameter">T</span>&gt;</span><span class="signature">(<wbr><span class="parameter" id="DocumentMapper-param-document"><span class="type-annotation">DocumentSnapshot</span> <span class="parameter-name">document</span></span>)
+            <span class="returntype parameter">&#8594; T</span>
+          </span>
+          </dt>
+        <dd>
+          
+          
+</dd>
+        <dt id="ItemComparer" class="callable">
+          <span class="name"><a href="firestore_helpers/ItemComparer.html">ItemComparer</a></span><span class="signature">&lt;<wbr><span class="type-parameter">T</span>&gt;</span><span class="signature">(<wbr><span class="parameter" id="ItemComparer-param-item1"><span class="type-annotation">T</span> <span class="parameter-name">item1</span>, </span> <span class="parameter" id="ItemComparer-param-item2"><span class="type-annotation">T</span> <span class="parameter-name">item2</span></span>)
+            <span class="returntype parameter">&#8594; int</span>
+          </span>
+          </dt>
+        <dd>
+          
+          
+</dd>
+        <dt id="ItemFilter" class="callable">
+          <span class="name"><a href="firestore_helpers/ItemFilter.html">ItemFilter</a></span><span class="signature">&lt;<wbr><span class="type-parameter">T</span>&gt;</span><span class="signature">(<wbr><span class="parameter" id="ItemFilter-param-"><span class="type-annotation">T</span></span>)
+            <span class="returntype parameter">&#8594; bool</span>
+          </span>
+          </dt>
+        <dd>
+          
+          
+</dd>
+        <dt id="LocationAccessor" class="callable">
+          <span class="name"><a href="firestore_helpers/LocationAccessor.html">LocationAccessor</a></span><span class="signature">&lt;<wbr><span class="type-parameter">T</span>&gt;</span><span class="signature">(<wbr><span class="parameter" id="LocationAccessor-param-item"><span class="type-annotation">T</span> <span class="parameter-name">item</span></span>)
+            <span class="returntype parameter">&#8594; GeoPoint</span>
+          </span>
+          </dt>
+        <dd>
+          function typse used to acces the field that contains the loaction inside
+the generic type
+          
+</dd>
+      </dl>
+    </section>
+
+
+  </div> <!-- /.main-content -->
+
+  <div class="col-xs-6 col-sm-6 col-md-2 sidebar sidebar-offcanvas-right">
+    <h5>firestore_helpers library</h5>
+    <ol>
+      <li class="section-title"><a href="firestore_helpers/firestore_helpers-library.html#classes">Classes</a></li>
+      <li><a href="firestore_helpers/Area-class.html">Area</a></li>
+      <li><a href="firestore_helpers/GeoBoundingBox-class.html">GeoBoundingBox</a></li>
+      <li><a href="firestore_helpers/OrderConstraint-class.html">OrderConstraint</a></li>
+      <li><a href="firestore_helpers/QueryConstraint-class.html">QueryConstraint</a></li>
+    
+    
+    
+    
+      <li class="section-title"><a href="firestore_helpers/firestore_helpers-library.html#functions">Functions</a></li>
+      <li><a href="firestore_helpers/boundingBoxCoordinates.html">boundingBoxCoordinates</a></li>
+      <li><a href="firestore_helpers/buildQuery.html">buildQuery</a></li>
+      <li><a href="firestore_helpers/coordinatesValid.html">coordinatesValid</a></li>
+      <li><a href="firestore_helpers/degreesToRadians.html">degreesToRadians</a></li>
+      <li><a href="firestore_helpers/distanceInKilometers.html">distanceInKilometers</a></li>
+      <li><a href="firestore_helpers/distanceInKilometers2.html">distanceInKilometers2</a></li>
+      <li><a href="firestore_helpers/geoPointValid.html">geoPointValid</a></li>
+      <li><a href="firestore_helpers/getDataFromQuery.html">getDataFromQuery</a></li>
+      <li><a href="firestore_helpers/getDataInArea.html">getDataInArea</a></li>
+      <li><a href="firestore_helpers/getLocationsConstraint.html">getLocationsConstraint</a></li>
+      <li><a href="firestore_helpers/kilometersToLongitudeDegrees.html">kilometersToLongitudeDegrees</a></li>
+      <li><a href="firestore_helpers/wrapLongitude.html">wrapLongitude</a></li>
+    
+    
+      <li class="section-title"><a href="firestore_helpers/firestore_helpers-library.html#typedefs">Typedefs</a></li>
+      <li><a href="firestore_helpers/DistanceAccessor.html">DistanceAccessor</a></li>
+      <li><a href="firestore_helpers/DistanceMapper.html">DistanceMapper</a></li>
+      <li><a href="firestore_helpers/DocumentMapper.html">DocumentMapper</a></li>
+      <li><a href="firestore_helpers/ItemComparer.html">ItemComparer</a></li>
+      <li><a href="firestore_helpers/ItemFilter.html">ItemFilter</a></li>
+      <li><a href="firestore_helpers/LocationAccessor.html">LocationAccessor</a></li>
+    
+    </ol>
+  </div><!--/sidebar-offcanvas-right-->
+
+</main>
+
+<footer>
+  <span class="no-break">
+    firestore_helpers 3.1.0
+  </span>
+
+</footer>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="static-assets/typeahead.bundle.min.js"></script>
+<script src="static-assets/highlight.pack.js"></script>
+<script src="static-assets/URI.js"></script>
+<script src="static-assets/script.js"></script>
+
+
+</body>
+
+</html>

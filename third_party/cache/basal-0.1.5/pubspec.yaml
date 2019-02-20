@@ -1,0 +1,17 @@
+name: basal
+description: A scalable, performant and elegant state manager for Flutter
+version: 0.1.5
+author: Dusan Kovacevic <dusankovacevic95@gmail.com>
+homepage: https://gitlab.com/basal/basal.git
+
+dependencies:
+  flutter:
+    sdk: flutter
+  rxdart: ^0.18.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+environment:
+    sdk: ">=1.19.0 <2.0.0"

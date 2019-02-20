@@ -1,0 +1,47 @@
+name: adhara
+description: Base framework for Flutter Apps with intense networking and data interactivity
+version: 0.2.4
+author: Rohit R. Abbadi <rohit@infitio.com>
+homepage: https://github.com/infitio/flutter-adhara
+
+environment:
+  sdk: ">=2.1.0-dev.9.4 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # The following dependency helps to make network calls
+  http: ^0.12.0+1
+
+  # The following dependency is to interact with SQLite database available on mobile
+  sqflite: ^1.0.0
+
+  # The following dependency is to interact with Shared Preferences on android and NSUserDefaults on iOS
+  shared_preferences: ^0.4.3
+
+  # Plugin for finding commonly used locations on the filesystem.
+  path_provider: ^0.4.1
+
+  # cross-platform path manipulation library for Dart
+  path: ^1.6.2
+
+  # plugin for launching a URL in browser
+  url_launcher: ^4.0.3
+
+  # Error Reporting service
+  sentry: ^2.2.0
+
+
+#dev_dependencies:
+#  flutter_test:
+#    sdk: flutter
+
+# For information on the generic Dart part of this file, see the
+# following page: https://www.dartlang.org/tools/pub/pubspec
+
+# The following section is specific to Flutter.
+#flutter:
+#
+  # For details regarding fonts in packages, see
+  # https://flutter.io/custom-fonts/#from-packages

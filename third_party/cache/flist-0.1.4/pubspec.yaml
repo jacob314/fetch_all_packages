@@ -1,0 +1,15 @@
+name: flist
+version: 0.1.4
+author: "CaoJiayuan <cjy632258@hotmail.com>"
+description: Flutter page list.
+homepage: https://github.com/CaoJiayuan/flist
+
+dependencies:
+  flutter:
+    sdk: flutter
+  darequest: ^0.2.1
+flutter:
+  uses-material-design: true
+
+environment:
+  sdk: ">=1.8.0 <2.0.0"

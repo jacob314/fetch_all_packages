@@ -1,0 +1,13 @@
+doc/
+*.iml
+.DS_Store
+.atom/
+.dart_tool/
+.idea
+.packages
+.pub/
+build/
+ios/.generated/
+packages
+pubspec.lock
+.vscode

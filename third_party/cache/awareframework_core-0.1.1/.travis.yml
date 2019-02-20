@@ -1,0 +1,15 @@
+#matrix:
+#  include:
+os: osx
+language: generic
+osx_image: xcode10.1
+before_script:
+- git clone https://github.com/flutter/flutter.git -b beta
+script:
+- ./flutter/bin/flutter packages get
+- (cd example && ../flutter/bin/flutter packages get)
+- (cd example && ../flutter/bin/flutter test)
+
+cache:
+  directories:
+    - $HOME/.pub-cache

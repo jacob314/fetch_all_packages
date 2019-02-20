@@ -1,0 +1,18 @@
+name: flutter_rating
+description: A flutter plugin that implements rating system.
+version: 0.0.2
+author: Gopal Chitaure <gochit01@wsc.edu>
+homepage: https://github.com/goops17/flutter_rating
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+ 
+flutter:
+
+environment: 
+  sdk: ">=2.0.0-dev.28.0<3.0.0"

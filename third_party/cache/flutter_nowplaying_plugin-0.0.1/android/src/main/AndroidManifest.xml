@@ -1,0 +1,12 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+  package="net.sh4869.flutternowplayingplugin">
+    <application>
+        <receiver android:name=".GooglePlayMusicReceiver">
+            <intent-filter>
+                <action android:name="com.android.music.metachanged" />
+                <action android:name="com.android.music.playstatechanged" />
+                <action android:name="com.android.music.playbackcomplete" />
+            </intent-filter>
+        </receiver>
+    </application>
+</manifest>

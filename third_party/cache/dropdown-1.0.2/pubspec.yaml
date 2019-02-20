@@ -1,0 +1,17 @@
+name: dropdown
+description: Show a dropdown alert style message.
+version: 1.0.2
+author: Christer <christer@dyna.mo>
+homepage: https://dyna.mo/
+
+environment:
+  sdk: ">=2.0.0-dev.68.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+flutter:
+  plugin:
+    androidPackage: mo.dyna.dropdown
+    pluginClass: DropdownPlugin

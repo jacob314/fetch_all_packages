@@ -1,0 +1,40 @@
+group 'com.exit.mixpanel'
+version '1.0-SNAPSHOT'
+buildscript {
+    repositories {
+        google()
+        jcenter()
+    }
+
+    dependencies {
+        classpath 'com.android.tools.build:gradle:3.1.4'
+    }
+}
+rootProject.allprojects {
+    repositories {
+        google()
+        jcenter()
+    }
+}
+apply plugin: 'com.android.library'
+android {
+    compileSdkVersion 24
+    defaultConfig {
+        minSdkVersion 24
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+    }
+    lintOptions {
+        disable 'InvalidPackage'
+    }
+    dependencies {
+        implementation 'com.mixpanel.android:mixpanel-android:5.+'
+        implementation 'com.google.android.gms:play-services-gcm:15.0.1'
+    }
+    buildToolsVersion '27.0.3'
+    compileOptions {
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+}
+
+dependencies {
+}

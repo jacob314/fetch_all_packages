@@ -1,0 +1,4 @@
+Add switch and slider support
+numeric field should return numeric value
+fix bug: required on textfield not working correctly
+Write tests

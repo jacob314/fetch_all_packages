@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="API docs for the image method from the Mobiprint3 class, for the Dart programming language.">
+  <title>image method - Mobiprint3 class - mobiprint3 library - Dart API</title>
+  <!-- required because all the links are pseudo-absolute -->
+  <base href="../..">
+
+  <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:500,400i,400,300|Source+Sans+Pro:400,300,700" rel="stylesheet">
+  <link rel="stylesheet" href="static-assets/github.css">
+  <link rel="stylesheet" href="static-assets/styles.css">
+  <link rel="icon" href="static-assets/favicon.png">
+
+</head>
+
+<body>
+
+<div id="overlay-under-drawer"></div>
+
+<header id="title">
+  <button id="sidenav-left-toggle" type="button">&nbsp;</button>
+  <ol class="breadcrumbs gt-separated dark hidden-xs">
+    <li><a href="index.html">mobiprint3</a></li>
+    <li><a href="mobiprint3/mobiprint3-library.html">mobiprint3</a></li>
+    <li><a href="mobiprint3/Mobiprint3-class.html">Mobiprint3</a></li>
+    <li class="self-crumb">image method</li>
+  </ol>
+  <div class="self-name">image</div>
+  <form class="search navbar-right" role="search">
+    <input type="text" id="search-box" autocomplete="off" disabled class="form-control typeahead" placeholder="Loading search...">
+  </form>
+</header>
+
+<main>
+
+  <div class="col-xs-6 col-sm-3 col-md-2 sidebar sidebar-offcanvas-left">
+    <h5>Mobiprint3 class</h5>
+    <ol>
+      <li class="section-title"><a href="mobiprint3/Mobiprint3-class.html#constructors">Constructors</a></li>
+      <li><a href="mobiprint3/Mobiprint3/Mobiprint3.html">Mobiprint3</a></li>
+    
+      <li class="section-title inherited">
+        <a href="mobiprint3/Mobiprint3-class.html#instance-properties">Properties</a>
+      </li>
+      <li class="inherited"><a href="mobiprint3/Mobiprint3/hashCode.html">hashCode</a></li>
+      <li class="inherited"><a href="mobiprint3/Mobiprint3/runtimeType.html">runtimeType</a></li>
+    
+      <li class="section-title inherited"><a href="mobiprint3/Mobiprint3-class.html#instance-methods">Methods</a></li>
+      <li class="inherited"><a href="mobiprint3/Mobiprint3/noSuchMethod.html">noSuchMethod</a></li>
+      <li class="inherited"><a href="mobiprint3/Mobiprint3/toString.html">toString</a></li>
+    
+      <li class="section-title inherited"><a href="mobiprint3/Mobiprint3-class.html#operators">Operators</a></li>
+      <li class="inherited"><a href="mobiprint3/Mobiprint3/operator_equals.html">operator ==</a></li>
+    
+    
+      <li class="section-title"><a href="mobiprint3/Mobiprint3-class.html#static-methods">Static methods</a></li>
+      <li><a href="mobiprint3/Mobiprint3/custom.html">custom</a></li>
+      <li><a href="mobiprint3/Mobiprint3/end.html">end</a></li>
+      <li><a href="mobiprint3/Mobiprint3/image.html">image</a></li>
+      <li><a href="mobiprint3/Mobiprint3/paper.html">paper</a></li>
+      <li><a href="mobiprint3/Mobiprint3/print.html">print</a></li>
+      <li><a href="mobiprint3/Mobiprint3/space.html">space</a></li>
+      <li><a href="mobiprint3/Mobiprint3/test.html">test</a></li>
+    
+    </ol>
+  </div><!--/.sidebar-offcanvas-->
+
+  <div class="col-xs-12 col-sm-9 col-md-8 main-content">
+    <h1>image method</h1>
+
+    <section class="multi-line-signature">
+      <span class="returntype">Future<span class="signature">&lt;<wbr><span class="type-parameter">Map<span class="signature">&lt;<wbr><span class="type-parameter">String</span>, <span class="type-parameter">dynamic</span>&gt;</span></span>&gt;</span></span>
+      <span class="name ">image</span>
+(<wbr><span class="parameter" id="image-param-text"><span class="type-annotation">String</span> <span class="parameter-name">text</span></span>)
+      
+    </section>
+    
+    <section class="summary source-code" id="source">
+      <h2><span>Implementation</span> </h2>
+      <pre class="language-dart"><code class="language-dart">static Future&lt;Map&lt;String,dynamic&gt;&gt; image( String text) async {
+  try {
+    final String result = await _channel.invokeMethod(&#39;image&#39;,{&quot;data&quot;:text});
+    return { &quot;success&quot; : (result==&quot;1&quot;), &quot;message&quot; : result };
+  } on PlatformException catch (e) {
+    return { &quot;success&quot; : false, &quot;messge&quot; : e.message };
+  }
+}</code></pre>
+    </section>
+
+  </div> <!-- /.main-content -->
+
+  <div class="col-xs-6 col-sm-6 col-md-2 sidebar sidebar-offcanvas-right">
+  </div><!--/.sidebar-offcanvas-->
+
+</main>
+
+<footer>
+  <span class="no-break">
+    mobiprint3 1.0.0
+  </span>
+
+</footer>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="static-assets/typeahead.bundle.min.js"></script>
+<script src="static-assets/highlight.pack.js"></script>
+<script src="static-assets/URI.js"></script>
+<script src="static-assets/script.js"></script>
+
+
+</body>
+
+</html>

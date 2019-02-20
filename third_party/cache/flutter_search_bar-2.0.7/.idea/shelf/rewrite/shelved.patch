@@ -1,0 +1,179 @@
+Index: example/lib/main.dart
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>import 'package:flutter/material.dart';\nimport 'package:flutter_search_bar/flutter_search_bar.dart';\n\nvoid main() {\n  runApp(new SearchBarDemoApp());\n}\n\nclass SearchBarDemoApp extends StatelessWidget {\n  @override\n  Widget build(BuildContext context) {\n    return new MaterialApp(\n        title: 'Search Bar Demo',\n        theme: new ThemeData(primarySwatch: Colors.blue),\n        home: new SearchBarDemoHome());\n  }\n}\n\nclass SearchBarDemoHome extends StatefulWidget {\n  @override\n  _SearchBarDemoHomeState createState() => new _SearchBarDemoHomeState();\n}\n\nclass _SearchBarDemoHomeState extends State<SearchBarDemoHome> {\n  SearchBar searchBar;\n  final GlobalKey<ScaffoldState> _scaffoldKey = new GlobalKey<ScaffoldState>();\n\n  AppBar buildAppBar(BuildContext context) {\n    return new AppBar(\n        title: new Text('Search Bar Demo'),\n        actions: [searchBar.getSearchAction(context)]);\n  }\n\n  void onSubmitted(String value) {\n    setState(() => _scaffoldKey.currentState\n        .showSnackBar(new SnackBar(content: new Text('You wrote $value!'))));\n  }\n\n  _SearchBarDemoHomeState() {\n    searchBar = new SearchBar(\n        inBar: false,\n        buildDefaultAppBar: buildAppBar,\n        setState: setState,\n        onSubmitted: onSubmitted);\n  }\n\n  @override\n  Widget build(BuildContext context) {\n    return new Scaffold(\n      appBar: searchBar.build(context),\n      key: _scaffoldKey,\n      body: new Center(\n          child: new Text(\"Don't look at me! Press the search button!\")),\n    );\n  }\n}\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- example/lib/main.dart	(date 1533060268000)
++++ example/lib/main.dart	(date 1533061364000)
+@@ -38,7 +38,7 @@
+   _SearchBarDemoHomeState() {
+     searchBar = new SearchBar(
+         inBar: false,
+-        buildDefaultAppBar: buildAppBar,
++        defaultAppBar: buildAppBar,
+         setState: setState,
+         onSubmitted: onSubmitted);
+   }
+Index: lib/src/flutter_search_bar_base.dart
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>// Copyright (c) 2017, Spencer. All rights reserved. Use of this source code\n// is governed by a BSD-style license that can be found in the LICENSE file.\n\nimport 'package:flutter/material.dart';\nimport 'package:meta/meta.dart';\n\ntypedef Widget AppBarCallback(BuildContext context);\ntypedef void TextFieldSubmitCallback(String value);\ntypedef void TextFieldChangeCallback(String value);\ntypedef void SetStateCallback(void fn());\n\nclass SearchBar {\n  /// Whether the search should take place \"in the existing search bar\", meaning whether it has the same background or a flipped one. Defaults to true.\n  final bool inBar;\n\n  /// Whether the back button should be colored, if this is false the back button will be Colors.grey.shade400\n  final bool colorBackButton;\n\n  /// Whether or not the search bar should close on submit. Defaults to true.\n  final bool closeOnSubmit;\n\n  /// Whether the text field should be cleared when it is submitted\n  final bool clearOnSubmit;\n\n  /// A callback which should return an AppBar that is displayed until search is started. One of the actions in this AppBar should be a search button which you obtain from SearchBar.getSearchAction(). This will be called every time search is ended, etc. (like a build method on a widget)\n  final AppBarCallback buildDefaultAppBar;\n\n  /// A void callback which takes a string as an argument, this is fired every time the search is submitted. Do what you want with the result.\n  final TextFieldSubmitCallback onSubmitted;\n\n  /// Since this should be inside of a State class, just pass setState to this.\n  final SetStateCallback setState;\n\n  /// Whether or not the search bar should add a clear input button, defaults to true.\n  final bool showClearButton;\n\n  /// What the hintText on the search bar should be. Defaults to 'Search'.\n  final String hintText;\n\n  /// Whether search is currently active.\n  final ValueNotifier<bool> isSearching = new ValueNotifier(false);\n\n  /// A callback which is invoked each time the text field's value changes\n  final TextFieldChangeCallback onChanged;\n\n  /// The controller to be used in the textField.\n  TextEditingController controller;\n\n  /// Whether the clear button should be active (fully colored) or inactive (greyed out)\n  bool _clearActive = false;\n\n  /// The last built default AppBar used for colors and such.\n  AppBar _defaultAppBar;\n\n  SearchBar({\n    @required this.setState,\n    @required this.buildDefaultAppBar,\n    this.onSubmitted,\n    this.controller,\n    this.hintText = 'Search',\n    this.inBar = true,\n    this.colorBackButton = true,\n    this.closeOnSubmit = true,\n    this.clearOnSubmit = true,\n    this.showClearButton = true,\n    this.onChanged\n  }) {\n    if (this.controller == null) {\n      this.controller = new TextEditingController();\n    }\n\n    // Don't waste resources on listeners for the text controller if the dev\n    // doesn't want a clear button anyways in the search bar\n    if (!this.showClearButton) {\n      return;\n    }\n\n    this.controller.addListener(() {\n      if (this.controller.text.isEmpty) {\n        // If clear is already disabled, don't disable it\n        if (_clearActive) {\n          setState(() {\n            _clearActive = false;\n          });\n        }\n\n        return;\n      }\n\n      // If clear is already enabled, don't enable it\n      if (!_clearActive) {\n        setState(() {\n          _clearActive = true;\n        });\n      }\n    });\n  }\n\n  /// Initializes the search bar.\n  ///\n  /// This adds a new route that listens for onRemove (and stops the search when that happens), and then calls [setState] to rebuild and start the search.\n  void beginSearch(context) {\n    ModalRoute.of(context).addLocalHistoryEntry(\n        new LocalHistoryEntry(\n            onRemove: () {\n              setState(() {\n                isSearching.value = false;\n              });\n            }\n        ));\n\n    setState(() {\n      isSearching.value = true;\n    });\n  }\n\n  /// Builds, saves and returns the default app bar.\n  ///\n  /// This calls the [buildDefaultAppBar] provided in the constructor, and saves it to [_defaultAppBar].\n  AppBar buildAppBar(BuildContext context) {\n    _defaultAppBar = buildDefaultAppBar(context);\n\n    return _defaultAppBar;\n  }\n\n  /// Builds the search bar!\n  ///\n  /// The leading will always be a back button.\n  /// backgroundColor is determined by the value of inBar\n  /// title is always a [TextField] with the key 'SearchBarTextField', and various text stylings based on [inBar]. This is also where [onSubmitted] has its listener registered.\n  ///\n  AppBar buildSearchBar(BuildContext context) {\n    ThemeData theme = Theme.of(context);\n\n    Color barColor = inBar ? _defaultAppBar.backgroundColor : theme.canvasColor;\n\n    // Don't provide a color (make it white) if it's in the bar, otherwise color it or set it to grey.\n    Color buttonColor = inBar ? null : (colorBackButton ? _defaultAppBar.backgroundColor ?? theme.primaryColor ?? Colors.grey.shade400 : Colors.grey.shade400);\n    Color buttonDisabledColor = inBar ? new Color.fromRGBO(255, 255, 255, 0.25) : Colors.grey.shade300;\n\n    Color textColor = inBar ? Colors.white70 : Colors.black54;\n\n    return new AppBar(\n      leading: new BackButton(\n          color: buttonColor\n      ),\n      backgroundColor: barColor,\n      title: new Directionality(\n          textDirection: Directionality.of(context),\n          child: new TextField(\n            key: new Key('SearchBarTextField'),\n            keyboardType: TextInputType.text,\n            style: new TextStyle(\n                color: textColor,\n                fontSize: 16.0\n            ),\n            decoration: new InputDecoration(\n                hintText: hintText,\n                hintStyle: new TextStyle(\n                    color: textColor,\n                    fontSize: 16.0\n                ),\n                border: null\n            ),\n            onChanged: this.onChanged,\n            onSubmitted: (String val) async {\n              if (closeOnSubmit) {\n                await Navigator.maybePop(context);\n              }\n\n              if (clearOnSubmit) {\n                controller.clear();\n              }\n\n              onSubmitted(val);\n            },\n            autofocus: true,\n            controller: controller,\n          )\n      ),\n      actions: !showClearButton ? null : <Widget>[\n        // Show an icon if clear is not active, so there's no ripple on tap\n        new IconButton(\n            icon: new Icon(Icons.clear, color: _clearActive ? buttonColor : buttonDisabledColor),\n            disabledColor: buttonDisabledColor,\n            onPressed: !_clearActive ? null : () { controller.clear(); })\n      ],\n    );\n  }\n\n  /// Returns an [IconButton] suitable for an Action\n  ///\n  /// Put this inside your [buildDefaultAppBar] method!\n  IconButton getSearchAction(BuildContext context) {\n    return new IconButton(\n        icon: new Icon(Icons.search),\n        onPressed: () {\n          beginSearch(context);\n        }\n    );\n  }\n\n  /// Returns an AppBar based on the value of [isSearching]\n  AppBar build(BuildContext context) {\n    return isSearching.value ? buildSearchBar(context) : buildAppBar(context);\n  }\n}
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- lib/src/flutter_search_bar_base.dart	(date 1533060268000)
++++ lib/src/flutter_search_bar_base.dart	(date 1533061648000)
+@@ -4,12 +4,10 @@
+ import 'package:flutter/material.dart';
+ import 'package:meta/meta.dart';
+ 
+-typedef Widget AppBarCallback(BuildContext context);
+-typedef void TextFieldSubmitCallback(String value);
+-typedef void TextFieldChangeCallback(String value);
++typedef void StringCallback(String value);
+ typedef void SetStateCallback(void fn());
+ 
+-class SearchBar {
++class SearchBar extends StatefulWidget {
+   /// Whether the search should take place "in the existing search bar", meaning whether it has the same background or a flipped one. Defaults to true.
+   final bool inBar;
+ 
+@@ -22,11 +20,15 @@
+   /// Whether the text field should be cleared when it is submitted
+   final bool clearOnSubmit;
+ 
+-  /// A callback which should return an AppBar that is displayed until search is started. One of the actions in this AppBar should be a search button which you obtain from SearchBar.getSearchAction(). This will be called every time search is ended, etc. (like a build method on a widget)
+-  final AppBarCallback buildDefaultAppBar;
++  /// A widget that is used as the AppBar when search is not active.
++  /// You should probably use a Builder here so you can call getSearchAction,
++  /// because otherwise you can't reference the SearchBar while building the
++  /// widget.
++  final Widget defaultAppBar;
+ 
+-  /// A void callback which takes a string as an argument, this is fired every time the search is submitted. Do what you want with the result.
+-  final TextFieldSubmitCallback onSubmitted;
++  /// A void callback which takes a string as an argument
++  /// This is fired every time the search is submitted. Do what you want with the result.
++  final StringCallback onSubmitted;
+ 
+   /// Since this should be inside of a State class, just pass setState to this.
+   final SetStateCallback setState;
+@@ -41,7 +43,7 @@
+   final ValueNotifier<bool> isSearching = new ValueNotifier(false);
+ 
+   /// A callback which is invoked each time the text field's value changes
+-  final TextFieldChangeCallback onChanged;
++  final StringCallback onChanged;
+ 
+   /// The controller to be used in the textField.
+   TextEditingController controller;
+@@ -54,7 +56,7 @@
+ 
+   SearchBar({
+     @required this.setState,
+-    @required this.buildDefaultAppBar,
++    @required this.defaultAppBar,
+     this.onSubmitted,
+     this.controller,
+     this.hintText = 'Search',
+@@ -116,9 +118,9 @@
+ 
+   /// Builds, saves and returns the default app bar.
+   ///
+-  /// This calls the [buildDefaultAppBar] provided in the constructor, and saves it to [_defaultAppBar].
++  /// This calls the [defaultAppBar] provided in the constructor, and saves it to [_defaultAppBar].
+   AppBar buildAppBar(BuildContext context) {
+-    _defaultAppBar = buildDefaultAppBar(context);
++    _defaultAppBar = defaultAppBar(context);
+ 
+     return _defaultAppBar;
+   }
+@@ -190,7 +192,7 @@
+ 
+   /// Returns an [IconButton] suitable for an Action
+   ///
+-  /// Put this inside your [buildDefaultAppBar] method!
++  /// Put this inside your [defaultAppBar] method!
+   IconButton getSearchAction(BuildContext context) {
+     return new IconButton(
+         icon: new Icon(Icons.search),
+Index: README.md
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+># flutter_search_bar\n\nA simple and mostly automatic material search bar for flutter (dart).\n\nNote: use `flutter_search_bar` and not `search_bar` -- I own both packages but I'm just a tad bit locked out of `search_bar`, so it won't be updated.\n\n## Screenshots\n\nNormal state (search is not active yet, only `title` and `actions` are set, with the only action being a search button)\n\n![Normal State](http://frozor.io/up/0eytLH6M.png)\n\ninBar set to false (background white, back button inherited): \n\n![inBar false](http://frozor.io/up/MdswWio.png)\n\ninBar set to true (background inherited):\n\n![inBar true](http://frozor.io/up/FvENH9A.png)\n\n## Usage\n\nA simple usage example:\n\n```dart\nclass _MyHomePageState extends State<MyHomePage> {\n  SearchBar searchBar;\n  \n  AppBar buildAppBar(BuildContext context) {\n    return new AppBar(\n      title: new Text('My Home Page'),\n      actions: [searchBar.getSearchAction(context)]\n    );\n  }  \n  \n  _MyHomePageState() {\n    searchBar = new SearchBar(\n      inBar: false,\n      setState: setState,\n      onSubmitted: print,\n      buildDefaultAppBar: buildAppBar\n    );\n  }\n  \n  @override\n  Widget build(BuildContext context) {\n    return new Scaffold(\n      appBar: searchBar.build(context)\n    );\n  }\n}\n```\n\nThis will create an AppBar with a search button as its only action, and on press the AppBar will turn white and have a TextField inside, allowing user input. Once the user has input something and pressed the \"enter\" button on their keyboard, it will close and the value will be printed to the debugger.\n\n## Using SearchBar\n\nEssentially, this class returns two different app bars based on whether search is active. Colors from the most recently built \"default\" app bar are used to color the search bar.\n\nI may refer to the two different app bars as **default** and **search**. Default is, as may be inferred, the _default_ app bar. It shows up when you open your app, and is the \"default state\". Once its search button has been pressed, the search app bar appears, where the user can put in input and submit a field. \n\n### TypeDefs\n\n#### AppBarCallback\n\n`typedef AppBar AppBarCallback(BuildContext context);`\n\nThis should take BuildContext and return an Appbar.\n\n#### TextFieldSubmitCallback\n\n`typedef void TextFieldSubmitCallback(String value);`\n\nThis should take the value of the input field and return nothing.\n\n#### SetStateCallback\n\n`typedef void SetStateCallback(fn);`\n\nThis should take a function and return nothing. Generally, this should just be `setState`. More below.\n\n### Constructor\n\n_bool inBar_ - Whether the search should take place \"in the existing search bar\", meaning whether it has the same background as the AppBar or a flipped (white) one (which also has a colored back button if necessary). Defaults to true.\n\n_bool colorBackButton_ - Whether the back button in the search bar should be colored, if false it will be `Colors.grey.shade400`. Defaults to true.\n\n_bool closeOnSubmit_ - Whether the search bar should close once it has been submitted. You should probably keep this on, and it defaults to true anyways.\n\n_String hintText_ - The hint text for the TextField that appears when the search button is pressed. Defaults to just 'Search'.\n\n_AppBarCallback buildDefaultAppBar_ - The function to be called each time the **default** app bar is built. The colors from the most recent AppBar build will be used for the next **search** app bar.\n\n_TextFieldSubmitCallback onSubmitted_ - A void callback called when the search bar is submitted.\n\n_SetStateCallback setState_ - This is called every time the State needs to be updated (i.e. when the AppBar changes). You can literally just pass `setState` to this, unless for some reason you want to do extra stuff each time the AppBar changes. \n\n### Properties\n\nIn addition to all of the above properties set in the constructor:\n\n_bool \\_isSearching_ - Whether search is active.\n\n_AppBar \\_defaultAppBar_ - The last built default app bar.\n\n### Methods\n\n#### getSearchAction\n`IconButton getSearchAction(BuildContext context)`\nThis takes `context` as an argument, and returns an IconButton suitable for an Action in an AppBar. If you want your SearchBar to actually work, put this inside your `buildDefaultAppBar`pub  method.\n\n\n#### build\n\n`AppBar build(BuildContext context)`\n\nThis takes `context` as an argument, and returns an AppBar based on whether search is active.\n\n## Features and bugs\n\nPlease file feature requests and bugs at the [issue tracker][tracker].\n\n[tracker]: https://github.com/ArcticZeroo/flutter-search-bar\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- README.md	(date 1533060268000)
++++ README.md	(date 1533061648000)
+@@ -55,66 +55,8 @@
+ 
+ ## Using SearchBar
+ 
+-Essentially, this class returns two different app bars based on whether search is active. Colors from the most recently built "default" app bar are used to color the search bar.
+-
+-I may refer to the two different app bars as **default** and **search**. Default is, as may be inferred, the _default_ app bar. It shows up when you open your app, and is the "default state". Once its search button has been pressed, the search app bar appears, where the user can put in input and submit a field. 
+-
+-### TypeDefs
+-
+-#### AppBarCallback
+-
+-`typedef AppBar AppBarCallback(BuildContext context);`
+-
+-This should take BuildContext and return an Appbar.
+-
+-#### TextFieldSubmitCallback
+-
+-`typedef void TextFieldSubmitCallback(String value);`
+-
+-This should take the value of the input field and return nothing.
+-
+-#### SetStateCallback
+-
+-`typedef void SetStateCallback(fn);`
+-
+-This should take a function and return nothing. Generally, this should just be `setState`. More below.
+-
+-### Constructor
+-
+-_bool inBar_ - Whether the search should take place "in the existing search bar", meaning whether it has the same background as the AppBar or a flipped (white) one (which also has a colored back button if necessary). Defaults to true.
+-
+-_bool colorBackButton_ - Whether the back button in the search bar should be colored, if false it will be `Colors.grey.shade400`. Defaults to true.
+-
+-_bool closeOnSubmit_ - Whether the search bar should close once it has been submitted. You should probably keep this on, and it defaults to true anyways.
+-
+-_String hintText_ - The hint text for the TextField that appears when the search button is pressed. Defaults to just 'Search'.
+-
+-_AppBarCallback buildDefaultAppBar_ - The function to be called each time the **default** app bar is built. The colors from the most recent AppBar build will be used for the next **search** app bar.
+-
+-_TextFieldSubmitCallback onSubmitted_ - A void callback called when the search bar is submitted.
+-
+-_SetStateCallback setState_ - This is called every time the State needs to be updated (i.e. when the AppBar changes). You can literally just pass `setState` to this, unless for some reason you want to do extra stuff each time the AppBar changes. 
+-
+-### Properties
+-
+-In addition to all of the above properties set in the constructor:
+-
+-_bool \_isSearching_ - Whether search is active.
+-
+-_AppBar \_defaultAppBar_ - The last built default app bar.
+-
+-### Methods
+-
+-#### getSearchAction
+-`IconButton getSearchAction(BuildContext context)`
+-This takes `context` as an argument, and returns an IconButton suitable for an Action in an AppBar. If you want your SearchBar to actually work, put this inside your `buildDefaultAppBar`pub  method.
+-
+-
+-#### build
+-
+-`AppBar build(BuildContext context)`
+-
+-This takes `context` as an argument, and returns an AppBar based on whether search is active.
++1. Create a new instance of the search bar in your widget
++    * Pass a Builder in the `defaultAppBar` parameter, which uses `getSearchAction` for its 
+ 
+ ## Features and bugs
+ 

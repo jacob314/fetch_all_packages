@@ -1,0 +1,16 @@
+name: flutter_paystack_example
+description: Demonstrates how to use the flutter_paystack plugin.
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_paystack:
+    path: ../
+
+flutter:
+  uses-material-design: true

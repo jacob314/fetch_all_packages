@@ -1,0 +1,7 @@
+name: trmsta_flutter
+version: 0.1.2
+description: TRM station info parsing
+author: "Michał Krzysztof Feiler <archiet@platinum.edu.pl>"
+homepage: "https://github.com/ArchieT/trmsta"
+dependencies:
+        flutter:

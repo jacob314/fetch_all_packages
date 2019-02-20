@@ -1,0 +1,3 @@
+class HelloChannel {}
+
+class HelloEvent {}

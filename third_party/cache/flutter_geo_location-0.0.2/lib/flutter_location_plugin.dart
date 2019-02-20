@@ -1,0 +1,38 @@
+import 'dart:async';
+
+import 'package:flutter/services.dart';
+
+class FlutterLocationPlugin {
+  static const MethodChannel _channel =
+  const MethodChannel('github.com/flutter_location_plugin');
+
+
+  /*
+  *  Method :- getLocation
+  *  Return Type : Future<Map>
+  *  Parameters :
+  *
+  *
+  * This method will invoke platform specific location code, and will return a Dictionary or Key Value pair
+  * response.
+  *  ---------------- PLUGIN RESPONSE --------------------
+  *
+  *  iOS :- [Key : Response]
+  *         [status : String] // true/false
+  *         [message : String]
+  *         [latitude : String]
+  *         [longitude : String]
+  *
+  *
+  *  Android :- [Key : Response]
+  *         [status : bool] // true/false
+  *         [message : String]
+  *         [latitude : double]
+  *         [longitude : double]
+  * */
+
+  static Future<Map<dynamic, dynamic>> get getLocation async {
+    var result = await _channel.invokeMethod('getLocation');
+    return result;
+  }
+}

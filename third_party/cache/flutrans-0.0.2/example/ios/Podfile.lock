@@ -1,0 +1,37 @@
+PODS:
+  - flutrans (0.0.1):
+    - Flutter
+    - MidtransCoreKit
+    - MidtransKit
+  - Flutter (1.0.0)
+  - MidtransCoreKit (1.9.3)
+  - MidtransKit (1.9.3):
+    - MidtransCoreKit (~> 1.9.3)
+    - MidtransKit/UI (= 1.9.3)
+  - MidtransKit/UI (1.9.3):
+    - MidtransCoreKit (~> 1.9.3)
+
+DEPENDENCIES:
+  - flutrans (from `.symlinks/plugins/flutrans/ios`)
+  - Flutter (from `.symlinks/flutter/ios`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - MidtransCoreKit
+    - MidtransKit
+
+EXTERNAL SOURCES:
+  flutrans:
+    :path: ".symlinks/plugins/flutrans/ios"
+  Flutter:
+    :path: ".symlinks/flutter/ios"
+
+SPEC CHECKSUMS:
+  flutrans: b6d144e6d5dfbaa2c10898aec90c45e2096aa0bf
+  Flutter: 9d0fac939486c9aba2809b7982dfdbb47a7b0296
+  MidtransCoreKit: 3215ce4ec514aeafd0f05437ca81f861738e9da5
+  MidtransKit: 941ebdf51b240d0d405f48551966bef03d74bb57
+
+PODFILE CHECKSUM: 1e5af4103afd21ca5ead147d7b81d06f494f51a2
+
+COCOAPODS: 1.5.3

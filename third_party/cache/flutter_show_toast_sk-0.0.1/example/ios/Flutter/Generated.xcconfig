@@ -1,0 +1,8 @@
+// This is a generated file; do not edit or check into version control.
+FLUTTER_ROOT=/Users/sokha/Library/Android/sdk/flutter
+FLUTTER_APPLICATION_PATH=/Users/sokha/Workspaces/Flutter-Workspaces/projects/flutter_show_toast_sk/example
+FLUTTER_TARGET=/Users/sokha/Workspaces/Flutter-Workspaces/projects/flutter_show_toast_sk/example/lib/main.dart
+FLUTTER_BUILD_DIR=build
+SYMROOT=${SOURCE_ROOT}/../build/ios
+FLUTTER_FRAMEWORK_DIR=/Users/sokha/Library/Android/sdk/flutter/bin/cache/artifacts/engine/ios
+TRACK_WIDGET_CREATION=true

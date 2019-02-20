@@ -1,0 +1,20 @@
+name: swipable
+description: Animatable horizontal-gesture detecting container supporting event callbacks
+version: 0.1.0
+author: Andrew Gu
+homepage: https://github.com/a-gu/flutter-swipable
+
+environment:
+  sdk: ">=2.0.0-dev.63.0 <3.0.0"
+  flutter: ">=0.5.7"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: false

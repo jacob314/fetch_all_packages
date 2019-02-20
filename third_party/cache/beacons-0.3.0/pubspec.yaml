@@ -1,0 +1,19 @@
+name: beacons
+description: Flutter beacons plugin for iOS and Android.
+version: 0.3.0
+author: Loup Inc. <hello@intheloup.io>
+homepage: https://github.com/loup-v/beacons
+
+environment:
+  sdk: '>=1.19.0 <3.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  streams_channel: ^0.2.1
+
+flutter:
+  plugin:
+    androidPackage: io.intheloup.beacons
+    pluginClass: BeaconsPlugin

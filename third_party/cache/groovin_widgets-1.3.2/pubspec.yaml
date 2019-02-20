@@ -1,0 +1,23 @@
+name: groovin_widgets
+description: A Flutter package containing widgets created by GroovinChip.
+version: 1.3.2
+author: GroovinChip <groovinchip@gmail.com>
+homepage: https://github.com/GroovinChip/GroovinWidgets
+#---
+# Release commands:
+# 1) flutter packages pub publish --dry-run
+# 2) flutter packages pub publish
+#---
+
+environment:
+  sdk: ">=2.0.0-dev.68.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:

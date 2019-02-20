@@ -1,0 +1,74 @@
+import 'package:catcher/model/report.dart';
+import 'package:catcher/handlers/report_handler.dart';
+import 'package:logging/logging.dart';
+
+class ConsoleHandler extends ReportHandler {
+  final bool enableDeviceParameters;
+  final bool enableApplicationParameters;
+  final bool enableStackTrace;
+  final bool enableCustomParameters;
+  Logger _logger = Logger("ConsoleHandler");
+
+  ConsoleHandler(
+      {this.enableDeviceParameters = true,
+      this.enableApplicationParameters = true,
+      this.enableStackTrace = true,
+      this.enableCustomParameters = false});
+
+  @override
+  Future<bool> handle(Report error) {
+    _logger.info(
+        "============================== CATCHER LOG ==============================");
+    _logger.info("Crash occured on ${error.dateTime}");
+    _logger.info("");
+    if (enableDeviceParameters) {
+      _printDeviceParametersFormatted(error.deviceParameters);
+      _logger.info("");
+    }
+    if (enableApplicationParameters) {
+      _printApplicationParametersFormatted(error.applicationParameters);
+      _logger.info("");
+    }
+    _logger.info("---------- ERROR ----------");
+    _logger.info("${error.error}");
+    _logger.info("");
+    if (enableStackTrace) {
+      _printStackTraceFormatted(error.stackTrace);
+    }
+    if (enableCustomParameters) {
+      _printCustomParametersFormatted(error.customParameters);
+    }
+    _logger.info(
+        "======================================================================");
+    return Future.value(true);
+  }
+
+  _printDeviceParametersFormatted(Map<String, dynamic> deviceParameters) {
+    _logger.info("------- DEVICE INFO -------");
+    for (var entry in deviceParameters.entries) {
+      _logger.info("${entry.key}: ${entry.value}");
+    }
+  }
+
+  _printApplicationParametersFormatted(
+      Map<String, dynamic> applicationParameters) {
+    _logger.info("------- APP INFO -------");
+    for (var entry in applicationParameters.entries) {
+      _logger.info("${entry.key}: ${entry.value}");
+    }
+  }
+
+  _printCustomParametersFormatted(Map<String, dynamic> customParameters) {
+    _logger.info("------- CUSTOM INFO -------");
+    for (var entry in customParameters.entries) {
+      _logger.info("${entry.key}: ${entry.value}");
+    }
+  }
+
+  _printStackTraceFormatted(StackTrace stackTrace) {
+    _logger.info("------- STACK TRACE -------");
+    for (var entry in stackTrace.toString().split("\n")) {
+      _logger.info("$entry");
+    }
+  }
+}

@@ -1,0 +1,1074 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		1034CBA230633C16AA279DA7AB02B449 /* Flutter */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 4AD4A822AE0D9071A2345B392A4DA9D3 /* Build configuration list for PBXAggregateTarget "Flutter" */;
+			buildPhases = (
+			);
+			dependencies = (
+			);
+			name = Flutter;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		02FDD5A8F83AEFDB32CE87FEC4304CAC /* LJPerson.h in Headers */ = {isa = PBXBuildFile; fileRef = FDB55AE8AD04FFDFBABE24FA4D572CF1 /* LJPerson.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		2130973A6FA16F1933345B706AA22490 /* LJPeoplePickerDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E9DD85F1CA9770B674A19C155822620 /* LJPeoplePickerDelegate.m */; };
+		27FE422DA1CBC010AEBEBF83629BF0FB /* LJContactManager-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DAB7E03D6E91E81CF3EA433DC249C54B /* LJContactManager-dummy.m */; };
+		2CA971F6191CBF72D7E41148BC8CD063 /* LJPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = C95E914BCAA5EBE0DDB11BAE0664BA5F /* LJPerson.m */; };
+		2EF9D89A9D44AD11EA2F597CC6B875CD /* NSString+LJExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EBCF3CBCC6BDF5AD15EA57133649A3E /* NSString+LJExtension.m */; };
+		42A09BAAA53732FD3C7F0B1458C625B2 /* ContactPlugin.h in Headers */ = {isa = PBXBuildFile; fileRef = 57909BEAE99CE5E614CCA65CF1E24375 /* ContactPlugin.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		56B9F7ED9456FC4848A3505A71AA2EBE /* LJPickerDetailDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 8E71728D3989CD1B0D882F015D07BA5E /* LJPickerDetailDelegate.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		783153A3B3017F9E28B1E04B99C2C16A /* LJContactManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 807C637707F52C67035C3CE842C5D0F7 /* LJContactManager.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		808C84DA351B213FE3857F653BD21056 /* LJContactManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 0ED4D54811EA1642D935C419B492FEB6 /* LJContactManager.m */; };
+		8104831C9B594196A91E65D6A3223A6C /* NSString+LJExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = C4C2924F14D413D1079586CBC9081FE2 /* NSString+LJExtension.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		A9380F0307BABB3B75234D1C4A44C08C /* Pods-Runner-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DE1CBC38E77BC20860D5C7275FD050DD /* Pods-Runner-dummy.m */; };
+		BAB47BD99443DA725C45BC66045EE4AB /* LJPickerDetailDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E7C614E1DAA5BF3E4108EC3E83C59A3 /* LJPickerDetailDelegate.m */; };
+		C6D83CC70DAB4C3B92B5EC85796B8AD0 /* LJPeoplePickerDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 33E68349FF3127EB08387668EC37FA72 /* LJPeoplePickerDelegate.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		CCE92A092AFD5E7149249D37E10997B6 /* contact_plugin-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F23A76FA52B37C673A30551B506983E /* contact_plugin-dummy.m */; };
+		F3B206A8253CFEFA30B8D80891ECC5FC /* ContactPlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = 196BA817F625093235BD0CD12067D9BD /* ContactPlugin.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0433ECDBC8BBB30213456EEEBB63EC9A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1034CBA230633C16AA279DA7AB02B449;
+			remoteInfo = Flutter;
+		};
+		0E67578573FEC7B22A8B77398816BEAA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0D9F8253B9C378C5AC39F6326EFFB28E;
+			remoteInfo = LJContactManager;
+		};
+		44F8A2BDC5446FBAD3FCAF3D2EA848EF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0D9F8253B9C378C5AC39F6326EFFB28E;
+			remoteInfo = LJContactManager;
+		};
+		4A51C950C87CB86D06C22FEE86184921 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CB763AB8BF37AD2E2DA18D019096064C;
+			remoteInfo = contact_plugin;
+		};
+		CF2E9AF9886063909E7A0E2FFBD1F510 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1034CBA230633C16AA279DA7AB02B449;
+			remoteInfo = Flutter;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0ED4D54811EA1642D935C419B492FEB6 /* LJContactManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LJContactManager.m; path = LJContactManager/LJContactManager.m; sourceTree = "<group>"; };
+		1868E131762026E898763C7D000607DD /* contact_plugin.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = contact_plugin.xcconfig; sourceTree = "<group>"; };
+		196BA817F625093235BD0CD12067D9BD /* ContactPlugin.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ContactPlugin.m; path = ../../../../../../../ios/Classes/ContactPlugin.m; sourceTree = "<group>"; };
+		23AA6C07E70278955D2102A2122E6A57 /* libLJContactManager.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libLJContactManager.a; path = libLJContactManager.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		28271F6E4445449E4FAF116F5325FB40 /* contact_plugin-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "contact_plugin-prefix.pch"; sourceTree = "<group>"; };
+		29A69BC464A7C607E2CE746C83F01DF6 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../../../../../../LICENSE; sourceTree = "<group>"; };
+		2B7E1E800212EC648523E0857D413AAD /* LJContactManager.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LJContactManager.xcconfig; sourceTree = "<group>"; };
+		2F97B66181A89A42396E0EADBC0DCA47 /* libcontact_plugin.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libcontact_plugin.a; path = libcontact_plugin.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		33E68349FF3127EB08387668EC37FA72 /* LJPeoplePickerDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LJPeoplePickerDelegate.h; path = LJContactManager/LJPeoplePickerDelegate.h; sourceTree = "<group>"; };
+		355C6DCB69A50D83FEBE122F19BE054C /* Pods-Runner-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Runner-frameworks.sh"; sourceTree = "<group>"; };
+		43AC85B6C0B569E79F478BB0A029F7BA /* Pods-Runner-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Runner-acknowledgements.plist"; sourceTree = "<group>"; };
+		4BD72629AB2D674E7A5E44F575DF9B5A /* Pods-Runner.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Runner.release.xcconfig"; sourceTree = "<group>"; };
+		570490F3713D384936F5B24D21C886D1 /* Pods-Runner-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Runner-acknowledgements.markdown"; sourceTree = "<group>"; };
+		57909BEAE99CE5E614CCA65CF1E24375 /* ContactPlugin.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ContactPlugin.h; path = ../../../../../../../ios/Classes/ContactPlugin.h; sourceTree = "<group>"; };
+		5DCAAB6D0A7D2DF5151CAC13D3F61023 /* Pods-Runner.profile.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Runner.profile.xcconfig"; sourceTree = "<group>"; };
+		6E28C1189F9EDC22BD5687A2E8FF29AA /* Pods-Runner.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Runner.debug.xcconfig"; sourceTree = "<group>"; };
+		6E7C614E1DAA5BF3E4108EC3E83C59A3 /* LJPickerDetailDelegate.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LJPickerDetailDelegate.m; path = LJContactManager/LJPickerDetailDelegate.m; sourceTree = "<group>"; };
+		6E9DD85F1CA9770B674A19C155822620 /* LJPeoplePickerDelegate.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LJPeoplePickerDelegate.m; path = LJContactManager/LJPeoplePickerDelegate.m; sourceTree = "<group>"; };
+		6EBCF3CBCC6BDF5AD15EA57133649A3E /* NSString+LJExtension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+LJExtension.m"; path = "LJContactManager/NSString+LJExtension.m"; sourceTree = "<group>"; };
+		807C637707F52C67035C3CE842C5D0F7 /* LJContactManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LJContactManager.h; path = LJContactManager/LJContactManager.h; sourceTree = "<group>"; };
+		87EDFE517716E4BD72A9796698678BD2 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../../../../../../../../flutter/bin/cache/artifacts/engine/ios/LICENSE; sourceTree = "<group>"; };
+		8E71728D3989CD1B0D882F015D07BA5E /* LJPickerDetailDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LJPickerDetailDelegate.h; path = LJContactManager/LJPickerDetailDelegate.h; sourceTree = "<group>"; };
+		8F23A76FA52B37C673A30551B506983E /* contact_plugin-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "contact_plugin-dummy.m"; sourceTree = "<group>"; };
+		A24FC0791D369C8FD271531ADDE5E572 /* contact_plugin.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = contact_plugin.podspec; path = ../../../../../../ios/contact_plugin.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		B36AB396275697EEE1A5B13BA8A38FE3 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		C4C2924F14D413D1079586CBC9081FE2 /* NSString+LJExtension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+LJExtension.h"; path = "LJContactManager/NSString+LJExtension.h"; sourceTree = "<group>"; };
+		C95E914BCAA5EBE0DDB11BAE0664BA5F /* LJPerson.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LJPerson.m; path = LJContactManager/LJPerson.m; sourceTree = "<group>"; };
+		D180C4DE67DC77D9115C3E11C106AF80 /* LJContactManager-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LJContactManager-prefix.pch"; sourceTree = "<group>"; };
+		D37335E17FF6184825C94DAFBDA1ABEF /* Flutter.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Flutter.podspec; path = ../../../../../../../../flutter/bin/cache/artifacts/engine/ios/Flutter.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		D9694847AFFD456838C168D50E2D3BFE /* Flutter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Flutter.framework; path = ../../../../../../../../flutter/bin/cache/artifacts/engine/ios/Flutter.framework; sourceTree = "<group>"; };
+		DAB7E03D6E91E81CF3EA433DC249C54B /* LJContactManager-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LJContactManager-dummy.m"; sourceTree = "<group>"; };
+		DE1CBC38E77BC20860D5C7275FD050DD /* Pods-Runner-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Runner-dummy.m"; sourceTree = "<group>"; };
+		E9D5BBB8B1E765E4944F18E61991C35E /* libPods-Runner.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-Runner.a"; path = "libPods-Runner.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FDB55AE8AD04FFDFBABE24FA4D572CF1 /* LJPerson.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LJPerson.h; path = LJContactManager/LJPerson.h; sourceTree = "<group>"; };
+		FEE606F220719C4F261125DB3B23869F /* Flutter.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Flutter.xcconfig; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1F16E997537E2F669ECBC81260B54605 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5B10CEB1B70B356F91F1136AC4F1A7B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D63520355773EAED01F809D4A41D2F9C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		057B233F79FE12EFA75E2A8069DA089E /* contact_plugin */ = {
+			isa = PBXGroup;
+			children = (
+				A4ED3B535B52ECD597B90C4EA0005777 /* .. */,
+				301295D5DA0621C0F397B211B275757C /* Pod */,
+				8E7A19653905005C2DF9E073B9DA46A6 /* Support Files */,
+			);
+			name = contact_plugin;
+			path = ../.symlinks/plugins/contact_plugin/ios;
+			sourceTree = "<group>";
+		};
+		08436553B440FC50E2BFDBC812EA803C /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				057B233F79FE12EFA75E2A8069DA089E /* contact_plugin */,
+				D1C828054B03D8EB9E7B1800C3703C5D /* Flutter */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		0F8D2E47FE03D3B91B51069F7C273AF4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		14C16BF5A7A7C2DE2FCE23E7110F643B /* example */ = {
+			isa = PBXGroup;
+			children = (
+				BE91A17C60C9F4A981DE36D3404A46FC /* ios */,
+			);
+			name = example;
+			path = example;
+			sourceTree = "<group>";
+		};
+		2912070AC6D172A28047C12D0F96691C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2F97B66181A89A42396E0EADBC0DCA47 /* libcontact_plugin.a */,
+				23AA6C07E70278955D2102A2122E6A57 /* libLJContactManager.a */,
+				E9D5BBB8B1E765E4944F18E61991C35E /* libPods-Runner.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		301295D5DA0621C0F397B211B275757C /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				A24FC0791D369C8FD271531ADDE5E572 /* contact_plugin.podspec */,
+				29A69BC464A7C607E2CE746C83F01DF6 /* LICENSE */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		38BA84CC359392BC3B9BB721EA293942 /* Pods-Runner */ = {
+			isa = PBXGroup;
+			children = (
+				570490F3713D384936F5B24D21C886D1 /* Pods-Runner-acknowledgements.markdown */,
+				43AC85B6C0B569E79F478BB0A029F7BA /* Pods-Runner-acknowledgements.plist */,
+				DE1CBC38E77BC20860D5C7275FD050DD /* Pods-Runner-dummy.m */,
+				355C6DCB69A50D83FEBE122F19BE054C /* Pods-Runner-frameworks.sh */,
+				6E28C1189F9EDC22BD5687A2E8FF29AA /* Pods-Runner.debug.xcconfig */,
+				5DCAAB6D0A7D2DF5151CAC13D3F61023 /* Pods-Runner.profile.xcconfig */,
+				4BD72629AB2D674E7A5E44F575DF9B5A /* Pods-Runner.release.xcconfig */,
+			);
+			name = "Pods-Runner";
+			path = "Target Support Files/Pods-Runner";
+			sourceTree = "<group>";
+		};
+		3D01BC109266C838AB79DE945206A2DA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				682DEF812FE2484AC8D086FC07A26E51 /* LJContactManager */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		524208AA34FEF19992F2E1867AB2C263 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D9694847AFFD456838C168D50E2D3BFE /* Flutter.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6276BDF4AEEBE7163429CDB73B6980D7 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				38BA84CC359392BC3B9BB721EA293942 /* Pods-Runner */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		682DEF812FE2484AC8D086FC07A26E51 /* LJContactManager */ = {
+			isa = PBXGroup;
+			children = (
+				807C637707F52C67035C3CE842C5D0F7 /* LJContactManager.h */,
+				0ED4D54811EA1642D935C419B492FEB6 /* LJContactManager.m */,
+				33E68349FF3127EB08387668EC37FA72 /* LJPeoplePickerDelegate.h */,
+				6E9DD85F1CA9770B674A19C155822620 /* LJPeoplePickerDelegate.m */,
+				FDB55AE8AD04FFDFBABE24FA4D572CF1 /* LJPerson.h */,
+				C95E914BCAA5EBE0DDB11BAE0664BA5F /* LJPerson.m */,
+				8E71728D3989CD1B0D882F015D07BA5E /* LJPickerDetailDelegate.h */,
+				6E7C614E1DAA5BF3E4108EC3E83C59A3 /* LJPickerDetailDelegate.m */,
+				C4C2924F14D413D1079586CBC9081FE2 /* NSString+LJExtension.h */,
+				6EBCF3CBCC6BDF5AD15EA57133649A3E /* NSString+LJExtension.m */,
+				76D19D7B89D56D76222D73783B6132FE /* Support Files */,
+			);
+			name = LJContactManager;
+			path = LJContactManager;
+			sourceTree = "<group>";
+		};
+		6D05640F0E64E9D005CFF68A70F9EA6D /* ios */ = {
+			isa = PBXGroup;
+			children = (
+				880CE79154FF2FE3B83AC2E1660DD244 /* Classes */,
+			);
+			name = ios;
+			path = ios;
+			sourceTree = "<group>";
+		};
+		76D19D7B89D56D76222D73783B6132FE /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				2B7E1E800212EC648523E0857D413AAD /* LJContactManager.xcconfig */,
+				DAB7E03D6E91E81CF3EA433DC249C54B /* LJContactManager-dummy.m */,
+				D180C4DE67DC77D9115C3E11C106AF80 /* LJContactManager-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/LJContactManager";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				B36AB396275697EEE1A5B13BA8A38FE3 /* Podfile */,
+				08436553B440FC50E2BFDBC812EA803C /* Development Pods */,
+				0F8D2E47FE03D3B91B51069F7C273AF4 /* Frameworks */,
+				3D01BC109266C838AB79DE945206A2DA /* Pods */,
+				2912070AC6D172A28047C12D0F96691C /* Products */,
+				6276BDF4AEEBE7163429CDB73B6980D7 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		880CE79154FF2FE3B83AC2E1660DD244 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				57909BEAE99CE5E614CCA65CF1E24375 /* ContactPlugin.h */,
+				196BA817F625093235BD0CD12067D9BD /* ContactPlugin.m */,
+			);
+			name = Classes;
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		88F900D12730B50F56206443453A44FA /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				FEE606F220719C4F261125DB3B23869F /* Flutter.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../../../Pods/Target Support Files/Flutter";
+			sourceTree = "<group>";
+		};
+		894CDF8B2D442F234084A122713221AF /* .symlinks */ = {
+			isa = PBXGroup;
+			children = (
+				BF5E006BCACB94D138E27B95299FA204 /* plugins */,
+			);
+			name = .symlinks;
+			path = .symlinks;
+			sourceTree = "<group>";
+		};
+		8E7A19653905005C2DF9E073B9DA46A6 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				1868E131762026E898763C7D000607DD /* contact_plugin.xcconfig */,
+				8F23A76FA52B37C673A30551B506983E /* contact_plugin-dummy.m */,
+				28271F6E4445449E4FAF116F5325FB40 /* contact_plugin-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../../../../Pods/Target Support Files/contact_plugin";
+			sourceTree = "<group>";
+		};
+		A4ED3B535B52ECD597B90C4EA0005777 /* .. */ = {
+			isa = PBXGroup;
+			children = (
+				AC8627C85AA9CF400D3E691C6E9AAD72 /* .. */,
+			);
+			name = ..;
+			path = ../../../../../../ios;
+			sourceTree = "<group>";
+		};
+		AC8627C85AA9CF400D3E691C6E9AAD72 /* .. */ = {
+			isa = PBXGroup;
+			children = (
+				14C16BF5A7A7C2DE2FCE23E7110F643B /* example */,
+			);
+			name = ..;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		B3A28100FC24991A36AD08196BF1F7AB /* contact_plugin */ = {
+			isa = PBXGroup;
+			children = (
+				6D05640F0E64E9D005CFF68A70F9EA6D /* ios */,
+			);
+			name = contact_plugin;
+			path = contact_plugin;
+			sourceTree = "<group>";
+		};
+		BE91A17C60C9F4A981DE36D3404A46FC /* ios */ = {
+			isa = PBXGroup;
+			children = (
+				894CDF8B2D442F234084A122713221AF /* .symlinks */,
+			);
+			name = ios;
+			path = ios;
+			sourceTree = "<group>";
+		};
+		BF5E006BCACB94D138E27B95299FA204 /* plugins */ = {
+			isa = PBXGroup;
+			children = (
+				B3A28100FC24991A36AD08196BF1F7AB /* contact_plugin */,
+			);
+			name = plugins;
+			path = plugins;
+			sourceTree = "<group>";
+		};
+		D1C828054B03D8EB9E7B1800C3703C5D /* Flutter */ = {
+			isa = PBXGroup;
+			children = (
+				524208AA34FEF19992F2E1867AB2C263 /* Frameworks */,
+				FB80F299FC0F494D329AB93323C00937 /* Pod */,
+				88F900D12730B50F56206443453A44FA /* Support Files */,
+			);
+			name = Flutter;
+			path = ../.symlinks/flutter/ios;
+			sourceTree = "<group>";
+		};
+		FB80F299FC0F494D329AB93323C00937 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				D37335E17FF6184825C94DAFBDA1ABEF /* Flutter.podspec */,
+				87EDFE517716E4BD72A9796698678BD2 /* LICENSE */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		4DFB698A6F5F9534BF244A3671FC3948 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				783153A3B3017F9E28B1E04B99C2C16A /* LJContactManager.h in Headers */,
+				C6D83CC70DAB4C3B92B5EC85796B8AD0 /* LJPeoplePickerDelegate.h in Headers */,
+				02FDD5A8F83AEFDB32CE87FEC4304CAC /* LJPerson.h in Headers */,
+				56B9F7ED9456FC4848A3505A71AA2EBE /* LJPickerDetailDelegate.h in Headers */,
+				8104831C9B594196A91E65D6A3223A6C /* NSString+LJExtension.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4B92C448DF923ACADCE1A0A8246B154 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D9E1CAB74D19DBF093F72CB6CE091E9A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42A09BAAA53732FD3C7F0B1458C625B2 /* ContactPlugin.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		092FB74D73E7FE6C5BB1BF5C9C7213E9 /* Pods-Runner */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 77C3652D6E366659DCA42C10E7DAAD5A /* Build configuration list for PBXNativeTarget "Pods-Runner" */;
+			buildPhases = (
+				A4B92C448DF923ACADCE1A0A8246B154 /* Headers */,
+				A60776A83C32565CDA6B9C161B697FF7 /* Sources */,
+				1F16E997537E2F669ECBC81260B54605 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A3B9C0F6CADFB2697CCA4D749D988DBD /* PBXTargetDependency */,
+				F86F91ABB3F0DE273D5ACBC62C300F56 /* PBXTargetDependency */,
+				E47470748A2BC20ABC7787D86CAC5276 /* PBXTargetDependency */,
+			);
+			name = "Pods-Runner";
+			productName = "Pods-Runner";
+			productReference = E9D5BBB8B1E765E4944F18E61991C35E /* libPods-Runner.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		0D9F8253B9C378C5AC39F6326EFFB28E /* LJContactManager */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 97643382B36B927B49233AF668F12521 /* Build configuration list for PBXNativeTarget "LJContactManager" */;
+			buildPhases = (
+				4DFB698A6F5F9534BF244A3671FC3948 /* Headers */,
+				F6973B83825720C5B0C8AB32822F4992 /* Sources */,
+				D63520355773EAED01F809D4A41D2F9C /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LJContactManager;
+			productName = LJContactManager;
+			productReference = 23AA6C07E70278955D2102A2122E6A57 /* libLJContactManager.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		CB763AB8BF37AD2E2DA18D019096064C /* contact_plugin */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E301E1BA21A9B37B5A25035CB5F09FA1 /* Build configuration list for PBXNativeTarget "contact_plugin" */;
+			buildPhases = (
+				D9E1CAB74D19DBF093F72CB6CE091E9A /* Headers */,
+				A3166B4BAD2950BF19C2200C4A9C691B /* Sources */,
+				D5B10CEB1B70B356F91F1136AC4F1A7B /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A7CB6253EF3E5AD818663F2B32168108 /* PBXTargetDependency */,
+				43CC4EB41A4627E474D0391D702EEB57 /* PBXTargetDependency */,
+			);
+			name = contact_plugin;
+			productName = contact_plugin;
+			productReference = 2F97B66181A89A42396E0EADBC0DCA47 /* libcontact_plugin.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 2912070AC6D172A28047C12D0F96691C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CB763AB8BF37AD2E2DA18D019096064C /* contact_plugin */,
+				1034CBA230633C16AA279DA7AB02B449 /* Flutter */,
+				0D9F8253B9C378C5AC39F6326EFFB28E /* LJContactManager */,
+				092FB74D73E7FE6C5BB1BF5C9C7213E9 /* Pods-Runner */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A3166B4BAD2950BF19C2200C4A9C691B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCE92A092AFD5E7149249D37E10997B6 /* contact_plugin-dummy.m in Sources */,
+				F3B206A8253CFEFA30B8D80891ECC5FC /* ContactPlugin.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A60776A83C32565CDA6B9C161B697FF7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9380F0307BABB3B75234D1C4A44C08C /* Pods-Runner-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F6973B83825720C5B0C8AB32822F4992 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27FE422DA1CBC010AEBEBF83629BF0FB /* LJContactManager-dummy.m in Sources */,
+				808C84DA351B213FE3857F653BD21056 /* LJContactManager.m in Sources */,
+				2130973A6FA16F1933345B706AA22490 /* LJPeoplePickerDelegate.m in Sources */,
+				2CA971F6191CBF72D7E41148BC8CD063 /* LJPerson.m in Sources */,
+				BAB47BD99443DA725C45BC66045EE4AB /* LJPickerDetailDelegate.m in Sources */,
+				2EF9D89A9D44AD11EA2F597CC6B875CD /* NSString+LJExtension.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		43CC4EB41A4627E474D0391D702EEB57 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = LJContactManager;
+			target = 0D9F8253B9C378C5AC39F6326EFFB28E /* LJContactManager */;
+			targetProxy = 44F8A2BDC5446FBAD3FCAF3D2EA848EF /* PBXContainerItemProxy */;
+		};
+		A3B9C0F6CADFB2697CCA4D749D988DBD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Flutter;
+			target = 1034CBA230633C16AA279DA7AB02B449 /* Flutter */;
+			targetProxy = 0433ECDBC8BBB30213456EEEBB63EC9A /* PBXContainerItemProxy */;
+		};
+		A7CB6253EF3E5AD818663F2B32168108 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Flutter;
+			target = 1034CBA230633C16AA279DA7AB02B449 /* Flutter */;
+			targetProxy = CF2E9AF9886063909E7A0E2FFBD1F510 /* PBXContainerItemProxy */;
+		};
+		E47470748A2BC20ABC7787D86CAC5276 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = contact_plugin;
+			target = CB763AB8BF37AD2E2DA18D019096064C /* contact_plugin */;
+			targetProxy = 4A51C950C87CB86D06C22FEE86184921 /* PBXContainerItemProxy */;
+		};
+		F86F91ABB3F0DE273D5ACBC62C300F56 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = LJContactManager;
+			target = 0D9F8253B9C378C5AC39F6326EFFB28E /* LJContactManager */;
+			targetProxy = 0E67578573FEC7B22A8B77398816BEAA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0C49FBE7C24218C7E02009B0170DAB62 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6E28C1189F9EDC22BD5687A2E8FF29AA /* Pods-Runner.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				ENABLE_BITCODE = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		20ADA52126E7812A342B692C455400FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2B7E1E800212EC648523E0857D413AAD /* LJContactManager.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				ENABLE_BITCODE = NO;
+				GCC_PREFIX_HEADER = "Target Support Files/LJContactManager/LJContactManager-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = LJContactManager;
+				PRODUCT_NAME = LJContactManager;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		33A0664EB04F2902549089B8CA9125BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4BD72629AB2D674E7A5E44F575DF9B5A /* Pods-Runner.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				ENABLE_BITCODE = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		44C82E49515EFEE843921EEA7DAB61BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FEE606F220719C4F261125DB3B23869F /* Flutter.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				ENABLE_BITCODE = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		588446557605CC96855D7A161A0C0993 /* Profile */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1868E131762026E898763C7D000607DD /* contact_plugin.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				ENABLE_BITCODE = NO;
+				GCC_PREFIX_HEADER = "Target Support Files/contact_plugin/contact_plugin-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = contact_plugin;
+				PRODUCT_NAME = contact_plugin;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Profile;
+		};
+		5EAF73AB7821DE72FE7380BBDA450389 /* Profile */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FEE606F220719C4F261125DB3B23869F /* Flutter.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				ENABLE_BITCODE = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Profile;
+		};
+		94006D80351D9C814C5A811D4C317254 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1868E131762026E898763C7D000607DD /* contact_plugin.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				ENABLE_BITCODE = NO;
+				GCC_PREFIX_HEADER = "Target Support Files/contact_plugin/contact_plugin-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = contact_plugin;
+				PRODUCT_NAME = contact_plugin;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		982993E52DF6DB63E1BE755336FFF873 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2B7E1E800212EC648523E0857D413AAD /* LJContactManager.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				ENABLE_BITCODE = NO;
+				GCC_PREFIX_HEADER = "Target Support Files/LJContactManager/LJContactManager-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = LJContactManager;
+				PRODUCT_NAME = LJContactManager;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AE4DB6187FB1622F98C2A62E468BE342 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FEE606F220719C4F261125DB3B23869F /* Flutter.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				ENABLE_BITCODE = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BBDC49FE9FECCB3DCF37A408F062638E /* Profile */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2B7E1E800212EC648523E0857D413AAD /* LJContactManager.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				ENABLE_BITCODE = NO;
+				GCC_PREFIX_HEADER = "Target Support Files/LJContactManager/LJContactManager-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = LJContactManager;
+				PRODUCT_NAME = LJContactManager;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Profile;
+		};
+		BE01AF5D395AE305A54D518A9B774D2A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		BE6E983299C1F9C86F6C2B61F4D37851 /* Profile */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5DCAAB6D0A7D2DF5151CAC13D3F61023 /* Pods-Runner.profile.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				ENABLE_BITCODE = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Profile;
+		};
+		CFC8DEA7B5326676BA33093221AAE4F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		D21C7428FC787B4F507AE6008A6A0DB0 /* Profile */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_PROFILE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Profile;
+		};
+		F721E9E95A5F34A77010C8926D78CDA6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1868E131762026E898763C7D000607DD /* contact_plugin.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				ENABLE_BITCODE = NO;
+				GCC_PREFIX_HEADER = "Target Support Files/contact_plugin/contact_plugin-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = contact_plugin;
+				PRODUCT_NAME = contact_plugin;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CFC8DEA7B5326676BA33093221AAE4F4 /* Debug */,
+				D21C7428FC787B4F507AE6008A6A0DB0 /* Profile */,
+				BE01AF5D395AE305A54D518A9B774D2A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4AD4A822AE0D9071A2345B392A4DA9D3 /* Build configuration list for PBXAggregateTarget "Flutter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				44C82E49515EFEE843921EEA7DAB61BD /* Debug */,
+				5EAF73AB7821DE72FE7380BBDA450389 /* Profile */,
+				AE4DB6187FB1622F98C2A62E468BE342 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		77C3652D6E366659DCA42C10E7DAAD5A /* Build configuration list for PBXNativeTarget "Pods-Runner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0C49FBE7C24218C7E02009B0170DAB62 /* Debug */,
+				BE6E983299C1F9C86F6C2B61F4D37851 /* Profile */,
+				33A0664EB04F2902549089B8CA9125BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		97643382B36B927B49233AF668F12521 /* Build configuration list for PBXNativeTarget "LJContactManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				20ADA52126E7812A342B692C455400FC /* Debug */,
+				BBDC49FE9FECCB3DCF37A408F062638E /* Profile */,
+				982993E52DF6DB63E1BE755336FFF873 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E301E1BA21A9B37B5A25035CB5F09FA1 /* Build configuration list for PBXNativeTarget "contact_plugin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				94006D80351D9C814C5A811D4C317254 /* Debug */,
+				588446557605CC96855D7A161A0C0993 /* Profile */,
+				F721E9E95A5F34A77010C8926D78CDA6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

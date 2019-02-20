@@ -1,0 +1,18 @@
+name: pref_gen_flutter
+description: pref_gen's implementation of the shared preferences adapter to use with the generator.
+version: 0.0.2
+authors:
+  - Filip Grzywok <rj23@protonmail.com>
+  - Gregory Sech <sech.gregory@gmail.com>
+homepage: https://github.com/GregorySech/pref_gen
+
+environment:
+  sdk: ">=2.0.0-dev.68.0 <3.0.0"
+
+dependencies:
+  shared_preferences: ^0.4.3
+  pref_gen_annotations: ^0.0.1
+  flutter:
+    sdk: flutter
+
+

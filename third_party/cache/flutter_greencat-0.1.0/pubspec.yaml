@@ -1,0 +1,15 @@
+name: flutter_greencat
+description: A library that connects Flutter Widgets to a Greencat Store
+version: 0.1.0
+author: brian.egan <brian@brianegan.com>
+homepage: https://gitlab.com/brianegan/flutter_greencat
+
+dependencies:
+  meta: ">=1.1.1 <2.0.0"
+  greencat: ">=0.0.4 <0.1.0"
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter

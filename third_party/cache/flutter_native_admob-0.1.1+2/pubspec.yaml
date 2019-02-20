@@ -1,0 +1,17 @@
+name: flutter_native_admob
+description: Admob native ad plugin for Flutter
+version: 0.1.1+2
+author: Dao Duy Duong <dduy.duong@gmail.com>
+homepage: https://github.com/duyduong/flutter_native_admob
+
+environment:
+  sdk: ">=2.0.0-dev.68.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+flutter:
+  plugin:
+    androidPackage: com.nover.flutternativeadmob
+    pluginClass: FlutterNativeAdmobPlugin

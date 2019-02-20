@@ -1,0 +1,99 @@
+{
+  "@@locale": "en",
+  "@@last_modified": "2018-09-11T15:28:51.752490",
+  "appName": "Click Social",
+  "@appName": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "search_prt_defaultHint": "Enter something to search",
+  "@search_prt_defaultHint": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "common_txt_at": "at",
+  "@common_txt_at": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "common_txt_and": "and",
+  "@common_txt_and": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "common_txt_other_singular": "other",
+  "@common_txt_other_singular": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "common_txt_other_plural": "others",
+  "@common_txt_other_plural": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "common_txt_explore": "explore",
+  "@common_txt_explore": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "common_txt_record": "record",
+  "@common_txt_record": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "common_txt_yes": "yes",
+  "@common_txt_yes": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "common_txt_no": "no",
+  "@common_txt_no": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "common_btn_connect": "Connect",
+  "@common_btn_connect": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "common_btn_login": "LOGIN",
+  "@common_btn_login": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "common_btn_signUp": "SIGN UP",
+  "@common_btn_signUp": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "common_btn_next": "NEXT",
+  "@common_btn_next": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "common_btn_done": "DONE",
+  "@common_btn_done": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "common_btn_agree": "AGREE",
+  "@common_btn_agree": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "common_btn_no": "NO",
+  "@common_btn_no": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "common_btn_save": "SAVE",
+  "@common_btn_save": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "common_btn_add": "ADD",
+  "@common_btn_add": {
+    "type": "text",
+    "placeholders": {}
+  }
+}

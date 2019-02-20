@@ -1,0 +1,23 @@
+name: shared_preferences_red
+
+version: 0.2.9
+description: A Flutter plugin for reading and writing simple key-value pairs.
+author: <custom build>
+homepage: https://github.com/ScarabeiDart/shared_preferences_red
+
+flutter:
+  plugin:
+    androidPackage: io.flutter.plugins.sharedpreferences
+    pluginClass: SharedPreferencesPlugin
+
+dependencies:
+  meta: ^1.0.4
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  mockito: ^2.0.2
+  test: 0.12.21
+
+environment:
+    sdk: ">=1.8.0 <2.0.0"

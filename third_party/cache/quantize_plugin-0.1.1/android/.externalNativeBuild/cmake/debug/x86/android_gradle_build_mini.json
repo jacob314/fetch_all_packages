@@ -1,0 +1,30 @@
+{
+  "buildFiles": [
+    "/Users/yurikomlev/android_github/plugins/image/quantize_plugin/android/../../../../../Library/Android/sdk/ndk-bundle/build/cmake/android.toolchain.cmake",
+    "/Users/yurikomlev/android_github/plugins/image/quantize_plugin/android/CMakeLists.txt",
+    "/Users/yurikomlev/android_github/plugins/image/quantize_plugin/android/../../../../../Library/Android/sdk/ndk-bundle/build/cmake/platforms.cmake"
+  ],
+  "cleanCommands": [
+    "/Users/yurikomlev/Library/Android/sdk/cmake/3.10.2.4988404/bin/cmake --build /Users/yurikomlev/android_github/plugins/image/quantize_plugin/android/.externalNativeBuild/cmake/debug/x86 --target clean"
+  ],
+  "libraries": {
+    "imagequant-Debug-x86": {
+      "artifactName": "imagequant",
+      "buildCommand": "/Users/yurikomlev/Library/Android/sdk/cmake/3.10.2.4988404/bin/cmake --build /Users/yurikomlev/android_github/plugins/image/quantize_plugin/android/.externalNativeBuild/cmake/debug/x86 --target imagequant",
+      "abi": "x86",
+      "output": "/Users/yurikomlev/android_github/plugins/image/quantize_plugin/android/build/intermediates/cmake/debug/obj/x86/libimagequant.so"
+    },
+    "yuv-Debug-x86": {
+      "artifactName": "yuv",
+      "buildCommand": "/Users/yurikomlev/Library/Android/sdk/cmake/3.10.2.4988404/bin/cmake --build /Users/yurikomlev/android_github/plugins/image/quantize_plugin/android/.externalNativeBuild/cmake/debug/x86 --target yuv",
+      "abi": "x86",
+      "output": "/Users/yurikomlev/android_github/plugins/image/quantize_plugin/android/build/intermediates/cmake/debug/obj/x86/libyuv.so"
+    },
+    "natives-Debug-x86": {
+      "artifactName": "natives",
+      "buildCommand": "/Users/yurikomlev/Library/Android/sdk/cmake/3.10.2.4988404/bin/cmake --build /Users/yurikomlev/android_github/plugins/image/quantize_plugin/android/.externalNativeBuild/cmake/debug/x86 --target natives",
+      "abi": "x86",
+      "output": "/Users/yurikomlev/android_github/plugins/image/quantize_plugin/android/build/intermediates/cmake/debug/obj/x86/libnatives.so"
+    }
+  }
+}

@@ -1,0 +1,15 @@
+name: smart_text_view
+description: The coolest, smartest TextView for Flutter.
+version: 0.1.0
+author: Nayan Hathiwala <nhathiwala@knoxpo.com>
+homepage: https://github.com/knoxpo/flutter_smart_text_view
+
+environment:
+  sdk: ">=2.0.0-dev.68.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+flutter:
+

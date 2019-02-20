@@ -1,0 +1,21 @@
+name: tts
+description: A text to speech plugin for flutter.
+version: 1.0.2
+author: Alex Blount <blountyak@gmail.com>
+homepage: https://alexblount.com/
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+# For information on the generic Dart part of this file, see the
+# following page: https://www.dartlang.org/tools/pub/pubspec
+
+# The following section is specific to Flutter.
+flutter:
+  plugin:
+    androidPackage: com.blounty.tts
+    pluginClass: TtsPlugin
+
+environment:
+  sdk: ">=2.0.0 <=3.0.0"

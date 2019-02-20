@@ -1,0 +1,9 @@
+.DS_Store
+.flutter-plugins
+.metadata
+.packages
+.pub/
+.dart_tool/
+android/
+ios/
+pubspec.lock

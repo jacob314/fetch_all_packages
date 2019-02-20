@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "688818586380",
+    "firebase_url": "https://geoflutterfire.firebaseio.com",
+    "project_id": "geoflutterfire",
+    "storage_bucket": "geoflutterfire.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:688818586380:android:ca615b1806465dcf",
+        "android_client_info": {
+          "package_name": "com.noeatsleepdev.geoflutterfireexample"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "688818586380-5pevkrkspjil42bgfcg288tbhvr9ijlh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBxdfqTb6tq4VGhjOt01BP8plhhri7_sjk"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

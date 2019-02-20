@@ -1,0 +1,16 @@
+name: pdrpulm
+description: Idiom for Pull-Down-Refresh & Pull-Up-Load-More for ListView
+version: 1.0.2
+author: Ken <kenshao@gmail.com>
+homepage: http://github.com/pedia/pdrpulm
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true

@@ -1,0 +1,6 @@
+framework module flutter_show_toast_sk {
+  umbrella header "flutter_show_toast_sk-umbrella.h"
+
+  export *
+  module * { export * }
+}

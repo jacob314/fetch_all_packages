@@ -1,0 +1,6 @@
+framework module pit_multiple_image_picker {
+  umbrella header "pit_multiple_image_picker-umbrella.h"
+
+  export *
+  module * { export * }
+}

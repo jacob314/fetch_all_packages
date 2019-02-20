@@ -1,0 +1,23 @@
+name: device_calendar
+description: A cross platform plugin for modifying calendars on the user's device.
+version: 0.0.7
+author: Built to Roam <info@builttoroam.com>
+homepage: https://github.com/builttoroam/flutter_plugins/tree/develop/device_calendar
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+# The following section is specific to Flutter.
+flutter:
+  plugin:
+    androidPackage: com.builttoroam.devicecalendar
+    pluginClass: DeviceCalendarPlugin
+
+environment:
+  sdk: ">=2.0.0-dev.28.0 <3.0.0"
+  flutter: ">=0.1.4 <2.0.0"

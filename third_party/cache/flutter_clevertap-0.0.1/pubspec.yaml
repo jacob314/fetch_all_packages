@@ -1,0 +1,17 @@
+name: flutter_clevertap
+description: A Flutter plugin for native CleverTap SDKs.
+version: 0.0.1
+author: Rohan Thacker <thackerrohan4@gmail.com>
+homepage: https://gitlab.com/altsoul_in/razorpay-checkout-flutter
+
+environment:
+  sdk: ">=2.0.0-dev.68.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+flutter:
+  plugin:
+    androidPackage: in.altsoul.clevertap
+    pluginClass: ClevertapPlugin

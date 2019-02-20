@@ -1,0 +1,17 @@
+name: native_image_plugin
+description: It's a simple flutter plugin to get image data from native side.
+version: 0.1.2
+author: Kevin Zhan <kevinzhan0417@outlook.com>
+homepage: https://github.com/kevin-zhan/native_image_plugin
+
+environment:
+  sdk: ">=2.0.0-dev.68.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+flutter:
+  plugin:
+    androidPackage: tech.zymx.nativeimageplugin
+    pluginClass: NativeImagePlugin

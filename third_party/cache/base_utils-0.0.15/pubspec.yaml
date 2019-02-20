@@ -1,0 +1,44 @@
+name: base_utils
+description: Basic UI & Utils for Awesome Flutter Application
+version: 0.0.15
+authors:
+- Hung DM <minhhung2556@gmail.com>
+- Tan LNM <minhtan512@gmail.com>
+- Duy MD <ducduy.dev@gmail.com>
+- Dan L <danle.sdev@gmail.com>
+
+homepage: https://www.flutter.io
+
+environment:
+  sdk: ">=2.0.0-dev.68.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  settings: ^0.0.4
+  intl: ^0.15.7
+  http: ^0.11.3
+  flutter_svg: ^0.6.0
+  flutter_youtube_extractor: ^0.0.8
+  video_player: ">=0.6.0 <0.7.0"
+  open_iconic_flutter: ">=0.3.0 <0.4.0"
+  connectivityswift: ^0.0.4
+  cupertino_icons: ^0.1.2
+  rxdart: ^0.18.1
+  rect_getter: ^0.0.1
+  html: ^0.13.3
+  shimmer: ^0.0.5
+  core_plugin: ^0.2.5
+  flutter_advanced_networkimage: any
+  flutter_html: ^0.8.2
+  flutter_add_calendar: 0.0.3
+  device_info: ^0.2.1
+  audioplayers: ^0.7.8
+#  flutter_webview_plugin:
+#      git:
+#        url: https://gitlab.com/hungldm/webview_plugin.git
+
+
+flutter:
+  assets:
+    - assets/

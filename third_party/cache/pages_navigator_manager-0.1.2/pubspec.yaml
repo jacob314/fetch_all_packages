@@ -1,0 +1,20 @@
+name: pages_navigator_manager
+description: Wraps a navigator and a widget, providing a easy way to separate a navigator from root navigator
+version: 0.1.2
+author: Cheng-han,Yang <hans@iapps360.com, ychanhan@gmail.com>
+homepage: https://gitlab.com/iapps360/pages_navigator_manager
+
+environment:
+  sdk: ">=2.0.0-dev.68.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  bloc_pattern: ^1.5.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+
+flutter:

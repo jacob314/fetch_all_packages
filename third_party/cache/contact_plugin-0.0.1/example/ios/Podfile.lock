@@ -1,0 +1,29 @@
+PODS:
+  - contact_plugin (0.0.1):
+    - Flutter
+    - LJContactManager
+  - Flutter (1.0.0)
+  - LJContactManager (1.0.6)
+
+DEPENDENCIES:
+  - contact_plugin (from `.symlinks/plugins/contact_plugin/ios`)
+  - Flutter (from `.symlinks/flutter/ios`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - LJContactManager
+
+EXTERNAL SOURCES:
+  contact_plugin:
+    :path: ".symlinks/plugins/contact_plugin/ios"
+  Flutter:
+    :path: ".symlinks/flutter/ios"
+
+SPEC CHECKSUMS:
+  contact_plugin: a87447bb17da4d372bdb6855a300fcd1e5648d1c
+  Flutter: 58dd7d1b27887414a370fcccb9e645c08ffd7a6a
+  LJContactManager: dbc29ba9d837039c9048f48412ad493f60806a79
+
+PODFILE CHECKSUM: aff02bfeed411c636180d6812254b2daeea14d09
+
+COCOAPODS: 1.6.0.beta.2

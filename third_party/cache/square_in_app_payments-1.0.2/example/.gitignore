@@ -1,0 +1,17 @@
+.DS_Store
+.dart_tool/
+
+.packages
+.pub/
+
+build/
+
+.flutter-plugins
+.vscode
+
+android/app/bin
+android/.project
+android/.settings/org.eclipse.buildship.core.prefs
+android/app/.project
+android/app/.classpath
+android/app/.settings/org.eclipse.buildship.core.prefs

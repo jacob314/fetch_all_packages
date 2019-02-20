@@ -1,0 +1,23 @@
+name: ignore_barometer
+description: A new flutter plugin project.
+version: 0.0.1
+author: Andrew Brogdon and Emily Fortuna <redbrogdon@google.com>
+homepage: https://github.com/efortuna/barometer
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+environment:
+  sdk: '>=1.19.0 <2.1.0'
+  flutter: '>=0.1.0 <2.0.0'
+
+# For information on the generic Dart part of this file, see the
+# following page: https://www.dartlang.org/tools/pub/pubspec
+
+# The following section is specific to Flutter.
+flutter:
+  plugin:
+    androidPackage: io.flutter.barometer
+    pluginClass: BarometerPlugin
+

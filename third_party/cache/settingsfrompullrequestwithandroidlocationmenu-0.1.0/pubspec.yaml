@@ -1,0 +1,18 @@
+name: settingsfrompullrequestwithandroidlocationmenu
+description: This version of settings has been forked of  which originated from https://github.com/once10301/settings.
+author: Spencer <spencerccf@gmail.com>
+homepage: https://github.com/plinkos/settings
+version: 0.1.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+flutter:
+  plugin:
+    androidPackage: com.ly.settingsfrompullrequestwithandroidlocationmenu
+    pluginClass: SettingsPlugin
+
+environment:
+  sdk: ">=2.0.0-dev.28.0 <3.0.0"
+  flutter: ">=0.1.4 <2.0.0"

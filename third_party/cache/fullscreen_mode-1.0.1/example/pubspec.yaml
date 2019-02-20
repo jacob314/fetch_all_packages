@@ -1,0 +1,11 @@
+name: fullscreen_mode_example
+description: Demonstrates how to use the fullscreen_mode plugin.
+
+dependencies:
+  flutter:
+    sdk: flutter
+  fullscreen_mode:
+    path: ../
+
+flutter:
+  uses-material-design: true

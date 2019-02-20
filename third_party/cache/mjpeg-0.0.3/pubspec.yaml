@@ -1,0 +1,21 @@
+name: mjpeg
+description: MJPEG video streaming for Flutter.
+version: 0.0.3
+author: Alexey Smirnov <alexey@gmail.com>
+homepage: https://github.com/alexeyismirnov/flutter_mjpeg.git
+environment:
+  sdk: '>1.99.99 <3.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+# For information on the generic Dart part of this file, see the
+# following page: https://www.dartlang.org/tools/pub/pubspec
+
+# The following section is specific to Flutter.
+flutter:
+  plugin:
+    androidPackage: com.ironyun.mjpeg
+    pluginClass: MjpegPlugin
+

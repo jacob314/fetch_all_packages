@@ -1,0 +1,22 @@
+PODS:
+  - Flutter (1.0.0)
+  - ice_tea_studio_plugins (0.0.1):
+    - Flutter
+
+DEPENDENCIES:
+  - Flutter (from `.symlinks/flutter/ios`)
+  - ice_tea_studio_plugins (from `.symlinks/plugins/ice_tea_studio_plugins/ios`)
+
+EXTERNAL SOURCES:
+  Flutter:
+    :path: ".symlinks/flutter/ios"
+  ice_tea_studio_plugins:
+    :path: ".symlinks/plugins/ice_tea_studio_plugins/ios"
+
+SPEC CHECKSUMS:
+  Flutter: 9d0fac939486c9aba2809b7982dfdbb47a7b0296
+  ice_tea_studio_plugins: 6112df7a6bfbb95d86b1cdbace39f36bdf3c1df5
+
+PODFILE CHECKSUM: 1e5af4103afd21ca5ead147d7b81d06f494f51a2
+
+COCOAPODS: 1.5.3

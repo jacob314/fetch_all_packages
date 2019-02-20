@@ -1,0 +1,18 @@
+name: flipper
+description: A widget that does transition between two children in a flipping manner.
+version: 1.0.1
+author: Anton Dokusov <dokoussov@gmail.com>
+homepage: https://github.com/antondokusov/flutter_widgets/tree/master/flipper
+
+environment:
+  sdk: ">=2.0.0-dev.68.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:

@@ -1,0 +1,9 @@
+// This is a generated file; do not edit or check into version control.
+FLUTTER_ROOT=/Users/nbosch/flutter
+FLUTTER_APPLICATION_PATH=/Users/nbosch/projects/barometer/example
+FLUTTER_TARGET=/Users/nbosch/projects/barometer/example/lib/main.dart
+FLUTTER_BUILD_MODE=debug
+FLUTTER_BUILD_DIR=build
+SYMROOT=${SOURCE_ROOT}/../build/ios
+FLUTTER_FRAMEWORK_DIR=/Users/nbosch/flutter/bin/cache/artifacts/engine/ios
+PREVIEW_DART_2=true

@@ -1,0 +1,19 @@
+name: light
+version: 0.0.4
+description: A Flutter plugin for probing data from the light sensor using a platform channel. Works for Android only, since the light sensor API is not available on iOS.
+homepage: https://github.com/cph-cachet/flutter-plugins/tree/master/packages/light
+author: CACHET Team <cph.cachet@gmail.com>
+
+environment:
+  sdk: ">=2.0.0-dev.68.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+# The following section is specific to Flutter.
+flutter:
+  plugin:
+    androidPackage: cachet.sensors.light
+    pluginClass: LightPlugin

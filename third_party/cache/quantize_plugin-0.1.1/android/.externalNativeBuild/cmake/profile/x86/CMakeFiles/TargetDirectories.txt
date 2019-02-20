@@ -1,0 +1,5 @@
+/Users/yurikomlev/android_github/plugins/image/quantize_plugin/android/.externalNativeBuild/cmake/profile/x86/CMakeFiles/natives.dir
+/Users/yurikomlev/android_github/plugins/image/quantize_plugin/android/.externalNativeBuild/cmake/profile/x86/CMakeFiles/rebuild_cache.dir
+/Users/yurikomlev/android_github/plugins/image/quantize_plugin/android/.externalNativeBuild/cmake/profile/x86/CMakeFiles/edit_cache.dir
+/Users/yurikomlev/android_github/plugins/image/quantize_plugin/android/.externalNativeBuild/cmake/profile/x86/CMakeFiles/yuv.dir
+/Users/yurikomlev/android_github/plugins/image/quantize_plugin/android/.externalNativeBuild/cmake/profile/x86/CMakeFiles/imagequant.dir

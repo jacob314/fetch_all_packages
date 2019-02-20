@@ -1,0 +1,29 @@
+name: example
+description: Exemple for the flutter_strem_redux
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+  cupertino_icons: ^0.1.0
+  flutter_stream_redux:
+    path: ../
+
+  flutter_logger: ^0.0.1
+  built_redux: ^7.4.0
+  flutter_built_redux: ^0.4.5
+  built_collection: ^3.0.5
+  built_value: ^5.2.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  build_runner: ^0.6.0
+  built_value_generator: ^5.0.0
+  source_gen: ^0.7.0
+
+flutter:
+  uses-material-design: true
+
+  

@@ -1,0 +1,17 @@
+name: fab_dialer
+description: A new flutter package project.
+version: 0.1.3
+author: Jordan Harris <redsoxchamps2008@gmail.com>
+homepage: https://github.com/shoxter/flutter_fab_dialer
+
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+environment:
+    sdk: ">=2.0.0-dev.28.0 <3.0.0"

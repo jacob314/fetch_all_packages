@@ -1,0 +1,17 @@
+name: flutter_scatter
+description: A widget that displays a collection of dispersed and non-overlapping children
+version: 0.1.0
+author: Romain Rastel <lets4r@gmail.com>
+homepage: https://github.com/letsar/flutter_scatter
+
+environment:
+  sdk: ">=2.0.0-dev.68.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+    

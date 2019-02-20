@@ -1,0 +1,16 @@
+.DS_Store
+.dart_tool/
+
+.packages
+.pub/
+
+build/
+ios/.generated/
+ios/Flutter/Generated.xcconfig
+ios/Runner/GeneratedPluginRegistrant.*
+
+example/android
+example/ios
+example/.flutter-plugins
+example/.packages
+example/pubspec.lock

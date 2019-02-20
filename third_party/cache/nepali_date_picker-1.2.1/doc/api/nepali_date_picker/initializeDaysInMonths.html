@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="API docs for the initializeDaysInMonths function from the nepali_date_picker library, for the Dart programming language.">
+  <title>initializeDaysInMonths function - nepali_date_picker library - Dart API</title>
+  <!-- required because all the links are pseudo-absolute -->
+  <base href="..">
+
+  <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:500,400i,400,300|Source+Sans+Pro:400,300,700" rel="stylesheet">
+  <link rel="stylesheet" href="static-assets/github.css">
+  <link rel="stylesheet" href="static-assets/styles.css">
+  <link rel="icon" href="static-assets/favicon.png">
+
+</head>
+
+<body>
+
+<div id="overlay-under-drawer"></div>
+
+<header id="title">
+  <button id="sidenav-left-toggle" type="button">&nbsp;</button>
+  <ol class="breadcrumbs gt-separated dark hidden-xs">
+    <li><a href="index.html">nepali_date_picker</a></li>
+    <li><a href="nepali_date_picker/nepali_date_picker-library.html">nepali_date_picker</a></li>
+    <li class="self-crumb">initializeDaysInMonths function</li>
+  </ol>
+  <div class="self-name">initializeDaysInMonths</div>
+  <form class="search navbar-right" role="search">
+    <input type="text" id="search-box" autocomplete="off" disabled class="form-control typeahead" placeholder="Loading search...">
+  </form>
+</header>
+
+<main>
+
+  <div class="col-xs-6 col-sm-3 col-md-2 sidebar sidebar-offcanvas-left">
+    <h5>nepali_date_picker library</h5>
+    <ol>
+      <li class="section-title"><a href="nepali_date_picker/nepali_date_picker-library.html#classes">Classes</a></li>
+      <li><a href="nepali_date_picker/DatePickerDialog-class.html">DatePickerDialog</a></li>
+      <li><a href="nepali_date_picker/NepaliDatePicker-class.html">NepaliDatePicker</a></li>
+    
+    
+    
+      <li class="section-title"><a href="nepali_date_picker/nepali_date_picker-library.html#properties">Properties</a></li>
+      <li><a href="nepali_date_picker/daysInMonths.html">daysInMonths</a></li>
+      <li><a href="nepali_date_picker/startDayInMonths.html">startDayInMonths</a></li>
+    
+      <li class="section-title"><a href="nepali_date_picker/nepali_date_picker-library.html#functions">Functions</a></li>
+      <li><a href="nepali_date_picker/dayInNepali.html">dayInNepali</a></li>
+      <li><a href="nepali_date_picker/initializeDaysInMonths.html">initializeDaysInMonths</a></li>
+      <li><a href="nepali_date_picker/initializeStartDayInMonths.html">initializeStartDayInMonths</a></li>
+      <li><a href="nepali_date_picker/yearInNepali.html">yearInNepali</a></li>
+    
+      <li class="section-title"><a href="nepali_date_picker/nepali_date_picker-library.html#enums">Enums</a></li>
+      <li><a href="nepali_date_picker/Language-class.html">Language</a></li>
+    
+      <li class="section-title"><a href="nepali_date_picker/nepali_date_picker-library.html#typedefs">Typedefs</a></li>
+      <li><a href="nepali_date_picker/NepaliDatePickerCallBack.html">NepaliDatePickerCallBack</a></li>
+    
+    </ol>
+  </div><!--/.sidebar-offcanvas-left-->
+
+  <div class="col-xs-12 col-sm-9 col-md-8 main-content">
+    <h1>initializeDaysInMonths function </h1>
+
+    <section class="multi-line-signature">
+        <span class="returntype">void</span>
+        <span class="name ">initializeDaysInMonths</span>
+(<wbr>)
+    </section>
+    
+    <section class="summary source-code" id="source">
+      <h2><span>Implementation</span> </h2>
+      <pre class="language-dart"><code class="language-dart">void initializeDaysInMonths() {
+  daysInMonths[2000] = [0, 30, 32, 31, 32, 31, 30, 30, 30, 29, 30, 29, 31];
+  daysInMonths[2001] = [0, 31, 31, 32, 31, 31, 31, 30, 29, 30, 29, 30, 30];
+  daysInMonths[2002] = [0, 31, 31, 32, 32, 31, 30, 30, 29, 30, 29, 30, 30];
+  daysInMonths[2003] = [0, 31, 32, 31, 32, 31, 30, 30, 30, 29, 29, 30, 31];
+  daysInMonths[2004] = [0, 30, 32, 31, 32, 31, 30, 30, 30, 29, 30, 29, 31];
+  daysInMonths[2005] = [0, 31, 31, 32, 31, 31, 31, 30, 29, 30, 29, 30, 30];
+  daysInMonths[2006] = [0, 31, 31, 32, 32, 31, 30, 30, 29, 30, 29, 30, 30];
+  daysInMonths[2007] = [0, 31, 32, 31, 32, 31, 30, 30, 30, 29, 29, 30, 31];
+  daysInMonths[2008] = [0, 31, 31, 31, 32, 31, 31, 29, 30, 30, 29, 29, 31];
+  daysInMonths[2009] = [0, 31, 31, 32, 31, 31, 31, 30, 29, 30, 29, 30, 30];
+  daysInMonths[2010] = [0, 31, 31, 32, 32, 31, 30, 30, 29, 30, 29, 30, 30];
+  daysInMonths[2011] = [0, 31, 32, 31, 32, 31, 30, 30, 30, 29, 29, 30, 31];
+  daysInMonths[2012] = [0, 31, 31, 31, 32, 31, 31, 29, 30, 30, 29, 30, 30];
+  daysInMonths[2013] = [0, 31, 31, 32, 31, 31, 31, 30, 29, 30, 29, 30, 30];
+  daysInMonths[2014] = [0, 31, 31, 32, 32, 31, 30, 30, 29, 30, 29, 30, 30];
+  daysInMonths[2015] = [0, 31, 32, 31, 32, 31, 30, 30, 30, 29, 29, 30, 31];
+  daysInMonths[2016] = [0, 31, 31, 31, 32, 31, 31, 29, 30, 30, 29, 30, 30];
+  daysInMonths[2017] = [0, 31, 31, 32, 31, 31, 31, 30, 29, 30, 29, 30, 30];
+  daysInMonths[2018] = [0, 31, 32, 31, 32, 31, 30, 30, 29, 30, 29, 30, 30];
+  daysInMonths[2019] = [0, 31, 32, 31, 32, 31, 30, 30, 30, 29, 30, 29, 31];
+  daysInMonths[2020] = [0, 31, 31, 31, 32, 31, 31, 30, 29, 30, 29, 30, 30];
+  daysInMonths[2021] = [0, 31, 31, 32, 31, 31, 31, 30, 29, 30, 29, 30, 30];
+  daysInMonths[2022] = [0, 31, 32, 31, 32, 31, 30, 30, 30, 29, 29, 30, 30];
+  daysInMonths[2023] = [0, 31, 32, 31, 32, 31, 30, 30, 30, 29, 30, 29, 31];
+  daysInMonths[2024] = [0, 31, 31, 31, 32, 31, 31, 30, 29, 30, 29, 30, 30];
+  daysInMonths[2025] = [0, 31, 31, 32, 31, 31, 31, 30, 29, 30, 29, 30, 30];
+  daysInMonths[2026] = [0, 31, 32, 31, 32, 31, 30, 30, 30, 29, 29, 30, 31];
+  daysInMonths[2027] = [0, 30, 32, 31, 32, 31, 30, 30, 30, 29, 30, 29, 31];
+  daysInMonths[2028] = [0, 31, 31, 32, 31, 31, 31, 30, 29, 30, 29, 30, 30];
+  daysInMonths[2029] = [0, 31, 31, 32, 31, 32, 30, 30, 29, 30, 29, 30, 30];
+  daysInMonths[2030] = [0, 31, 32, 31, 32, 31, 30, 30, 30, 29, 29, 30, 31];
+  daysInMonths[2031] = [0, 30, 32, 31, 32, 31, 30, 30, 30, 29, 30, 29, 31];
+  daysInMonths[2032] = [0, 31, 31, 32, 31, 31, 31, 30, 29, 30, 29, 30, 30];
+  daysInMonths[2033] = [0, 31, 31, 32, 32, 31, 30, 30, 29, 30, 29, 30, 30];
+  daysInMonths[2034] = [0, 31, 32, 31, 32, 31, 30, 30, 30, 29, 29, 30, 31];
+  daysInMonths[2035] = [0, 30, 32, 31, 32, 31, 31, 29, 30, 30, 29, 29, 31];
+  daysInMonths[2036] = [0, 31, 31, 32, 31, 31, 31, 30, 29, 30, 29, 30, 30];
+  daysInMonths[2037] = [0, 31, 31, 32, 32, 31, 30, 30, 29, 30, 29, 30, 30];
+  daysInMonths[2038] = [0, 31, 32, 31, 32, 31, 30, 30, 30, 29, 29, 30, 31];
+  daysInMonths[2039] = [0, 31, 31, 31, 32, 31, 31, 29, 30, 30, 29, 30, 30];
+  daysInMonths[2040] = [0, 31, 31, 32, 31, 31, 31, 30, 29, 30, 29, 30, 30];
+  daysInMonths[2041] = [0, 31, 31, 32, 32, 31, 30, 30, 29, 30, 29, 30, 30];
+  daysInMonths[2042] = [0, 31, 32, 31, 32, 31, 30, 30, 30, 29, 29, 30, 31];
+  daysInMonths[2043] = [0, 31, 31, 31, 32, 31, 31, 29, 30, 30, 29, 30, 30];
+  daysInMonths[2044] = [0, 31, 31, 32, 31, 31, 31, 30, 29, 30, 29, 30, 30];
+  daysInMonths[2045] = [0, 31, 32, 31, 32, 31, 30, 30, 29, 30, 29, 30, 30];
+  daysInMonths[2046] = [0, 31, 32, 31, 32, 31, 30, 30, 30, 29, 29, 30, 31];
+  daysInMonths[2047] = [0, 31, 31, 31, 32, 31, 31, 30, 29, 30, 29, 30, 30];
+  daysInMonths[2048] = [0, 31, 31, 32, 31, 31, 31, 30, 29, 30, 29, 30, 30];
+  daysInMonths[2049] = [0, 31, 32, 31, 32, 31, 30, 30, 30, 29, 29, 30, 30];
+  daysInMonths[2050] = [0, 31, 32, 31, 32, 31, 30, 30, 30, 29, 30, 29, 31];
+  daysInMonths[2051] = [0, 31, 31, 31, 32, 31, 31, 30, 29, 30, 29, 30, 30];
+  daysInMonths[2052] = [0, 31, 31, 32, 31, 31, 31, 30, 29, 30, 29, 30, 30];
+  daysInMonths[2053] = [0, 31, 32, 31, 32, 31, 30, 30, 30, 29, 29, 30, 30];
+  daysInMonths[2054] = [0, 31, 32, 31, 32, 31, 30, 30, 30, 29, 30, 29, 31];
+  daysInMonths[2055] = [0, 31, 31, 32, 31, 31, 31, 30, 29, 30, 29, 30, 30];
+  daysInMonths[2056] = [0, 31, 31, 32, 31, 32, 30, 30, 29, 30, 29, 30, 30];
+  daysInMonths[2057] = [0, 31, 32, 31, 32, 31, 30, 30, 30, 29, 29, 30, 31];
+  daysInMonths[2058] = [0, 30, 32, 31, 32, 31, 30, 30, 30, 29, 30, 29, 31];
+  daysInMonths[2059] = [0, 31, 31, 32, 31, 31, 31, 30, 29, 30, 29, 30, 30];
+  daysInMonths[2060] = [0, 31, 31, 32, 32, 31, 30, 30, 29, 30, 29, 30, 30];
+  daysInMonths[2061] = [0, 31, 32, 31, 32, 31, 30, 30, 30, 29, 29, 30, 31];
+  daysInMonths[2062] = [0, 30, 32, 31, 32, 31, 31, 29, 30, 29, 30, 29, 31];
+  daysInMonths[2063] = [0, 31, 31, 32, 31, 31, 31, 30, 29, 30, 29, 30, 30];
+  daysInMonths[2064] = [0, 31, 31, 32, 32, 31, 30, 30, 29, 30, 29, 30, 30];
+  daysInMonths[2065] = [0, 31, 32, 31, 32, 31, 30, 30, 30, 29, 29, 30, 31];
+  daysInMonths[2066] = [0, 31, 31, 31, 32, 31, 31, 29, 30, 30, 29, 29, 31];
+  daysInMonths[2067] = [0, 31, 31, 32, 31, 31, 31, 30, 29, 30, 29, 30, 30];
+  daysInMonths[2068] = [0, 31, 31, 32, 32, 31, 30, 30, 29, 30, 29, 30, 30];
+  daysInMonths[2069] = [0, 31, 32, 31, 32, 31, 30, 30, 30, 29, 29, 30, 31];
+  daysInMonths[2070] = [0, 31, 31, 31, 32, 31, 31, 29, 30, 30, 29, 30, 30];
+  daysInMonths[2071] = [0, 31, 31, 32, 31, 31, 31, 30, 29, 30, 29, 30, 30];
+  daysInMonths[2072] = [0, 31, 32, 31, 32, 31, 30, 30, 29, 30, 29, 30, 30];
+  daysInMonths[2073] = [0, 31, 32, 31, 32, 31, 30, 30, 30, 29, 29, 30, 31];
+  daysInMonths[2074] = [0, 31, 31, 31, 32, 31, 31, 30, 29, 30, 29, 30, 30];
+  daysInMonths[2075] = [0, 31, 31, 32, 31, 31, 31, 30, 29, 30, 29, 30, 30];
+  daysInMonths[2076] = [0, 31, 32, 31, 32, 31, 30, 30, 30, 29, 29, 30, 30];
+  daysInMonths[2077] = [0, 31, 32, 31, 32, 31, 30, 30, 30, 29, 30, 29, 31];
+  daysInMonths[2078] = [0, 31, 31, 31, 32, 31, 31, 30, 29, 30, 29, 30, 30];
+  daysInMonths[2079] = [0, 31, 31, 32, 31, 31, 31, 30, 29, 30, 29, 30, 30];
+  daysInMonths[2080] = [0, 31, 32, 31, 32, 31, 30, 30, 30, 29, 29, 30, 30];
+  daysInMonths[2081] = [0, 31, 31, 32, 32, 31, 30, 30, 30, 29, 30, 30, 30];
+  daysInMonths[2082] = [0, 30, 32, 31, 32, 31, 30, 30, 30, 29, 30, 30, 30];
+  daysInMonths[2083] = [0, 31, 31, 32, 31, 31, 30, 30, 30, 29, 30, 30, 30];
+  daysInMonths[2084] = [0, 31, 31, 32, 31, 31, 30, 30, 30, 29, 30, 30, 30];
+  daysInMonths[2085] = [0, 31, 32, 31, 32, 30, 31, 30, 30, 29, 30, 30, 30];
+  daysInMonths[2086] = [0, 30, 32, 31, 32, 31, 30, 30, 30, 29, 30, 30, 30];
+  daysInMonths[2087] = [0, 31, 31, 32, 31, 31, 31, 30, 30, 29, 30, 30, 30];
+  daysInMonths[2088] = [0, 30, 31, 32, 32, 30, 31, 30, 30, 29, 30, 30, 30];
+  daysInMonths[2089] = [0, 30, 32, 31, 32, 31, 30, 30, 30, 29, 30, 30, 30];
+  daysInMonths[2090] = [0, 30, 32, 31, 32, 31, 30, 30, 30, 29, 30, 30, 30];
+}</code></pre>
+    </section>
+
+  </div> <!-- /.main-content -->
+
+  <div class="col-xs-6 col-sm-6 col-md-2 sidebar sidebar-offcanvas-right">
+  </div><!--/.sidebar-offcanvas-->
+
+</main>
+
+<footer>
+  <span class="no-break">
+    nepali_date_picker 1.2.1
+  </span>
+
+</footer>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="static-assets/typeahead.bundle.min.js"></script>
+<script src="static-assets/highlight.pack.js"></script>
+<script src="static-assets/URI.js"></script>
+<script src="static-assets/script.js"></script>
+
+
+</body>
+
+</html>

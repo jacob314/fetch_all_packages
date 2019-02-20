@@ -1,0 +1,22 @@
+PODS:
+  - clipboard_plugin (0.0.1):
+    - Flutter
+  - Flutter (1.0.0)
+
+DEPENDENCIES:
+  - clipboard_plugin (from `.symlinks/plugins/clipboard_plugin/ios`)
+  - Flutter (from `.symlinks/flutter/ios`)
+
+EXTERNAL SOURCES:
+  clipboard_plugin:
+    :path: ".symlinks/plugins/clipboard_plugin/ios"
+  Flutter:
+    :path: ".symlinks/flutter/ios"
+
+SPEC CHECKSUMS:
+  clipboard_plugin: 5d5ad9381482a1a1aac2d564a3400436261b9852
+  Flutter: 58dd7d1b27887414a370fcccb9e645c08ffd7a6a
+
+PODFILE CHECKSUM: aff02bfeed411c636180d6812254b2daeea14d09
+
+COCOAPODS: 1.6.0.beta.2

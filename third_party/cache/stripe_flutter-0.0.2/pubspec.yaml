@@ -1,0 +1,23 @@
+name: stripe_flutter
+description: A flutter plugin for stripe.
+version: 0.0.2
+author: Marquis Taliaferro <marquis.taliaferro@gmail.com>
+homepage: https://github.com/mtaliaf/stripe_flutter
+
+environment:
+  sdk: ">=2.0.0-dev.28.0 <3.0.0"
+  flutter: ">=0.1.4 <2.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+# For information on the generic Dart part of this file, see the
+# following page: https://www.dartlang.org/tools/pub/pubspec
+
+# The following section is specific to Flutter.
+flutter:
+  plugin:
+    androidPackage: com.mtaliaf.stripeflutter
+    pluginClass: StripeFlutterPlugin
+

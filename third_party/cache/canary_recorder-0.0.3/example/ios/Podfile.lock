@@ -1,0 +1,28 @@
+PODS:
+  - canary_recorder (0.0.1):
+    - Flutter
+  - Flutter (1.0.0)
+  - flutter_permissions_helper (0.0.1):
+    - Flutter
+
+DEPENDENCIES:
+  - canary_recorder (from `.symlinks/plugins/canary_recorder/ios`)
+  - Flutter (from `.symlinks/flutter/ios`)
+  - flutter_permissions_helper (from `.symlinks/plugins/flutter_permissions_helper/ios`)
+
+EXTERNAL SOURCES:
+  canary_recorder:
+    :path: ".symlinks/plugins/canary_recorder/ios"
+  Flutter:
+    :path: ".symlinks/flutter/ios"
+  flutter_permissions_helper:
+    :path: ".symlinks/plugins/flutter_permissions_helper/ios"
+
+SPEC CHECKSUMS:
+  canary_recorder: afc7ba4c1270386ca595cb6362c8d44c17715374
+  Flutter: 9d0fac939486c9aba2809b7982dfdbb47a7b0296
+  flutter_permissions_helper: 66cdaefd98d6bb8ccb42be476dbf0f2df618f780
+
+PODFILE CHECKSUM: ec81a62fe73c7b29f2764dd3fe8c221958ac6739
+
+COCOAPODS: 1.5.3

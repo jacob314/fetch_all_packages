@@ -1,0 +1,18 @@
+name: flutter_arhitecture_helper
+description: Flutter arhitecture helper - create quality applications is just
+version: 0.3.4
+author: DipDev Studio <info@dipdev.studio>
+homepage: https://git.dipdev.studio/open-source/flutter/arhitecture-helper
+
+environment:
+  sdk: ">=2.0.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:

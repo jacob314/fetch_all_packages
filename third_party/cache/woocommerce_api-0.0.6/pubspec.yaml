@@ -1,0 +1,20 @@
+name: woocommerce_api
+description: A package to interact with the WooCommerce API.
+version: 0.0.6
+author: Samarth Agarwal <samarthagarwal@live.com>
+homepage: https://github.com/samarthagarwal/woocommerce_dart
+
+dependencies:
+  flutter:
+    sdk: flutter
+  crypto: "^2.0.2+1"
+  http: "^0.11.3+16"
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+
+environment:
+  sdk: ">=1.23.0  <3.0.0"

@@ -1,0 +1,18 @@
+name: native_device_orientation
+description: A Flutter plugin for reading device's native orientation
+version: 0.0.4
+author: Morgan McKenzie <rmtmckenzie@gmail.com>
+homepage: https://github.com/rmtmckenzie/flutter_native_device_orientation
+
+environment:
+  sdk: ">=2.0.0-dev.28.0 <3.0.0"
+  flutter: ">=0.1.4 <2.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+flutter:
+  plugin:
+    androidPackage: com.github.rmtmckenzie.nativedeviceorientation
+    pluginClass: NativeDeviceOrientationPlugin

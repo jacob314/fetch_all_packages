@@ -1,0 +1,21 @@
+name: flutter_mmkv
+description: A Flutter plugin to use MMKV which is an efficient, small mobile key-value storage framework developed by WeChat.
+version: 1.0.0
+author: Yasin Çidem <yasincidem@gmail.com>
+homepage: https://github.com/yasincidem/flutter_mmkv
+
+environment:
+  sdk: ">=2.0.0-dev.68.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  plugin:
+    androidPackage: com.yasincidem.fluttermmkv
+    pluginClass: FlutterMmkvPlugin

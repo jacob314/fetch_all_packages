@@ -1,0 +1,14 @@
+name: cerebral
+description: A State management tool for flutter
+version: 0.0.5
+author: haoguo <bard.guo@gmail.com>
+homepage: https://github.com/haoguo/cerebral
+
+environment:
+  sdk: ">=2.0.0-dev.68.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  source_gen: ^0.9.1+3
+  shared_preferences: ^0.4.3

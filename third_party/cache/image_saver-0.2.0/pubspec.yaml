@@ -1,0 +1,27 @@
+name: image_saver
+description:
+  Image Saver plugin for Flutter, based on image_picker_saver
+authors:
+  - Aaron Ho <cnhefang@gmail.com>
+  - Carl Gödecken
+  
+homepage: https://github.com/serjlee/image_saver
+version: 0.2.0
+
+flutter:
+  plugin:
+    androidPackage: io.flutter.plugins.imagesaver
+    iosPrefix: FLT
+    pluginClass: ImageSaverPlugin
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+environment:
+  sdk: ">=2.0.0-dev.28.0 <3.0.0"
+  flutter: ">=0.1.4 <2.0.0"

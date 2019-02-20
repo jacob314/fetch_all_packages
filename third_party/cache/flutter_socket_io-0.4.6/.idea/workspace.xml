@@ -1,0 +1,427 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="3483b29f-1cb3-4f20-8e48-f9d5841a5a57" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/CHANGELOG.md" beforeDir="false" afterPath="$PROJECT_DIR$/CHANGELOG.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/.flutter-plugins" beforeDir="false" afterPath="$PROJECT_DIR$/example/.flutter-plugins" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/ios/Runner/GeneratedPluginRegistrant.h" beforeDir="false" afterPath="$PROJECT_DIR$/example/ios/Runner/GeneratedPluginRegistrant.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/ios/Runner/GeneratedPluginRegistrant.m" beforeDir="false" afterPath="$PROJECT_DIR$/example/ios/Runner/GeneratedPluginRegistrant.m" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="165502758">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.open.time.9" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="md" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="Markdown" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="md" value="63" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="Markdown" value="63" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pubspec.yaml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="10" column="12" lean-forward="true" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/CHANGELOG.md">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="15" column="20" lean-forward="true" selection-start-line="15" selection-start-column="20" selection-end-line="15" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/flutter_socket_io.dart">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="10" column="27" selection-start-line="10" selection-start-column="27" selection-end-line="10" selection-end-column="27" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GradleLocalSettings">
+    <option name="modificationStamps">
+      <map>
+        <entry key="$USER_HOME$/Desktop/VoiceMessenger/FelloSDK_Android_3.1.4_15092301/AndroidStudio_FelloSDK_Android_3.1.4_15092301" value="4328829210000" />
+        <entry key="$USER_HOME$/Documents/GitHub/iwanuma_android/iwanuma_Android" value="7195151383856" />
+        <entry key="$USER_HOME$/Downloads/Android-Five-Stars-Library-master" value="5850408760000" />
+        <entry key="$USER_HOME$/Downloads/Android-RoundCornerProgressBar-master" value="7203049760000" />
+        <entry key="$USER_HOME$/Downloads/AndroidSlidingUpPanel-master" value="7224478717094" />
+        <entry key="$USER_HOME$/Downloads/CircleIndicator-master" value="10234916580000" />
+        <entry key="$USER_HOME$/Downloads/Conversations-master" value="5874953200000" />
+        <entry key="$USER_HOME$/Downloads/FelloSDK_Android_3.1.4_15092301/AndroidStudio_FelloSDK_Android_3.1.4_15092301" value="4328829210000" />
+        <entry key="$USER_HOME$/Downloads/GifImageView-master" value="7253249598389" />
+        <entry key="$USER_HOME$/Downloads/Retrofit2.0Sample-master" value="4326370416000" />
+        <entry key="$USER_HOME$/Downloads/RuntimePermissions-master" value="4393224318000" />
+        <entry key="$USER_HOME$/Downloads/SwitchButton-master/SwitchButton" value="5787277368000" />
+        <entry key="$USER_HOME$/Downloads/TestDecodeDB_02/TestDecodeDB" value="4408579375692" />
+        <entry key="$USER_HOME$/Downloads/TextJustify-Android-master" value="5850474544000" />
+        <entry key="$USER_HOME$/Downloads/Tutorials/Google-Directions-Android-master" value="5852034912000" />
+        <entry key="$USER_HOME$/Downloads/Tutorials/android-samples-master/ApiDemos" value="4410101466000" />
+        <entry key="$USER_HOME$/Downloads/android-gesture-detectors-master" value="5664028272000" />
+        <entry key="$USER_HOME$/Downloads/android-gif-drawable-master" value="4346914308000" />
+        <entry key="$USER_HOME$/Downloads/example-realm-android-master" value="4363822932000" />
+        <entry key="$USER_HOME$/Downloads/iwanuma_Android" value="7208612481928" />
+        <entry key="$USER_HOME$/Downloads/realm-browser-master" value="7225087900000" />
+        <entry key="$USER_HOME$/Downloads/slotmachinepicasso-master" value="4276390446000" />
+        <entry key="$USER_HOME$/Downloads/stetho-realm-master" value="5852104248000" />
+        <entry key="D:/" value="18569001403941" />
+        <entry key="D:/Cocos2dx/game/BOPro" value="4310513599707" />
+        <entry key="D:/Demo/Examples/SDKExamples" value="4398114038404" />
+        <entry key="D:/Demo/SDKLauncher-Android/SDKLauncher-Android" value="11834976718035" />
+        <entry key="D:/Example" value="7299826645255" />
+        <entry key="D:/OneTech/Android/Example/google-services-master/android/gcm" value="5748080024000" />
+        <entry key="D:/OneTech/Android/Example/realm-java-master" value="2936675732000" />
+        <entry key="D:/OneTech/Android/Libraries/Android/Reader/PDF/AndroidPdfViewer-master" value="5785767408000" />
+        <entry key="D:/OneTech/Android/Libraries/Android/Reader/PDF/android-pdfview-master" value="5815427051228" />
+        <entry key="D:/OneTech/Android/Libraries/Android/UI/AlarmManagerAndReceiver-master" value="4296391644000" />
+        <entry key="D:/OneTech/Android/Libraries/Android/UI/Android-PickerView-master" value="5810523624000" />
+        <entry key="D:/OneTech/Android/Libraries/Android/UI/Caldroid-master" value="7280718890000" />
+        <entry key="D:/OneTech/Android/Libraries/Android/UI/ImageViewZoom-master" value="7292276700000" />
+        <entry key="D:/OneTech/Android/Libraries/Android/UI/MaterialDateTimePicker-master" value="7290978370000" />
+        <entry key="D:/OneTech/Android/Libraries/Android/UI/NotifyDemo" value="4268420002000" />
+        <entry key="D:/OneTech/Android/Libraries/Android/UI/PickView-master" value="7295032920000" />
+        <entry key="D:/OneTech/Android/Libraries/Android/UI/SublimePicker-master" value="5831135192000" />
+        <entry key="D:/OneTech/Android/Libraries/Android/UI/android-ActiveNotifications-master" value="4374736956810" />
+        <entry key="D:/OneTech/Android/Libraries/Android/UI/android-LNotifications-master" value="4357534812000" />
+        <entry key="D:/OneTech/Android/Libraries/Android/UI/android-process-button-master" value="7173846440000" />
+        <entry key="D:/OneTech/Android/Libraries/Android/Util/ReadPDF/Mupdf-master" value="4381473479133" />
+        <entry key="D:/OneTech/Android/Libraries/Readium" value="7306030120907" />
+        <entry key="D:/OneTech/Android/Libraries/UI/MaterialDateTimePicker-master" value="7290978370000" />
+        <entry key="D:/OneTech/Docs/iBeacon/Example/IBeacon" value="4396591980000" />
+        <entry key="D:/OneTech/Libraries/Android/Animation/FlowingDrawer-master" value="5785188016000" />
+        <entry key="D:/OneTech/Libraries/Android/UnitTest/AndroidTestingFun" value="4120540998000" />
+        <entry key="D:/OneTech/Projects/App/CsReporter/DisasterApp/001_Disaster/iwanuma_Android" value="7230396945969" />
+        <entry key="D:/OneTech/Projects/App/CsReporter/Minatoku/SourceCode/MinatokuBousiApp_Android" value="7295845537076" />
+        <entry key="D:/OneTech/Projects/App/CsReporter/TravelApp/Svn/01-FromCustomer/sdk/WikitudeSDK_Android/Examples/NativeSDKExamples" value="4386945733955" />
+        <entry key="D:/OneTech/Projects/App/CsReporter/TravelApp/Svn/01-FromCustomer/sdk/WikitudeSDK_NativeAPI_Android_1-3-0_2016-07-11_13-15-33/Examples/NativeSDKExamples" value="4373706444000" />
+        <entry key="D:/OneTech/Projects/App/DisasterApp/001_Disaster/iwanuma_Android" value="7230396945969" />
+        <entry key="D:/OneTech/Projects/App/DisasterApp/FelloSDK/FelloSDK_Android_3.1.0_15070301/FelloSDK_Android_3.1.0_15070301/AndroidStudio" value="7122199360000" />
+        <entry key="D:/OneTech/Projects/App/DisasterApp/GitHub/iwanuma_android/iwanuma_Android" value="4314525931181" />
+        <entry key="D:/OneTech/Projects/App/Minatoku/Ref/android-samples-master/ApiDemos" value="4359839046000" />
+        <entry key="D:/OneTech/Projects/App/Minatoku/SourceCode/Minatoku" value="4361120398174" />
+        <entry key="D:/OneTech/Projects/App/Minatoku/SourceCode/MinatokuBousiApp_Android" value="5820817057986" />
+        <entry key="D:/OneTech/Projects/App/RewardAppTest" value="23224574526324" />
+        <entry key="D:/OneTech/Projects/App/RewardApps" value="34857388741329" />
+        <entry key="D:/OneTech/Projects/App/VoiceMessenger/SourceCode/VoiceMessenger" value="4350134251768" />
+        <entry key="D:/OneTech/Projects/App/YoutubeApp/References/BackgroundYoutubeApp" value="4346095468428" />
+        <entry key="D:/OneTech/Projects/App/YoutubeApp/References/yt-direct-lite-android-master" value="4330742370000" />
+        <entry key="D:/OneTech/Projects/App/YoutubeApp/SourceCodes/YoutubeApp" value="4337525628976" />
+        <entry key="D:/OneTech/Projects/App/YoutubeApp/SourceCodes/sample" value="4337690375834" />
+        <entry key="D:/OneTech/Projects/App/YoutubeApp/Svn/android/YoutubeApp" value="4345911903109" />
+        <entry key="D:/OneTech/Projects/Kaendoki/kaenkaido_android" value="4462038674760" />
+        <entry key="D:/OneTech/Projects/VR/VRExhibition" value="5879047044000" />
+        <entry key="D:/OneTech/SVN/grandma_runer/04-Implementation/01-Trunk/03-Client/01-Android/LR_LineRunnerAS" value="8624477032384" />
+        <entry key="D:/OneTech/SVN/grandmafa_runner/04-Implementation/01-Trunk/02-Core/proj.androidstudio" value="4321224161230" />
+        <entry key="D:/OneTech/SvnOld/app/RewardApps" value="28807975666987" />
+        <entry key="$PROJECT_DIR$/../../CsReporter/DisasterApp/001_Disaster/iwanuma_Android" value="7259630948592" />
+        <entry key="$PROJECT_DIR$/../../CsReporter/Minatoku/SourceCode/Minatoku" value="4361120398174" />
+        <entry key="$PROJECT_DIR$/../../CsReporter/Minatoku/SourceCode/MinatokuBousiApp_Android" value="7295845537076" />
+        <entry key="$PROJECT_DIR$/../../CsReporter/TravelApp/SourceCode/Tabidou_Android" value="4408720049142" />
+        <entry key="$PROJECT_DIR$/../../CsReporter/TravelApp/sdk/WikitudeSDK_Android/Examples/NativeSDKExamples" value="4386945733955" />
+        <entry key="$PROJECT_DIR$/../../Example" value="7299826645255" />
+        <entry key="$PROJECT_DIR$/../../Sifca/CSA_ChuSa" value="4373039919261" />
+        <entry key="$PROJECT_DIR$/../../sdk/WikitudeSDK_Android/Examples/NativeSDKExamples" value="4386945733955" />
+        <entry key="D:/Thienlm/AndroidStudio/MobileReader" value="8644138675494" />
+        <entry key="D:/Thienlm/AndroidStudio/MobileX" value="5746852879812" />
+        <entry key="D:/Thienlm/BitBucket/BookReader" value="8665437466673" />
+        <entry key="D:/Thienlm/BitBucket/Git__SoccerSeasons/git__soccerseasons" value="4396287014413" />
+        <entry key="D:/Thienlm/BitBucket/HealthCare/hcm-healthycaremanager" value="4371707430184" />
+        <entry key="D:/Thienlm/BitBucket/OrangeLearning/OrangeJP" value="4372162476420" />
+        <entry key="D:/Thienlm/BitBucket/OrangeLearning/orangejp" value="4372010174634" />
+        <entry key="D:/Thienlm/BitBucket/Soccer" value="4384541332919" />
+        <entry key="D:/Thienlm/BitBucket/SoccerSeasons_v02" value="4402742921482" />
+        <entry key="D:/Thienlm/BitBucket/osg" value="5844851931569" />
+        <entry key="D:/Thienlm/Examples/Android-YouTube-Background-Player-master" value="4401194328000" />
+        <entry key="D:/Thienlm/Examples/Bluetooth-LE-Library---Android-master" value="5823789840000" />
+        <entry key="D:/Thienlm/Examples/DMPlayer-master" value="4380755172000" />
+        <entry key="D:/Thienlm/Examples/DraggablePanel-develop" value="5852098728000" />
+        <entry key="D:/Thienlm/Examples/GoogleSignInDemo-master" value="4347678456000" />
+        <entry key="D:/Thienlm/Examples/ImageView/uCrop-master" value="7335009950000" />
+        <entry key="D:/Thienlm/Examples/SkyTube-master" value="4402286754000" />
+        <entry key="D:/Thienlm/Examples/Videos/youtube-android-player-helper-master" value="5861915392000" />
+        <entry key="D:/Thienlm/Examples/android-Ultra-Pull-To-Refresh-master" value="7169261790000" />
+        <entry key="D:/Thienlm/Examples/android-pulltorefresh-and-loadmore-master/pulltorefresh-and-loadmore" value="1436196920964" />
+        <entry key="D:/Thienlm/Examples/bleYan-master" value="8785618476000" />
+        <entry key="D:/Thienlm/Examples/google-services-master/android/signin" value="4381786530000" />
+        <entry key="D:/Thienlm/Examples/social-login-master" value="4320162738000" />
+        <entry key="D:/Thienlm/GitHub/AndroidExample" value="4330189438000" />
+        <entry key="D:/Thienlm/GitHub/DemoAndroid" value="8657121310084" />
+        <entry key="D:/Thienlm/GitHub/MobileReader" value="4330189438000" />
+        <entry key="D:/Thienlm/projects/Helloworld" value="4326116988460" />
+        <entry key="D:/Thienlm/projects/MyApplication" value="4326129100109" />
+      </map>
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/CHANGELOG.md" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="129" />
+    <option name="y" value="-12" />
+    <option name="width" value="1944" />
+    <option name="height" value="1044" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="AndroidView" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="flutter_socket_io" type="b2602c69:ProjectViewProjectNode" />
+              <item name="flutter_socket_io" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="flutter_socket_io" type="b2602c69:ProjectViewProjectNode" />
+              <item name="flutter_socket_io" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="GoToClass.includeLibraries" value="false" />
+    <property name="GoToClass.toSaveIncludeLibraries" value="false" />
+    <property name="GoToFile.includeJavaFiles" value="false" />
+    <property name="MemberChooser.copyJavadoc" value="false" />
+    <property name="MemberChooser.showClasses" value="true" />
+    <property name="MemberChooser.sorted" value="false" />
+    <property name="android.project.structure.last.selected" value="SDK Location" />
+    <property name="android.project.structure.proportion" value="0.15" />
+    <property name="android.sdk.path" value="D:/AndroidStudio/sdk" />
+    <property name="dart.analysis.tool.window.force.activate" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="options.lastSelected" value="com.genymobile.genymotion.ide.idea.GdmSettings" />
+    <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.splitter.main.proportions" value="0.3" />
+    <property name="settings.editor.selected.configurable" value="AndroidSdkUpdater" />
+    <property name="show.migrate.to.gradle.popup" value="false" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="&lt;template&gt;" type="Applet" default="true" selected="false">
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
+      <Host>localhost</Host>
+      <Port>5050</Port>
+    </configuration>
+    <configuration name="&lt;template&gt;" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" default="true" selected="false">
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="main.dart" type="FlutterRunConfigurationType" factoryName="Flutter">
+      <option name="filePath" value="$PROJECT_DIR$/example/lib/main.dart" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration>C:\Users\thienlm\AppData\Roaming\Subversion</configuration>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3483b29f-1cb3-4f20-8e48-f9d5841a5a57" name="Default" comment="" />
+      <created>1541576819347</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1541576819347</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24939272" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Captures" order="2" side_tool="true" weight="0.25" />
+      <window_info id="Build Variants" order="3" side_tool="true" />
+      <window_info id="Image Layers" order="4" />
+      <window_info id="Favorites" order="5" side_tool="true" />
+      <window_info id="Capture Tool" order="6" />
+      <window_info id="Designer" order="7" />
+      <window_info anchor="bottom" id="Flutter Performance" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Multi-OS Engine" order="7" />
+      <window_info anchor="bottom" id="Dart Analysis" order="8" weight="0.3291592" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Android Profiler" order="10" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Logcat" order="11" />
+      <window_info anchor="bottom" id="Version Control" order="12" weight="0.3291815" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="13" visible="true" weight="0.32740214" />
+      <window_info anchor="bottom" id="Messages" order="14" weight="0.3291592" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Fabric" order="3" />
+      <window_info anchor="right" id="Flutter Inspector" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Device File Explorer" order="6" side_tool="true" />
+      <window_info anchor="right" id="Flutter Outline" order="7" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
+      <window_info anchor="right" id="Theme Preview" order="9" />
+    </layout>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/lib/flutter_socket_io.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="10" column="27" selection-start-line="10" selection-start-column="27" selection-end-line="10" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pubspec.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="12" lean-forward="true" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CHANGELOG.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="20" lean-forward="true" selection-start-line="15" selection-start-column="20" selection-end-line="15" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

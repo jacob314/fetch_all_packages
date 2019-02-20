@@ -1,0 +1,13 @@
+name: native_device_orientation_example
+description: Demonstrates how to use the native_device_orientation plugin.
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  native_device_orientation:
+    path: ../
+
+flutter:
+  uses-material-design: true

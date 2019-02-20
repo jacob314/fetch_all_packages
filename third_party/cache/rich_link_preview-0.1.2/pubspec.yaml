@@ -1,0 +1,14 @@
+name: rich_link_preview
+description: A Rich Link Preview widget written in Dart generating a rich presentation of the given link from social meta tags.
+version: 0.1.2
+homepage: https://github.com/wingkwong/rich_link_preview.git
+author: WONG, Wing Kam <wingkwong.code@gmail.com>
+
+environment:
+  sdk: '>=2.0.0 <3.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  open_graph_parser: ^0.0.4
+  url_launcher: ^5.0.0

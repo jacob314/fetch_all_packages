@@ -1,0 +1,17 @@
+name: test_plugin
+description: Test Plugin for Kotlin and Swift
+version: 0.0.2
+author: John Markham <me@markhamenterprises.com>
+homepage: "http://www.markhamenterprises.com"
+
+environment:
+  sdk: ">=2.0.0-dev.68.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+flutter:
+  plugin:
+    androidPackage: apps.markhamenterprises.testplugin
+    pluginClass: TestPlugin

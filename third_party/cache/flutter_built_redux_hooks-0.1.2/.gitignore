@@ -1,0 +1,28 @@
+.DS_Store
+
+ios/
+android/
+*.iml
+
+.atom/
+.idea/
+
+# dart
+.packages
+.pub
+packages
+pubspec.lock
+.dart_tool/
+
+# flutter
+build/
+ios/.generated/
+ios/Flutter/Generated.xcconfig
+ios/Runner/GeneratedPluginRegistrant.*
+
+
+# docs
+dartdoc-viewer/
+
+# coverage
+/coverage/

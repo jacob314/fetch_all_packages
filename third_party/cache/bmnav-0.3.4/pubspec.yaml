@@ -1,0 +1,16 @@
+name: bmnav
+description: A highly flexible Flutter implementation of the Bottom Navigation Bar.
+version: 0.3.4
+author: Edwin Jose <edwnjos99@gmail.com>
+homepage: https://github.com/edwnjos/bmnav
+
+environment:
+  sdk: ">=2.0.0-dev.68.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter

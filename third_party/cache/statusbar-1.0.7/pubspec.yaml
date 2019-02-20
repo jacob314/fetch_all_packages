@@ -1,0 +1,17 @@
+name: statusbar
+description: Change color of status bar easily.
+version: 1.0.7
+author: Christer <christer@dyna.mo>
+homepage: https://dyna.mo/
+
+environment:
+  sdk: ">=2.0.0-dev.68.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+flutter:
+  plugin:
+    androidPackage: mo.dyna.statusbar
+    pluginClass: StatusbarPlugin

@@ -1,0 +1,19 @@
+name: amaze_button
+description: A Flutter package to create Amazing buttons with Amazing and customizable animations.
+version: 0.0.3
+author: Arnold Parge <pargearnold@gmail.com>
+homepage: https://github.com/arnold-parge/amaze_button
+
+environment:
+  sdk: ">=1.19.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  test: ^1.3.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:

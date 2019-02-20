@@ -1,0 +1,43 @@
+group 'in.altsoul.clevertap'
+version '1.0-SNAPSHOT'
+
+buildscript {
+    repositories {
+        google()
+        jcenter()
+    }
+
+    dependencies {
+        classpath 'com.android.tools.build:gradle:3.2.1'
+    }
+}
+
+rootProject.allprojects {
+    repositories {
+        google()
+        jcenter()
+    }
+}
+
+apply plugin: 'com.android.library'
+
+android {
+    compileSdkVersion 27
+
+    defaultConfig {
+        minSdkVersion 16
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+    }
+    lintOptions {
+        disable 'InvalidPackage'
+    }
+}
+
+dependencies {
+    implementation 'com.clevertap.android:clevertap-android-sdk:3.1.10'
+    implementation 'com.google.android.gms:play-services-gcm:11.4.0'
+    implementation 'com.google.android.gms:play-services-base:11.4.0'
+    implementation 'com.android.support:support-v4:27.1.1'
+}
+
+//apply plugin: 'com.google.gms.google-services'

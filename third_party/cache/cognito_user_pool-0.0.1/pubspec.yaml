@@ -1,0 +1,22 @@
+name: cognito_user_pool
+description: Unofficial Flutter plugin to authenticate users with an Amazon Cognito user pool.
+version: 0.0.1
+author: Julien Vignali <julien@julienvignali.com>
+homepage: https://github.com/nashfive/cognito_user_pool
+
+flutter:
+  plugin:
+    androidPackage: com.julienvignali.cognitouserpool
+    pluginClass: CognitoUserPoolPlugin
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+environment:
+  sdk: ">=2.0.0-dev.28.0 <3.0.0"
+  flutter: ">=0.5.1 <2.0.0"

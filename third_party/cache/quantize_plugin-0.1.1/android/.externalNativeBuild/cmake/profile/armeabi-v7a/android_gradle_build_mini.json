@@ -1,0 +1,30 @@
+{
+  "buildFiles": [
+    "/Users/yurikomlev/android_github/plugins/image/quantize_plugin/android/../../../../../Library/Android/sdk/ndk-bundle/build/cmake/android.toolchain.cmake",
+    "/Users/yurikomlev/android_github/plugins/image/quantize_plugin/android/CMakeLists.txt",
+    "/Users/yurikomlev/android_github/plugins/image/quantize_plugin/android/../../../../../Library/Android/sdk/ndk-bundle/build/cmake/platforms.cmake"
+  ],
+  "cleanCommands": [
+    "/Users/yurikomlev/Library/Android/sdk/cmake/3.10.2.4988404/bin/cmake --build /Users/yurikomlev/android_github/plugins/image/quantize_plugin/android/.externalNativeBuild/cmake/profile/armeabi-v7a --target clean"
+  ],
+  "libraries": {
+    "yuv-Debug-armeabi-v7a": {
+      "artifactName": "yuv",
+      "buildCommand": "/Users/yurikomlev/Library/Android/sdk/cmake/3.10.2.4988404/bin/cmake --build /Users/yurikomlev/android_github/plugins/image/quantize_plugin/android/.externalNativeBuild/cmake/profile/armeabi-v7a --target yuv",
+      "abi": "armeabi-v7a",
+      "output": "/Users/yurikomlev/android_github/pixeld/build/quantize_plugin/intermediates/cmake/profile/obj/armeabi-v7a/libyuv.so"
+    },
+    "imagequant-Debug-armeabi-v7a": {
+      "artifactName": "imagequant",
+      "buildCommand": "/Users/yurikomlev/Library/Android/sdk/cmake/3.10.2.4988404/bin/cmake --build /Users/yurikomlev/android_github/plugins/image/quantize_plugin/android/.externalNativeBuild/cmake/profile/armeabi-v7a --target imagequant",
+      "abi": "armeabi-v7a",
+      "output": "/Users/yurikomlev/android_github/pixeld/build/quantize_plugin/intermediates/cmake/profile/obj/armeabi-v7a/libimagequant.so"
+    },
+    "natives-Debug-armeabi-v7a": {
+      "artifactName": "natives",
+      "buildCommand": "/Users/yurikomlev/Library/Android/sdk/cmake/3.10.2.4988404/bin/cmake --build /Users/yurikomlev/android_github/plugins/image/quantize_plugin/android/.externalNativeBuild/cmake/profile/armeabi-v7a --target natives",
+      "abi": "armeabi-v7a",
+      "output": "/Users/yurikomlev/android_github/pixeld/build/quantize_plugin/intermediates/cmake/profile/obj/armeabi-v7a/libnatives.so"
+    }
+  }
+}

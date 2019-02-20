@@ -1,0 +1,8 @@
+builders:
+  chamber_generator:
+    target: ":chamber_generator"
+    import: "package:chamber_generator/chamber_generator.dart"
+    builder_factories: ["chamberGeneratorFactory"]
+    build_extensions: {".dart": [".chamber.dart"]}
+    auto_apply: root_package
+    build_to: source

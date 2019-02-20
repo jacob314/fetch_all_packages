@@ -1,0 +1,1 @@
+extend flutter_webview_plugin

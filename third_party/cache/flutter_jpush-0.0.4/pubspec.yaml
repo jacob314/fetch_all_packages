@@ -1,0 +1,19 @@
+name: flutter_jpush
+description: A flutter plugin to use jpush (极光推送flutter版）.
+version: 0.0.4
+author: JZoom <jzoom8112@gmail.com>
+homepage: https://github.com/best-flutter/flutter_jpush
+
+
+environment:
+  sdk: ">=2.0.0-dev.48.0 <3.0.0"
+  flutter: ">=0.1.4 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+flutter:
+  plugin:
+    androidPackage: com.jzoom.flutterjpush
+    pluginClass: FlutterJPushPlugin

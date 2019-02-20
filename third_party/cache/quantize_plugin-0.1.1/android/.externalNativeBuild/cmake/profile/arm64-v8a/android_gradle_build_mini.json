@@ -1,0 +1,30 @@
+{
+  "buildFiles": [
+    "/Users/yurikomlev/android_github/plugins/image/quantize_plugin/android/../../../../../Library/Android/sdk/ndk-bundle/build/cmake/android.toolchain.cmake",
+    "/Users/yurikomlev/android_github/plugins/image/quantize_plugin/android/CMakeLists.txt",
+    "/Users/yurikomlev/android_github/plugins/image/quantize_plugin/android/../../../../../Library/Android/sdk/ndk-bundle/build/cmake/platforms.cmake"
+  ],
+  "cleanCommands": [
+    "/Users/yurikomlev/Library/Android/sdk/cmake/3.10.2.4988404/bin/cmake --build /Users/yurikomlev/android_github/plugins/image/quantize_plugin/android/.externalNativeBuild/cmake/profile/arm64-v8a --target clean"
+  ],
+  "libraries": {
+    "imagequant-Debug-arm64-v8a": {
+      "artifactName": "imagequant",
+      "buildCommand": "/Users/yurikomlev/Library/Android/sdk/cmake/3.10.2.4988404/bin/cmake --build /Users/yurikomlev/android_github/plugins/image/quantize_plugin/android/.externalNativeBuild/cmake/profile/arm64-v8a --target imagequant",
+      "abi": "arm64-v8a",
+      "output": "/Users/yurikomlev/android_github/pixeld/build/quantize_plugin/intermediates/cmake/profile/obj/arm64-v8a/libimagequant.so"
+    },
+    "yuv-Debug-arm64-v8a": {
+      "artifactName": "yuv",
+      "buildCommand": "/Users/yurikomlev/Library/Android/sdk/cmake/3.10.2.4988404/bin/cmake --build /Users/yurikomlev/android_github/plugins/image/quantize_plugin/android/.externalNativeBuild/cmake/profile/arm64-v8a --target yuv",
+      "abi": "arm64-v8a",
+      "output": "/Users/yurikomlev/android_github/pixeld/build/quantize_plugin/intermediates/cmake/profile/obj/arm64-v8a/libyuv.so"
+    },
+    "natives-Debug-arm64-v8a": {
+      "artifactName": "natives",
+      "buildCommand": "/Users/yurikomlev/Library/Android/sdk/cmake/3.10.2.4988404/bin/cmake --build /Users/yurikomlev/android_github/plugins/image/quantize_plugin/android/.externalNativeBuild/cmake/profile/arm64-v8a --target natives",
+      "abi": "arm64-v8a",
+      "output": "/Users/yurikomlev/android_github/pixeld/build/quantize_plugin/intermediates/cmake/profile/obj/arm64-v8a/libnatives.so"
+    }
+  }
+}

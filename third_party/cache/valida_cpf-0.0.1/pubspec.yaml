@@ -1,0 +1,13 @@
+name: valida_cpf
+description: A simple CPF validator
+author: eudangeld <eudangeld@gmail.com>
+homepage: https://github.com/eudangeld/dart-cpf-validator
+version: 0.0.1
+
+environment:
+  sdk: ">=2.0.0-dev <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+

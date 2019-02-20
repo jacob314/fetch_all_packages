@@ -1,0 +1,5 @@
+- This folder contains the real implementation of the Data repositories responsible for providing the data for the application.
+- Implements the Repository interfaces defined in lib/domain/interfaces/respositories
+- Contains references to data adapters defined in lib/data/adapters
+- These repositories call data adapters to convert Domain Entities to Http or Socket data formats before sending it through the network using HTTP or Socket protocols
+- When the network returns data, these repositories make sure the data is mapped back to the Domain Entities expected by the Domain service that calls upon the respository
