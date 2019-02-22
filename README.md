@@ -4,6 +4,7 @@ Utility to scrape all pub packages that use Flutter.
 # Example usage
 
 ## Use a cached copy of all pub packages
+The cache has all 1608 pub packages that use flutter that were uploaded as of 2/22/2019.
 
 ```
 git clone https://github.com/jacob314/fetch_all_packages
