@@ -24,4 +24,4 @@ pub get
 dart bin/scrape.dart
 ```
 
-Thanks @munificent for writing the core code to fetch dart packages programatically.
+Thanks [munificent](https://github.com/munificent) for writing the core code to fetch dart packages programmatically!
