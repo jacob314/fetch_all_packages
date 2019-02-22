@@ -23,3 +23,5 @@ git clone https://github.com/jacob314/fetch_all_packages
 pub get
 dart bin/scrape.dart
 ```
+
+Thanks @munificent for writing the core code to fetch dart packages programatically.
